@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    font-family: 'Cairo', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    font-weight: normal;
+    height: 1000px;
+    
+}
+html{
+  scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+ul, li, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    line-height: 1.2;
+    font-weight: 400;
+    font-family: 'Cairo', sans-serif;
+    text-transform: uppercase;
+}

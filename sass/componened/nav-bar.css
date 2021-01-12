@@ -1,0 +1,18 @@
+.navbar {
+  background-color: black !important;
+  padding: 15px 0;
+}
+
+.navbar .navbar-toggler {
+  color: #00ff73;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  color: #0d0d0d !important;
+  text-transform: uppercase;
+}
+
+.navbar .nav-link i {
+  color: #444444;
+}
