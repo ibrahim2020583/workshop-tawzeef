@@ -28,7 +28,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   font-weight: 400;
   font-family: "Cairo", sans-serif;
-  text-transform: uppercase;
 }
 
 .btn {
@@ -363,6 +362,51 @@ body {
   font-style: italic;
   font-size: 14px;
   font-weight: normal;
+
 }
+/*categories-section*/
+
+.categories{
+  height: 500px;
+  background-color:#f5f7fa;
+
+}
+
+.categories a ,h1{
+  color: black;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+.categories a:hover{
+  color: #20c997;
+  border-bottom: 1px solid #20c997 ;
+  transition: .5s ease-in-out;
+
+}
+.categories .col-md-3{
+  border: 1px solid gray;
+  text-align: center;
+  background-color: #FFF;
+}
+.categories span{
+  color:gray;
+}
+.categories .row{
+  margin-bottom: 40px;
+}
+@media(max-width:768px){
+  
+  .categories .col-md-3{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+
+  }
+  .categories .row{
+    margin-bottom: 10px;
+  }
+}
+/*categories-section*/
+
 
 /*# sourceMappingURL=style.css.map */

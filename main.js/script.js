@@ -1,0 +1,2 @@
+//animation div
+AOS.init();
