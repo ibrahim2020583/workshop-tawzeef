@@ -1,0 +1,34 @@
+.btn{
+    text-transform: capitalize;
+    background-color: transparent;
+    color: $green_color; 
+    border: 1px solid $green_color;
+    border-radius: 5px;
+    padding: 10px 30px;
+    outline: none;
+    box-shadow: none;
+        transition: .5s;
+
+    &:hover{
+        background-color: $green_color;
+        color: $white_color;
+    }
+
+}
+.btn-1{
+    text-transform: capitalize;
+    background-color: $green_color;
+    color: $white_color;
+    border: 1px solid $green_color;
+    border-radius: 5px;
+    padding: 5px 15px;
+    outline: none;
+    box-shadow: none;
+    transition: .5s;
+    &:hover{
+       
+        background-color: transparent;
+        color: $green_color; 
+    }
+
+}

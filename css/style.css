@@ -31,6 +31,38 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
+.btn {
+  text-transform: capitalize;
+  background-color: transparent;
+  color: #00D363;
+  border: 1px solid #00D363;
+  border-radius: 5px;
+  padding: 10px 30px;
+  outline: none;
+  box-shadow: none;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: #00D363;
+  color: #fff;
+}
+
+.btn-1 {
+  text-transform: capitalize;
+  background-color: #00D363;
+  color: #fff;
+  border: 1px solid #00D363;
+  border-radius: 5px;
+  padding: 5px 15px;
+  outline: none;
+  box-shadow: none;
+  transition: 0.5s;
+}
+.btn-1:hover {
+  background-color: transparent;
+  color: #00D363;
+}
+
 .overlay {
   top: 0 !important;
   left: 0 !important;
@@ -198,6 +230,139 @@ body {
   .menu li {
     padding: 0 20px;
   }
+}
+.job-title {
+  padding: 100px 0;
+  background-color: #f5f7fa;
+  font-family: "Amiri", serif;
+}
+.job-title .listing_title {
+  text-align: left;
+}
+@media only screen and (max-width: 767px) {
+  .job-title .listing_title {
+    text-align: center;
+  }
+}
+.job-title .listing_title h2 {
+  text-transform: capitalize;
+  color: #1F1F1F;
+  margin-left: 0;
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.broser-listing {
+  text-align: right;
+}
+@media only screen and (max-width: 767px) {
+  .broser-listing {
+    text-align: center;
+  }
+}
+.broser-listing .btn {
+  text-align: center;
+  right: 0;
+  outline: none;
+  box-shadow: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.job-ditaels {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  transition: 2s in ease-in;
+  margin-bottom: 10px;
+}
+.job-ditaels:hover {
+  border: 1px solid #00D363;
+}
+@media only screen and (max-width: 767px) {
+  .job-ditaels {
+    display: block;
+    padding: 5px;
+  }
+}
+.job-ditaels .jobs_left {
+  display: flex;
+  align-items: center;
+  line-height: 0.5;
+}
+.job-ditaels .jobs_left .icon {
+  background-color: #f5f7fa;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  border: 1px solid #bebebe;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.job-ditaels .jobs_left .job-conetent {
+  line-height: 1.5;
+}
+.job-ditaels .jobs_left .job-conetent h4 {
+  color: #1F1F1F;
+  transition: 0.5s;
+  text-transform: capitalize;
+}
+.job-ditaels .jobs_left .job-conetent h4:hover {
+  color: #00D363;
+}
+.job-ditaels .jobs_left .job-conetent .lead {
+  display: flex;
+}
+.job-ditaels .jobs_left .job-conetent .lead p {
+  font-size: 16px;
+  color: #AAB1B7;
+  margin-right: 30px;
+}
+@media only screen and (max-width: 767px) {
+  .job-ditaels .jobs_left .job-conetent .lead p {
+    margin-right: 1px;
+    font-size: 16px;
+  }
+}
+.job-ditaels .job-right {
+  align-items: center;
+  line-height: 2.5;
+}
+@media only screen and (max-width: 767px) {
+  .job-ditaels .job-right {
+    margin-top: 5px;
+  }
+}
+.job-ditaels .job-right .apply .heart {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  color: #00D363;
+  font-size: 14px;
+  line-height: 35px;
+  text-align: center;
+  display: inline-block;
+  background: #EFFDF5;
+  margin-right: 15px;
+  transition: 0.5s;
+}
+.job-ditaels .job-right .apply .heart:hover {
+  background-color: #00D363;
+  color: #fff;
+}
+.job-ditaels .job-right .apply .heart .btn-1 {
+  outline: none;
+  box-shadow: none;
+}
+.job-ditaels .date p {
+  color: #AAB1B7;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: normal;
 }
 
 /*# sourceMappingURL=style.css.map */
