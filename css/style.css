@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   font-weight: 400;
   font-family: "Cairo", sans-serif;
+  text-transform: uppercase;
 }
 
 .btn {
@@ -231,7 +232,7 @@ body {
   }
 }
 .job-title {
-  padding: 100px 0;
+  padding: 100px 25px;
   background-color: #f5f7fa;
   font-family: "Amiri", serif;
 }
@@ -270,16 +271,17 @@ body {
 }
 
 .job-ditaels {
-  padding: 30px;
+  padding: 20px;
   background-color: #fff;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
-  transition: 2s in ease-in;
+  border: 1px solid transparent;
+  transition: 1s;
   margin-bottom: 10px;
 }
 .job-ditaels:hover {
-  border: 1px solid #00D363;
+  border-color: #00D363;
 }
 @media only screen and (max-width: 767px) {
   .job-ditaels {
@@ -301,6 +303,10 @@ body {
   border: 1px solid #bebebe;
   border-radius: 5px;
   margin-right: 15px;
+  transition: 0.5s;
+}
+.job-ditaels .jobs_left .icon:hover {
+  transform: rotate(0.1turn);
 }
 .job-ditaels .jobs_left .job-conetent {
   line-height: 1.5;
@@ -324,7 +330,7 @@ body {
 @media only screen and (max-width: 767px) {
   .job-ditaels .jobs_left .job-conetent .lead p {
     margin-right: 1px;
-    font-size: 16px;
+    font-size: 10px;
   }
 }
 .job-ditaels .job-right {
@@ -342,16 +348,22 @@ body {
   border-radius: 5px;
   color: #00D363;
   font-size: 14px;
-  line-height: 35px;
+  line-height: 40px;
   text-align: center;
   display: inline-block;
   background: #EFFDF5;
   margin-right: 15px;
-  transition: 0.5s;
 }
 .job-ditaels .job-right .apply .heart:hover {
   background-color: #00D363;
   color: #fff;
+}
+.job-ditaels .job-right .apply .heart i {
+  transition: 0.5s;
+}
+.job-ditaels .job-right .apply .heart i:hover {
+  animation: heartBeat;
+  animation-duration: 2s;
 }
 .job-ditaels .job-right .apply .heart .btn-1 {
   outline: none;
@@ -362,51 +374,6 @@ body {
   font-style: italic;
   font-size: 14px;
   font-weight: normal;
-
 }
-/*categories-section*/
-
-.categories{
-  height: 500px;
-  background-color:#f5f7fa;
-
-}
-
-.categories a ,h1{
-  color: black;
-  margin-bottom: 40px;
-  font-weight: bold;
-}
-.categories a:hover{
-  color: #20c997;
-  border-bottom: 1px solid #20c997 ;
-  transition: .5s ease-in-out;
-
-}
-.categories .col-md-3{
-  border: 1px solid gray;
-  text-align: center;
-  background-color: #FFF;
-}
-.categories span{
-  color:gray;
-}
-.categories .row{
-  margin-bottom: 40px;
-}
-@media(max-width:768px){
-  
-  .categories .col-md-3{
-    width: 50%;
-    margin: auto;
-    margin-bottom: 10px;
-
-  }
-  .categories .row{
-    margin-bottom: 10px;
-  }
-}
-/*categories-section*/
-
 
 /*# sourceMappingURL=style.css.map */
