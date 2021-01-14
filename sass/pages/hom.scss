@@ -1,6 +1,7 @@
+
 .job-title{
-    padding: $padding 0;
-    background-color:$body-color;
+    padding: $padding 25px;
+background-color:$body-color;
     font-family: 'Amiri', serif;
    
 .listing_title{
@@ -36,23 +37,25 @@ h2{
     }
 }
 .job-ditaels{
-padding: $padding - 70 ;
-background-color: $white_color;
-border-radius: 5px;
-display: flex;
-justify-content: space-between;
-transition: 2s in ease-in;
-margin-bottom: 10px;
-&:hover{
-    border: 1px solid $green_color;
-}
-@media only screen and (max-width: 767px)
-{
-    display: block;
-    padding: $padding - 95 ;
-
-
-}
+    padding: $padding - 80 ;
+    background-color: $white_color;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    transition: 1s ;
+    margin-bottom: 10px;
+    &:hover{
+        border-color:  $green_color;
+    }
+    @media only screen and (max-width: 767px)
+    {
+        display: block;
+        padding: $padding - 95 ;
+    }
+&:hover .icon{
+        transform: rotate(.1turn); 
+    }
 .jobs_left{
     display: flex;
     align-items: center;
@@ -81,15 +84,13 @@ margin-bottom: 10px;
             display: flex;
             p{
                 font-size: $Fsize + 2;
-                color: #AAB1B7;
-                margin-right: 30px;
-                @media only screen and (max-width: 767px)
-                    {
-                        margin-right: 1px;
-                        font-size: $Fsize + 2;
-
-
-                    }
+                                color: #AAB1B7;
+                                margin-right: 30px;
+                                @media only screen and (max-width: 767px)
+                                    {
+                                        margin-right: 1px;
+                                        font-size: $Fsize - 4;
+                                    }
             }
         }
     }
@@ -119,13 +120,13 @@ margin-bottom: 10px;
             background-color: $green_color;
             color: $white_color;
         }
-        .btn-1{
-            
-            outline: none;
-            box-shadow: none;
-            
-            }
-        }
+        i{
+                        transition: .5s;
+                        &:hover{
+                            animation:heartBeat;
+                            animation-duration: 2s; 
+                        }
+                    }
     }
 }
 .date{
@@ -138,7 +139,7 @@ margin-bottom: 10px;
 }
 
  }
-
+}
 
 
 
