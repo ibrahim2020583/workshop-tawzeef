@@ -74,6 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .carousel .carousel-inner .carousel-item img {
   max-height: 700px;
+ 
 }
 
 body {
@@ -384,7 +385,7 @@ body {
 
 }
 .categories .col-md-3{
-  border: 1px solid gray;
+  border: 1px solid#20c997;
   text-align: center;
   background-color: #FFF;
 }
