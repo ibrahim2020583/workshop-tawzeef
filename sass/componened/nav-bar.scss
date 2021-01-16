@@ -1,7 +1,41 @@
-body {
-    overflow-x: hidden;
-    font-family: Sans-Serif;
-    margin: 0;
+.navbar{
+  z-index: 3;
+  .navbar-brand{
+      font-family: $font1;
+      font-size: 2rem
+    };
+    .collapse{
+  .navbar-nav{padding: 10px 0;
+    transition: .6s;
+    
+
+    .nav-item{
+      .nav-link{
+        padding: 5px 20px;
+        font-family: $font1;
+        color:$gray-color;
+        font-size: 1.5rem;
+        transition: .6s;
+        &:hover{color: $green_color;}
+      }
+    };
+    .dropdown{
+      
+      .dropdown-menu{transition: .6s;
+        .dropdown-item{font-family: $font1;
+          font-size:1.5rem;
+        &:hover{background-color: $green_color}}
+      }
+
+      }
+    };
   }
+  .btns{font-family: $font1;
+  button{
+    font-size: 1.5rem
+  }};
+}  
+    
   
- 
+
+.sticky{background-color: $main-color; transition: .6s;}

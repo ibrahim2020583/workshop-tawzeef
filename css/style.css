@@ -74,17 +74,70 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .carousel .carousel-inner .carousel-item img {
-  max-height: 700px;
+  max-height: 800px;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption {
+  z-index: 5;
+  text-align: left;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption h2 {
+  font-family: "Amiri", serif;
+  font-size: 5rem;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption h5 {
+  font-family: "Cairo", sans-serif;
+  font-size: 1.5rem;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption p {
+  font-family: "Cairo", sans-serif;
+  font-size: 1.5rem;
 }
 
-body {
-  overflow-x: hidden;
-  font-family: Sans-Serif;
-  margin: 0;
+.navbar {
+  z-index: 3;
+}
+.navbar .navbar-brand {
+  font-family: "Amiri", serif;
+  font-size: 2rem;
+}
+.navbar .collapse .navbar-nav {
+  padding: 10px 0;
+  transition: 0.6s;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+  padding: 5px 20px;
+  font-family: "Amiri", serif;
+  color: #bebebe;
+  font-size: 1.5rem;
+  transition: 0.6s;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #00D363;
+}
+.navbar .collapse .navbar-nav .dropdown .dropdown-menu {
+  transition: 0.6s;
+}
+.navbar .collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item {
+  font-family: "Amiri", serif;
+  font-size: 1.5rem;
+}
+.navbar .collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #00D363;
+}
+.navbar .btns {
+  font-family: "Amiri", serif;
+}
+.navbar .btns button {
+  font-size: 1.5rem;
+}
+
+.sticky {
+  background-color: #001D38;
+  transition: 0.6s;
 }
 
 .job-title {
-  padding: 100px 0;
+  padding: 100px 25px;
   background-color: #f5f7fa;
   font-family: "Amiri", serif;
 }
@@ -123,16 +176,17 @@ body {
 }
 
 .job-ditaels {
-  padding: 30px;
+  padding: 20px;
   background-color: #fff;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
-  transition: 2s in ease-in;
+  border: 1px solid transparent;
+  transition: 1s;
   margin-bottom: 10px;
 }
 .job-ditaels:hover {
-  border: 1px solid #00D363;
+  border-color: #00D363;
 }
 @media only screen and (max-width: 767px) {
   .job-ditaels {
@@ -154,6 +208,10 @@ body {
   border: 1px solid #bebebe;
   border-radius: 5px;
   margin-right: 15px;
+  transition: 0.5s;
+}
+.job-ditaels .jobs_left .icon:hover {
+  transform: rotate(0.1turn);
 }
 .job-ditaels .jobs_left .job-conetent {
   line-height: 1.5;
@@ -177,7 +235,7 @@ body {
 @media only screen and (max-width: 767px) {
   .job-ditaels .jobs_left .job-conetent .lead p {
     margin-right: 1px;
-    font-size: 16px;
+    font-size: 10px;
   }
 }
 .job-ditaels .job-right {
@@ -195,16 +253,22 @@ body {
   border-radius: 5px;
   color: #00D363;
   font-size: 14px;
-  line-height: 35px;
+  line-height: 40px;
   text-align: center;
   display: inline-block;
   background: #EFFDF5;
   margin-right: 15px;
-  transition: 0.5s;
 }
 .job-ditaels .job-right .apply .heart:hover {
   background-color: #00D363;
   color: #fff;
+}
+.job-ditaels .job-right .apply .heart i {
+  transition: 0.5s;
+}
+.job-ditaels .job-right .apply .heart i:hover {
+  animation: heartBeat;
+  animation-duration: 2s;
 }
 .job-ditaels .job-right .apply .heart .btn-1 {
   outline: none;

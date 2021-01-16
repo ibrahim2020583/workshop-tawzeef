@@ -1,7 +1,18 @@
 .carousel{
     .carousel-inner{
         .carousel-item {
-            img{max-height: 700px;
+            img{max-height: 800px;
+        };
+        .carousel-caption{
+            z-index: 5;
+            text-align: left;
+            h2{font-family: $font1;
+            font-size: 5rem;}
+            h5{font-family: $font2;
+            font-size: 1.5rem;}
+            p{font-family: $font2;
+            font-size: 1.5rem;}
+
         }
     }
 }
