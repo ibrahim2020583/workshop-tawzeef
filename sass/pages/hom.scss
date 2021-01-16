@@ -1,6 +1,7 @@
+
 .job-title{
     padding: $padding 25px;
-    background-color:$body-color;
+background-color:$body-color;
     font-family: 'Amiri', serif;
    
 .listing_title{
@@ -36,25 +37,25 @@ h2{
     }
 }
 .job-ditaels{
-padding: $padding - 80 ;
-background-color: $white_color;
-border-radius: 5px;
-display: flex;
-justify-content: space-between;
-border: 1px solid transparent;
-
-transition: 1s ;
-margin-bottom: 10px;
-&:hover{
-    border-color:  $green_color;
-}
-@media only screen and (max-width: 767px)
-{
-    display: block;
-    padding: $padding - 95 ;
-
-
-}
+    padding: $padding - 80 ;
+    background-color: $white_color;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    transition: 1s ;
+    margin-bottom: 10px;
+    &:hover{
+        border-color:  $green_color;
+    }
+    @media only screen and (max-width: 767px)
+    {
+        display: block;
+        padding: $padding - 95 ;
+    }
+&:hover .icon{
+        transform: rotate(.1turn); 
+    }
 .jobs_left{
     display: flex;
     align-items: center;
@@ -69,10 +70,6 @@ margin-bottom: 10px;
         border: 1px solid $gray-color;
         border-radius: 5px;
         margin-right: 15px;
-        transition: .5s;
-
-        &:hover{
-            transform: rotate(.1turn);                }
     }
     .job-conetent{
         line-height: 1.5;
@@ -88,13 +85,13 @@ margin-bottom: 10px;
             display: flex;
             p{
                 font-size: $Fsize + 2;
-                color: #AAB1B7;
-                margin-right: 30px;
-                @media only screen and (max-width: 767px)
-                    {
-                        margin-right: 1px;
-                        font-size: $Fsize - 4;
-                    }
+                                color: #AAB1B7;
+                                margin-right: 30px;
+                                @media only screen and (max-width: 767px)
+                                    {
+                                        margin-right: 1px;
+                                        font-size: $Fsize - 4;
+                                    }
             }
         }
     }
@@ -114,27 +111,23 @@ margin-bottom: 10px;
         border-radius: 5px;
         color: #00D363;
         font-size: 14px;
-        line-height: 40px;
+        line-height: 35px;
         text-align: center;
         display: inline-block;
         background: #EFFDF5;
         margin-right: 15px;
+        transition: .5s;
         &:hover{
             background-color: $green_color;
             color: $white_color;
         }
         i{
-            transition: .5s;
-            &:hover{
-                animation:heartBeat;
-                animation-duration: 2s; 
-            }
-        }
-        .btn-1{
-            outline: none;
-            box-shadow: none;
-            }
-        }
+                        transition: .5s;
+                        &:hover{
+                            animation:heartBeat;
+                            animation-duration: 2s; 
+                        }
+                    }
     }
 }
 .date{
@@ -145,8 +138,9 @@ margin-bottom: 10px;
         font-weight: normal;
     }
 }
-}
 
+ }
+}
 
 
 

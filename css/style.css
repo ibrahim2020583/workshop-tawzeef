@@ -194,6 +194,9 @@ h1, h2, h3, h4, h5, h6 {
     padding: 5px;
   }
 }
+.job-ditaels:hover .icon {
+  transform: rotate(0.1turn);
+}
 .job-ditaels .jobs_left {
   display: flex;
   align-items: center;
@@ -208,10 +211,6 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #bebebe;
   border-radius: 5px;
   margin-right: 15px;
-  transition: 0.5s;
-}
-.job-ditaels .jobs_left .icon:hover {
-  transform: rotate(0.1turn);
 }
 .job-ditaels .jobs_left .job-conetent {
   line-height: 1.5;
@@ -253,11 +252,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
   color: #00D363;
   font-size: 14px;
-  line-height: 40px;
+  line-height: 35px;
   text-align: center;
   display: inline-block;
   background: #EFFDF5;
   margin-right: 15px;
+  transition: 0.5s;
 }
 .job-ditaels .job-right .apply .heart:hover {
   background-color: #00D363;
@@ -270,11 +270,7 @@ h1, h2, h3, h4, h5, h6 {
   animation: heartBeat;
   animation-duration: 2s;
 }
-.job-ditaels .job-right .apply .heart .btn-1 {
-  outline: none;
-  box-shadow: none;
-}
-.job-ditaels .date p {
+.job-ditaels .job-right .date p {
   color: #AAB1B7;
   font-style: italic;
   font-size: 14px;
