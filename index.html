@@ -19,6 +19,8 @@
   <link href="css/animate.css" role="stylesheet">
   
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
     <title>Tawzif</title>
   </head>
   <body>
@@ -38,10 +40,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active " aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#AboutUs">About Us</a>
+                <a class="nav-link " href="#AboutUs">About Us</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#Blog" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -61,9 +63,9 @@
               </li>
             </ul>
            
-            <div class="d-flex justify-content-between btns">
-              <button class="btn m-3 ">WantJob</button>
-              <button class="btn-1 m-3 ">PostJob</button>
+            <div class="  btns">
+              <button class="btn bt m-3 fs-5 fw-bolder ">Want A Job</button>
+              <button class="btn m-3 fs-5 fw-bolder ">Post A Job</button>
             </div>
           </div>
 
@@ -81,9 +83,9 @@
             <img src="images/slider/about.png" class="d-block w-100 position-relative" alt="..."  >
             <div class="overlay"></div>
             <div class="carousel-caption top-50 d-none d-md-block">
-              <h5 class="animate__animated animate__fadeInRight animate__delay-2s">4536+ Jobs listed</h5>
-              <h2 class=" animate__animated animate__fadeInDown animate__delay-1s">Find your Dream Job</h2>
-              <p class="animate__animated animate__fadeInUp animate__delay-2s">We provide online instant cash loans with quick approval that suit your term length
+              <h5 class="animate__animated animate__fadeInRight animate__delay-2s fw-bolder">4536+ Jobs listed</h5>
+              <h2 class=" animate__animated animate__fadeInDown animate__delay-1s fw-bolder">Find your Dream Job</h2>
+              <p class="animate__animated animate__fadeInUp animate__delay-2s fw-bolder">We provide online instant cash loans with quick approval that suit your term length
 
               
               </p>
@@ -93,18 +95,18 @@
             <img src="images/slider/faq.png" class="d-block w-100 position-relative" alt="..." >
             <div class="overlay"></div>
             <div class="carousel-caption top-50 d-none d-md-block ">
-              <h2 class="animate__animated animate__fadeInDown animate__delay-1s">Your Dream
+              <h2 class="animate__animated animate__fadeInDown animate__delay-1s fw-bolder">Your Dream
                 Job is Waiting</h2>
               
             </div>
           </div>
          
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+        <a class="carousel-control-prev " href="#carouselExampleFade" role="button" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+        <a class="carousel-control-next " href="#carouselExampleFade" role="button" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </a>
@@ -113,6 +115,77 @@
 
     </header>
     <!-- ------------/header------------- -->
+    <!-- -------------search-job--- -->
+<div class="container">
+  <div class="search-job wow animate__animated animate__fadeInDown " data-wow-duration="1s" data-wow-offset="200" >
+    <div class="row g-2">
+      <div class="col-md-3">
+        <div class="form-floating">
+          <input type="text" class="form-control" id="floatingInputGrid" placeholder="" value="">
+          <label for="floatingInputGrid">Search Kayword</label>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="form-floating">
+          <select class="form-select" id="floatingSelectGrid" aria-label="">
+            <option selected>Location</option>
+            <option value="1">Dhek</option>
+            <option value="2">California, USA</option>
+            <option value="3">alex, Egypt</option>
+          </select>
+          <label for="floatingSelectGrid">Location</label>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="form-floating">
+          <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+            <option selected >Category</option>
+            <option value="1">Category 1</option>
+            <option value="2">Category 2</option>
+            <option value="3">Category 3</option>
+          </select>
+          <label for="floatingSelectGrid">Category</label>
+        </div>
+      </div>
+      <div class="find-job col-md-3 col-12">
+        <button class="btn btn-lg">Find Job</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- -------------/search-job--- -->
+    <!-- -------------Popular-search--- -->
+    <div class="container">
+      <div class="popular text-center wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+      <div class="row">
+        <div class="col"> 
+          <p>Popular Search :</p>
+        </div>
+        <div class="col">
+          <button type="button" class="btn">Design&Creative</button>
+        </div>
+        
+        <div class="col">
+          <button type="button" class="btn">Markting</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn">Administration</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn">Teaching&Education</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn">Engineering</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn">Software&Web</button>
+        </div>
+        
+        
+       </div>
+      </div>
+    </div>
+    <!-- -------------/Popular-search--- -->
     <!-- ---------end-project----------- -->
 
  <!-- =============================
@@ -298,6 +371,46 @@
     </div>
     </div>
 </section>
+<section id="Featured-Candidates">
+  <div class="container">
+  <div class="section-titel">
+    <h1>Featured Candidates </h1>
+  </div>
+  <div class="featured-candidates  row">
+    <div  class="col-sm-4">
+      <img src="images/candiateds/3.png" alt="">
+      <h6>Markary jondon</h6>
+      <p> Software</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="images/candiateds/6.png" alt="">
+      <h6>Markary jondon</h6>
+      <p> Software</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="images/candiateds/4.png" alt="">
+      <h6>Markary jondon</h6>
+      <p> Software</p>
+    </div>
+    <div>
+      <img src="images/candiateds/2.png" alt="">
+      <h6>Markary jondon</h6>
+      <p> Software</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="images/candiateds/1.png" alt="">
+      <h6>Markary jondon</h6>
+      <p> Software</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="images/candiateds/8.png" alt="">
+      <h6>Markary jondon</h6>
+      <p> Software</p>
+    </div>
+  </div>
+ </div>
+</section>
+
  <!-------------/categories-section------------------------->
  <section class="categories" >
   <div class="container" data-aos="fade-right">
@@ -372,8 +485,9 @@
   
 
   
+    <script src="main.js/jquery-1.11.1.min.js"></script>
    <script src="main.js/bootstrap.min.js"></script>
-   <script src="main.js/jquery-1.11.1.min.js"></script>
+   <script src="main.js/slick.js"></script>
   
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="main.js/wow.min.js"></script>

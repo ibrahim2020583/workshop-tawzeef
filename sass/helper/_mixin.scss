@@ -15,4 +15,15 @@
 @media (min-width: 1200px) {  }
 
 // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) {  }
+@media (min-width: 1400px) {  };
+
+
+ @mixin  overlay{
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgba($blue_color, 0.2) !important;
+    z-index: 0;
+    position:absolute;;
+} 

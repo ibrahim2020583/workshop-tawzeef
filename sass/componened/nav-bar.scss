@@ -11,11 +11,12 @@
 
     .nav-item{
       .nav-link{
-        padding: 5px 20px;
+        padding-right:  40px;
         font-family: $font1;
-        color:$gray-color;
+        color:$white_color;
         font-size: 1.5rem;
         transition: .6s;
+        font-weight: 500;
         &:hover{color: $green_color;}
       }
     };
@@ -31,11 +32,20 @@
     };
   }
   .btns{font-family: $font1;
-  button{
-    font-size: 1.5rem
-  }};
+    font-weight: 700;
+  }
+ .bt{ background-color: $green_color;
+  color: $white_color;
+  
+  ;
+   &:hover{
+     background-color:transparent;
+     color: $green_color
+   }
+    
+  };
 }  
     
   
 
-.sticky{background-color: $main-color; transition: .6s;}
+.sticky{background-color: $main-color; transition: .6s;opacity: .7;}

@@ -1,4 +1,60 @@
 
+
+
+.search-job{margin-top: $section_top;
+    
+    
+label{
+       font-size: 1.5rem;
+    font-family: $font1; };
+    .find-job{
+        button{padding: 10px 50px;
+        font-family: $font1;
+    font-size: 1.5rem;}
+    }
+}
+
+.popular{margin-top: $section_top;
+    p{font-size: 1.4rem;padding: 5px 0 ; 
+        font-weight: bolder;
+    font-family: $font1;}
+button{
+    padding: 5px 5px;
+}}
+
+
+
+#Featured-Candidates{
+    
+        .section-titel{
+            text-align: center;
+            font-size: 3rem;
+            font-family: $font1;
+            h1{padding-bottom: 25px;}
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .job-title{
     padding: $padding 25px;
 background-color:$body-color;
