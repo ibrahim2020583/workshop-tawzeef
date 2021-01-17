@@ -17,8 +17,9 @@
         font-size: 1.5rem;
         transition: .6s;
         font-weight: 500;
-        &:hover{color: $green_color;}
+        &:hover  {color: $green_color;};
       }
+      .active{color: $green_color}
     };
     .dropdown{
       

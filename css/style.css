@@ -6,6 +6,7 @@ html, body {
   position: relative;
   font-weight: normal;
   height: 1000px;
+  background-color: #f5f7fa;
 }
 
 html {
@@ -28,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   font-weight: 400;
   font-family: "Cairo", sans-serif;
-
+  text-transform: uppercase;
 }
 
 .btn {
@@ -83,6 +84,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #00D363;
+}
+.navbar .collapse .navbar-nav .nav-item .active {
   color: #00D363;
 }
 .navbar .collapse .navbar-nav .dropdown .dropdown-menu {
@@ -146,6 +150,17 @@ h1, h2, h3, h4, h5, h6 {
   top: 28%;
 }
 
+.back-top {
+  right: 10px;
+  bottom: 0;
+  z-index: 6;
+  display: none;
+  transition: 0.7s;
+}
+.back-top button {
+  font-size: 2rem;
+}
+
 .search-job {
   margin-top: 80px;
 }
@@ -172,6 +187,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5px 5px;
 }
 
+#Featured-Candidates {
+  margin-top: 80px;
+}
 #Featured-Candidates .section-titel {
   text-align: center;
   font-size: 3rem;
@@ -179,6 +197,58 @@ h1, h2, h3, h4, h5, h6 {
 }
 #Featured-Candidates .section-titel h1 {
   padding-bottom: 25px;
+}
+#Featured-Candidates .featured-candidates div {
+  margin: 0 5px;
+  text-align: center;
+  height: 250px;
+}
+#Featured-Candidates .featured-candidates div img {
+  margin: auto;
+  padding: 10px 0;
+}
+#Featured-Candidates .featured-candidates div h6 {
+  font-size: 1.2rem;
+  font-family: "Amiri", serif;
+  font-weight: bolder;
+  padding: 5px 0;
+}
+#Featured-Candidates .featured-candidates div p {
+  font-size: 1.2rem;
+  font-family: "Cairo", sans-serif;
+  font-weight: bolder;
+  padding: 5px 0;
+  opacity: 0.6;
+}
+
+#Top-Companies {
+  margin-top: 80px;
+}
+#Top-Companies .our-companies .company {
+  margin: 0 10px;
+  height: 200px;
+  text-align: center;
+}
+#Top-Companies .our-companies .company img {
+  margin: auto;
+  padding: 10px 0;
+}
+#Top-Companies .our-companies .company span {
+  background-color: #bebebe;
+  padding: 0 10px;
+  font-size: 1.4rem;
+}
+#Top-Companies .our-companies .company h6 {
+  font-size: 1.2rem;
+  font-family: "Amiri", serif;
+  font-weight: bolder;
+}
+#Top-Companies .our-companies .company p {
+  font-size: 1.2rem;
+  font-family: "Cairo", sans-serif;
+  font-weight: bolder;
+  padding: 5px 0;
+  opacity: 0.6;
 }
 
 .job-title {
@@ -320,30 +390,6 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-size: 14px;
   font-weight: normal;
-}
-.categories{
-  background-color:#f5f7fa ;
-}
-.categories h2{
-  margin-bottom: 30px;
-}
-.categories a{
-  color: #001D38;
-}
-
-.categories .p-3.border.bg-light{
-  background-color: #fff !important;
-  text-align: center;
-
-}
-.categories .p-3.border.bg-light:hover{
-  border: 1px solid#00D363 !important ;
- 
-  
-}
-.categories .icon{
-  color: #00D363;
-  font-size: 45px;
 }
 
 /*# sourceMappingURL=style.css.map */
