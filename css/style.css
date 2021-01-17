@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   font-weight: 400;
   font-family: "Cairo", sans-serif;
-  text-transform: uppercase;
+
 }
 
 .btn {
@@ -320,6 +320,30 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-size: 14px;
   font-weight: normal;
+}
+.categories{
+  background-color:#f5f7fa ;
+}
+.categories h2{
+  margin-bottom: 30px;
+}
+.categories a{
+  color: #001D38;
+}
+
+.categories .p-3.border.bg-light{
+  background-color: #fff !important;
+  text-align: center;
+
+}
+.categories .p-3.border.bg-light:hover{
+  border: 1px solid#00D363 !important ;
+ 
+  
+}
+.categories .icon{
+  color: #00D363;
+  font-size: 35px;
 }
 
 /*# sourceMappingURL=style.css.map */
