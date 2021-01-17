@@ -256,6 +256,33 @@ h2{
 
  }
 }
+.categories{
+    background-color:#f5f7fa ;
+    h2{
+        margin-bottom: 30px;
+    };
+    a{
+        color: #001D38;
+        font-size: 20px;
+        
+        
+    };
+    .icon{
+        color: #00D363;
+        font-size: 35px;
+    };
+    .p-3.border.bg-light{
+        background-color: #fff !important;
+        text-align: center;
+        &:hover{
+            border: 1px solid#00D363 !important ;
+            transition: .5s ease-in-out;
+        }
+    };
+  }
+  
+ 
+  
 
 
 
