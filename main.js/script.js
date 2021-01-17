@@ -15,11 +15,6 @@ $('.featured-candidates').slick({
     autoplay: true,
   autoplaySpeed: 2000
   });
-<<<<<<< HEAD
-
-
- 
-=======
 //   campony slider
 $('.our-companies').slick({
     // infinite: true,
@@ -50,4 +45,3 @@ $('.our-companies').slick({
       }
     ]
   });
->>>>>>> 409350fef26a1a58009a535ec951973e406cd51a
