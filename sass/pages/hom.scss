@@ -1,5 +1,12 @@
 
-
+.back-top{
+    right: 10px;
+    bottom: 0;
+    z-index: 6;
+    display: none;
+    transition: .7s;
+    button{font-size: 2rem;}
+}
 
 .search-job{margin-top: $section_top;
     
@@ -24,16 +31,68 @@ button{
 
 
 
-#Featured-Candidates{
+#Featured-Candidates{margin-top: $section_top;
     
         .section-titel{
             text-align: center;
             font-size: 3rem;
             font-family: $font1;
             h1{padding-bottom: 25px;}
+};
+.featured-candidates {
+    div{
+        margin: 0 5px;
+        text-align: center;
+        height: 250px;
+        
+       
+         
+        img{
+            margin: auto;
+            padding:10px 0;
+            
+            
+        };
+        h6{font-size: 1.2rem ;
+        font-family: $font1;
+    font-weight: bolder;
+        padding: 5px 0;};
+        p{font-size: 1.2rem ;
+            font-family: $font2;
+        font-weight: bolder;
+            padding: 5px 0;
+        opacity: .6;}
+    }
 }
     
 }
+
+
+#Top-Companies{
+    margin-top: $section_top;
+    .our-companies{
+        .company{
+            margin: 0 10px;
+            height: 200px;
+            text-align: center;
+            img{margin: auto;
+            padding: 10px 0;}
+            span{background-color:$gray-color;
+                padding: 0 10px;
+            font-size: 1.4rem};
+            h6{font-size: 1.2rem ;
+                font-family: $font1;
+            font-weight: bolder;};
+            p{font-size: 1.2rem ;
+                font-family: $font2;
+            font-weight: bolder;
+                padding: 5px 0;
+            opacity: .6;}
+
+        }
+    }
+}
+
 
 
 
@@ -197,6 +256,33 @@ h2{
 
  }
 }
+.categories{
+    background-color:#f5f7fa ;
+    h2{
+        margin-bottom: 30px;
+    };
+    a{
+        color: #001D38;
+        font-size: 20px;
+        
+        
+    };
+    .icon{
+        color: #00D363;
+        font-size: 35px;
+    };
+    .p-3.border.bg-light{
+        background-color: #fff !important;
+        text-align: center;
+        &:hover{
+            border: 1px solid#00D363 !important ;
+            transition: .5s ease-in-out;
+        }
+    };
+  }
+  
+ 
+  
 
 
 
