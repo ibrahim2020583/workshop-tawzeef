@@ -108,12 +108,21 @@
   }
 }
 
+<<<<<<< HEAD
 .job-title {
   padding: $padding 25px;
   background-color: $body-color;
   font-family: "Amiri", serif;
 
   .listing_title {
+=======
+.job-title{
+    padding: $padding 25px;
+background-color:$body-color;
+    font-family: 'Amiri', serif;
+   
+.listing_title{
+>>>>>>> 1f9fc4e5783f2fbde1bf134bada3068b853a4c86
     text-align: left;
     @media only screen and (max-width: 767px) {
       text-align: center;
@@ -243,6 +252,7 @@
     }
   }
 }
+<<<<<<< HEAD
 .categories {
   background-color: #f5f7fa;
   h2 {
@@ -265,6 +275,86 @@
     }
   }
 }
+=======
+
+ }
+}
+.categories{
+    background-color:#f5f7fa ;
+    h2{
+        margin-bottom: 30px;
+    };
+    a{
+        color: #001D38;
+        font-size: 20px;
+        font-family: $font2;
+        
+        
+    };
+    .icon{
+        color: #00D363;
+        font-size: 35px;
+    };
+    .p-3.border.bg-light{
+        background-color: #fff !important;
+        text-align: center;
+        &:hover{
+            border: 1px solid#00D363 !important ;
+            transition: .5s ease-in-out;
+        }
+    };
+  }
+  .looking{
+    
+    .look-for-job{
+        position: relative;
+        width: 100%;
+        
+        
+
+        img{
+            width: 100%;
+        };
+        .overlay{
+          top: 0;
+          left: 0;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(8, 5, 154, 0.7);
+        };
+        .look-text{
+            position: absolute;
+            transform: translate(-50%,-50%);
+            left: 50%;
+            top: 50%;
+            text-align: center;
+            @media(max-width:768px){
+                width: 100%;
+            }
+            h3{
+                font-size: 60px;
+                text-transform: none;
+                color: #fff;
+                font-family: $font1;
+            };
+            p{
+              font-size: 15px;
+              text-transform: none;
+              color: #fff;
+              font-family: $font1;
+            }
+        };
+       
+    };
+    
+    
+  }
+  
+  
+
+
+>>>>>>> 1f9fc4e5783f2fbde1bf134bada3068b853a4c86
 
 
 // About us
