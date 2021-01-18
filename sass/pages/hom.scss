@@ -1,291 +1,311 @@
-
-.back-top{
-    right: 10px;
-    bottom: 0;
-    z-index: 6;
-    display: none;
-    transition: .7s;
-    button{font-size: 2rem;}
+.back-top {
+  right: 10px;
+  bottom: 0;
+  z-index: 6;
+  display: none;
+  transition: 0.7s;
+  button {
+    font-size: 2rem;
+  }
 }
 
-.search-job{margin-top: $section_top;
-    
-    
-label{
-       font-size: 1.5rem;
-    font-family: $font1; };
-    .find-job{
-        button{padding: 10px 50px;
-        font-family: $font1;
-    font-size: 1.5rem;}
+.search-job {
+  margin-top: $section_top;
+
+  label {
+    font-size: 1.5rem;
+    font-family: $font1;
+  }
+  .find-job {
+    button {
+      padding: 10px 50px;
+      font-family: $font1;
+      font-size: 1.5rem;
     }
+  }
 }
 
-.popular{margin-top: $section_top;
-    p{font-size: 1.4rem;padding: 5px 0 ; 
-        font-weight: bolder;
-    font-family: $font1;}
-button{
-    padding: 5px 5px;
-}}
-
-
-
-#Featured-Candidates{margin-top: $section_top;
-    
-        .section-titel{
-            text-align: center;
-            font-size: 3rem;
-            font-family: $font1;
-            h1{padding-bottom: 25px;}
-};
-.featured-candidates {
-    div{
-        margin: 0 5px;
-        text-align: center;
-        height: 250px;
-        
-       
-         
-        img{
-            margin: auto;
-            padding:10px 0;
-            
-            
-        };
-        h6{font-size: 1.2rem ;
-        font-family: $font1;
+.popular {
+  margin-top: $section_top;
+  p {
+    font-size: 1.4rem;
+    padding: 5px 0;
     font-weight: bolder;
-        padding: 5px 0;};
-        p{font-size: 1.2rem ;
-            font-family: $font2;
+    font-family: $font1;
+  }
+  button {
+    padding: 5px 5px;
+  }
+}
+
+#Featured-Candidates {
+  margin-top: $section_top;
+
+  .section-titel {
+    text-align: center;
+    font-size: 3rem;
+    font-family: $font1;
+    h1 {
+      padding-bottom: 25px;
+    }
+  }
+  .featured-candidates {
+    div {
+      margin: 0 5px;
+      text-align: center;
+      height: 250px;
+
+      img {
+        margin: auto;
+        padding: 10px 0;
+      }
+      h6 {
+        font-size: 1.2rem;
+        font-family: $font1;
         font-weight: bolder;
-            padding: 5px 0;
-        opacity: .6;}
+        padding: 5px 0;
+      }
+      p {
+        font-size: 1.2rem;
+        font-family: $font2;
+        font-weight: bolder;
+        padding: 5px 0;
+        opacity: 0.6;
+      }
     }
+  }
 }
-    
-}
 
-
-#Top-Companies{
-    margin-top: $section_top;
-    .our-companies{
-        .company{
-            margin: 0 10px;
-            height: 200px;
-            text-align: center;
-            img{margin: auto;
-            padding: 10px 0;}
-            span{background-color:$gray-color;
-                padding: 0 10px;
-            font-size: 1.4rem};
-            h6{font-size: 1.2rem ;
-                font-family: $font1;
-            font-weight: bolder;};
-            p{font-size: 1.2rem ;
-                font-family: $font2;
-            font-weight: bolder;
-                padding: 5px 0;
-            opacity: .6;}
-
-        }
+#Top-Companies {
+  margin-top: $section_top;
+  .our-companies {
+    .company {
+      margin: 0 10px;
+      height: 200px;
+      text-align: center;
+      img {
+        margin: auto;
+        padding: 10px 0;
+      }
+      span {
+        background-color: $gray-color;
+        padding: 0 10px;
+        font-size: 1.4rem;
+      }
+      h6 {
+        font-size: 1.2rem;
+        font-family: $font1;
+        font-weight: bolder;
+      }
+      p {
+        font-size: 1.2rem;
+        font-family: $font2;
+        font-weight: bolder;
+        padding: 5px 0;
+        opacity: 0.6;
+      }
     }
+  }
 }
 
+.job-title {
+  padding: $padding 25px;
+  background-color: $body-color;
+  font-family: "Amiri", serif;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.job-title{
-    padding: $padding 25px;
-background-color:$body-color;
-    font-family: 'Amiri', serif;
-   
-.listing_title{
+  .listing_title {
     text-align: left;
-    @media only screen and (max-width: 767px)
-    {
-       text-align: center;
+    @media only screen and (max-width: 767px) {
+      text-align: center;
     }
-h2{
-    text-transform: capitalize; 
-    color: $childcolor;
-    margin-left: 0;
-    font-size: $Fsize + 26;
-    font-weight: 400;
-    margin-top: 5px;
-        }
-
-}
-}
-.broser-listing{
-    text-align: right;
-    @media only screen and (max-width: 767px)
-    {
-       text-align: center;
+    h2 {
+      text-transform: capitalize;
+      color: $childcolor;
+      margin-left: 0;
+      font-size: $Fsize + 26;
+      font-weight: 400;
+      margin-top: 5px;
     }
-.btn{
+  }
+}
+.broser-listing {
+  text-align: right;
+  @media only screen and (max-width: 767px) {
+    text-align: center;
+  }
+  .btn {
     text-align: center;
     right: 0;
     outline: none;
     box-shadow: none;
     margin-top: 5px;
     margin-bottom: 5px;
-    }
+  }
 }
-.job-ditaels{
-    padding: $padding - 80 ;
-    background-color: $white_color;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid transparent;
-    transition: 1s ;
-    margin-bottom: 10px;
-    &:hover{
-        border-color:  $green_color;
-    }
-    @media only screen and (max-width: 767px)
-    {
-        display: block;
-        padding: $padding - 95 ;
-    }
-&:hover .icon{
-        transform: rotate(.1turn); 
-    }
-.jobs_left{
+.job-ditaels {
+  padding: $padding - 80;
+  background-color: $white_color;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  transition: 1s;
+  margin-bottom: 10px;
+  &:hover {
+    border-color: $green_color;
+  }
+  @media only screen and (max-width: 767px) {
+    display: block;
+    padding: $padding - 95;
+  }
+  &:hover .icon {
+    transform: rotate(0.1turn);
+  }
+  .jobs_left {
     display: flex;
     align-items: center;
-    line-height: .5;
-    
-    .icon{
-        background-color:$body-color;
-        width: 75px;
-        height: 75px;
-        line-height: 75px;
-        text-align: center;
-        border: 1px solid $gray-color;
-        border-radius: 5px;
-        margin-right: 15px;
+    line-height: 0.5;
+
+    .icon {
+      background-color: $body-color;
+      width: 75px;
+      height: 75px;
+      line-height: 75px;
+      text-align: center;
+      border: 1px solid $gray-color;
+      border-radius: 5px;
+      margin-right: 15px;
     }
-    .job-conetent{
-        line-height: 1.5;
-        h4{
-            color: $childcolor;
-            transition: .5s;
-            text-transform: capitalize;
-            &:hover{
-                color: $green_color;
-            }
+    .job-conetent {
+      line-height: 1.5;
+      h4 {
+        color: $childcolor;
+        transition: 0.5s;
+        text-transform: capitalize;
+        &:hover {
+          color: $green_color;
         }
-        .lead{
-            display: flex;
-            p{
-                font-size: $Fsize + 2;
-                                color: #AAB1B7;
-                                margin-right: 30px;
-                                @media only screen and (max-width: 767px)
-                                    {
-                                        margin-right: 1px;
-                                        font-size: $Fsize - 4;
-                                    }
-            }
+      }
+      .lead {
+        display: flex;
+        p {
+          font-size: $Fsize + 2;
+          color: #aab1b7;
+          margin-right: 30px;
+          @media only screen and (max-width: 767px) {
+            margin-right: 1px;
+            font-size: $Fsize - 4;
+          }
         }
+      }
     }
-}
-.job-right{
+  }
+  .job-right {
     // @extend .jobs_left;
     align-items: center;
     line-height: 2.5;
-    @media only screen and (max-width: 767px)
-{
-   margin-top: 5px;
-}
-.apply{
-    .heart{
+    @media only screen and (max-width: 767px) {
+      margin-top: 5px;
+    }
+    .apply {
+      .heart {
         width: 35px;
         height: 35px;
         border-radius: 5px;
-        color: #00D363;
+        color: #00d363;
         font-size: 14px;
         line-height: 35px;
         text-align: center;
         display: inline-block;
-        background: #EFFDF5;
+        background: #effdf5;
         margin-right: 15px;
-        transition: .5s;
-        &:hover{
-            background-color: $green_color;
-            color: $white_color;
+        transition: 0.5s;
+        &:hover {
+          background-color: $green_color;
+          color: $white_color;
         }
-        i{
-                        transition: .5s;
-                        &:hover{
-                            animation:heartBeat;
-                            animation-duration: 2s; 
-                        }
-                    }
+        i {
+          transition: 0.5s;
+          &:hover {
+            animation: heartBeat;
+            animation-duration: 2s;
+          }
+        }
+      }
     }
-}
-.date{
-    p{
-        color: #AAB1B7;
+    .date {
+      p {
+        color: #aab1b7;
         font-style: italic;
         font-size: $Fsize;
         font-weight: normal;
+      }
+    }
+  }
+}
+.categories {
+  background-color: #f5f7fa;
+  h2 {
+    margin-bottom: 30px;
+  }
+  a {
+    color: #001d38;
+    font-size: 20px;
+  }
+  .icon {
+    color: #00d363;
+    font-size: 35px;
+  }
+  .p-3.border.bg-light {
+    background-color: #fff !important;
+    text-align: center;
+    &:hover {
+      border: 1px solid#00D363 !important ;
+      transition: 0.5s ease-in-out;
+    }
+  }
+}
+
+
+// About us
+#AboutUs {
+    margin-top: $section_top;
+   
+    .video-about{margin: auto; background: url(../../images/job/1.png) center no-repeat;
+    padding: 130px 0;position: relative;
+
+        .play-video{background-color:$green_color;
+            font-size: 3rem;
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            text-align: center !important;
+            margin: auto;
+            color: $white_color
+            
+        };
+    };
+    .overlay{
+        @include overlay;}
+    .about-titel{
+        h2{
+            font-family: $font1;
+            font-size: 2.5rem;
+            font-weight: bolder;
+            padding: 20px 30px;
+            opacity: .5;
+        };
+        h6{
+            font-family: $font1;
+            font-size: 2rem;
+            font-weight: bolder;
+            padding: 10px 25px;
+            opacity: .6;
+        };
+        p{font-family: $font2;
+        font-size: 1.5rem;
+    font-weight: bolder;
+    line-height: 30px;
+opacity: .4;}
     }
 }
-
- }
-}
-.categories{
-    background-color:#f5f7fa ;
-    h2{
-        margin-bottom: 30px;
-    };
-    a{
-        color: #001D38;
-        font-size: 20px;
-        
-        
-    };
-    .icon{
-        color: #00D363;
-        font-size: 35px;
-    };
-    .p-3.border.bg-light{
-        background-color: #fff !important;
-        text-align: center;
-        &:hover{
-            border: 1px solid#00D363 !important ;
-            transition: .5s ease-in-out;
-        }
-    };
-  }
-  
- 
-  
-
-
-
-  
-
-
