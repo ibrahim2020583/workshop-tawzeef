@@ -93,27 +93,6 @@ button{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .job-title{
     padding: $padding 25px;
 background-color:$body-color;
@@ -264,6 +243,7 @@ h2{
     a{
         color: #001D38;
         font-size: 20px;
+        font-family: $font2;
         
         
     };
@@ -280,8 +260,53 @@ h2{
         }
     };
   }
+  .looking{
+    
+    .look-for-job{
+        position: relative;
+        width: 100%;
+        
+        
+
+        img{
+            width: 100%;
+        };
+        .overlay{
+          top: 0;
+          left: 0;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(8, 5, 154, 0.7);
+        };
+        .look-text{
+            position: absolute;
+            transform: translate(-50%,-50%);
+            left: 50%;
+            top: 50%;
+            text-align: center;
+            @media(max-width:768px){
+                width: 100%;
+            }
+            h3{
+                font-size: 60px;
+                text-transform: none;
+                color: #fff;
+                font-family: $font1;
+            };
+            p{
+              font-size: 15px;
+              text-transform: none;
+              color: #fff;
+              font-family: $font1;
+            }
+        };
+       
+    };
+    
+    
+  }
   
- 
   
 
 
