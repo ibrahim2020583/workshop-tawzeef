@@ -108,21 +108,12 @@
   }
 }
 
-<<<<<<< HEAD
 .job-title {
   padding: $padding 25px;
   background-color: $body-color;
   font-family: "Amiri", serif;
 
   .listing_title {
-=======
-.job-title{
-    padding: $padding 25px;
-background-color:$body-color;
-    font-family: 'Amiri', serif;
-   
-.listing_title{
->>>>>>> 1f9fc4e5783f2fbde1bf134bada3068b853a4c86
     text-align: left;
     @media only screen and (max-width: 767px) {
       text-align: center;
@@ -252,109 +243,7 @@ background-color:$body-color;
     }
   }
 }
-<<<<<<< HEAD
-.categories {
-  background-color: #f5f7fa;
-  h2 {
-    margin-bottom: 30px;
-  }
-  a {
-    color: #001d38;
-    font-size: 20px;
-  }
-  .icon {
-    color: #00d363;
-    font-size: 35px;
-  }
-  .p-3.border.bg-light {
-    background-color: #fff !important;
-    text-align: center;
-    &:hover {
-      border: 1px solid#00D363 !important ;
-      transition: 0.5s ease-in-out;
-    }
-  }
-}
-=======
 
- }
-}
-.categories{
-    background-color:#f5f7fa ;
-    h2{
-        margin-bottom: 30px;
-    };
-    a{
-        color: #001D38;
-        font-size: 20px;
-        font-family: $font2;
-        
-        
-    };
-    .icon{
-        color: #00D363;
-        font-size: 35px;
-    };
-    .p-3.border.bg-light{
-        background-color: #fff !important;
-        text-align: center;
-        &:hover{
-            border: 1px solid#00D363 !important ;
-            transition: .5s ease-in-out;
-        }
-    };
-  }
-  .looking{
-    
-    .look-for-job{
-        position: relative;
-        width: 100%;
-        
-        
-
-        img{
-            width: 100%;
-        };
-        .overlay{
-          top: 0;
-          left: 0;
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          background-color: rgba(8, 5, 154, 0.7);
-        };
-        .look-text{
-            position: absolute;
-            transform: translate(-50%,-50%);
-            left: 50%;
-            top: 50%;
-            text-align: center;
-            @media(max-width:768px){
-                width: 100%;
-            }
-            h3{
-                font-size: 60px;
-                text-transform: none;
-                color: #fff;
-                font-family: $font1;
-            };
-            p{
-              font-size: 15px;
-              text-transform: none;
-              color: #fff;
-              font-family: $font1;
-            }
-        };
-       
-    };
-    
-    
-  }
-  
-  
-
-
->>>>>>> 1f9fc4e5783f2fbde1bf134bada3068b853a4c86
 
 
 // About us
@@ -399,3 +288,46 @@ background-color:$body-color;
 opacity: .4;}
     }
 }
+// Popolar Categories
+.popolar_categories{
+  
+h2{ text-transform: capitalize;
+  color: $childcolor;
+  margin-left: 0;
+  font-size: $Fsize + 26;
+  font-weight: 400;
+  margin-top: 5px;
+
+};
+.poplar{background-color:$gray-color ;
+  padding: 25px 0;
+  width: 32%;
+  transition: .6s;
+  
+  
+  h5{color: $btn_bg;
+  font-size: 3rem;
+  transition: .6s;
+};
+  p{font-weight: bolder;
+  font-family: $font2;
+font-size: 1.5rem;
+transition: .7s;};
+  span{color: $white_color;
+  font-size: 1rem;
+background-color:$btn_bg;
+padding: 0 15px;
+transition: .8s;}
+
+&:hover{
+  
+    background-color:$green_color;
+    h5{color: $gray-color;};
+    p{color: $white_color;};
+    span{background-color: $white_color;
+    color:$btn_bg}
+}
+  }
+}
+
+// Popolar Categories
