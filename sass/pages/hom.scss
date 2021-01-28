@@ -107,6 +107,7 @@
     }
   }
 }
+<<<<<<< HEAD
 
 .job-title {
   padding: $padding 25px;
@@ -245,6 +246,74 @@
 }
 
 
+=======
+//categories
+.categories {
+  background-color: #f5f7fa;
+  h2 {
+    margin-bottom: 30px;
+    text-transform: none;
+  }
+  a {
+    color: #001d38;
+    font-size: 15px;
+  }
+  .icon {
+    color: #00d363;
+    font-size: 35px;
+  }
+  .p-3.border.bg-light {
+    background-color: #fff !important;
+    text-align: center;
+    &:hover {
+      border: 1px solid#00D363 !important ;
+      transition: 0.5s ease-in-out;
+    }
+  }
+}
+//looking for job
+.look-for-job{
+  width: 100%;
+  position: relative;
+ 
+  img{
+    width: 100%;
+  };
+  .overlay{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 2, 65, 0.7);
+  };
+  .look-text{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    @media(max-width:768px){
+      width: 100%;
+      position: absolute;
+    }
+    h3{
+      color: #fff;
+      font-family: $font1;
+      font-size: 50px;
+      @media(max-width: 768px){
+        font-size: 20px;
+
+      }
+    };
+    p{
+      color: #fff;
+      font-family: $font1;
+    };
+   
+  }
+}
+>>>>>>> 0300fd0c099acb5d08a64f6f1fae4124f0135696
 
 // About us
 #AboutUs {
@@ -287,6 +356,7 @@
     line-height: 30px;
 opacity: .4;}
     }
+<<<<<<< HEAD
 }
 // Popolar Categories
 .popolar_categories{
@@ -331,3 +401,6 @@ transition: .8s;}
 }
 
 // Popolar Categories
+=======
+  }
+>>>>>>> 0300fd0c099acb5d08a64f6f1fae4124f0135696

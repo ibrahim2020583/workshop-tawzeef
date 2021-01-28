@@ -1,0 +1,148 @@
+
+.job-title{
+    padding: $padding 25px;
+background-color:$body-color;
+    font-family: 'Amiri', serif;
+   
+.listing_title{
+    text-align: left;
+    @media only screen and (max-width: 767px)
+    {
+       text-align: center;
+    }
+h2{
+    text-transform: capitalize; 
+    color: $childcolor;
+    margin-left: 0;
+    font-size: $Fsize + 26;
+    font-weight: 400;
+    margin-top: 5px;
+        }
+
+}
+}
+.broser-listing{
+    text-align: right;
+    @media only screen and (max-width: 767px)
+    {
+       text-align: center;
+    }
+.btn{
+    text-align: center;
+    right: 0;
+    outline: none;
+    box-shadow: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    }
+}
+.job-ditaels{
+    padding: $padding - 80 ;
+    background-color: $white_color;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    transition: 1s ;
+    margin-bottom: 10px;
+    &:hover{
+        border-color:  $green_color;
+    }
+    @media only screen and (max-width: 767px)
+    {
+        display: block;
+        padding: $padding - 95 ;
+    }
+&:hover .icon{
+        transform: rotate(.1turn); 
+    }
+.jobs_left{
+    display: flex;
+    align-items: center;
+    line-height: .5;
+    .icon{
+        background-color:$body-color;
+        width: 75px;
+        height: 75px;
+        line-height: 75px;
+        text-align: center;
+        border: 1px solid $gray-color;
+        border-radius: 5px;
+        margin-right: 15px;
+    }
+    .job-conetent{
+        line-height: 1.5;
+        h4{
+            color: $childcolor;
+            transition: .5s;
+            text-transform: capitalize;
+            &:hover{
+                color: $green_color;
+            }
+        }
+        .lead{
+            display: flex;
+            p{
+                font-size: $Fsize + 2;
+                                color: #AAB1B7;
+                                margin-right: 30px;
+                                @media only screen and (max-width: 767px)
+                                    {
+                                        margin-right: 1px;
+                                        font-size: $Fsize - 4;
+                                    }
+            }
+        }
+    }
+}
+.job-right{
+    // @extend .jobs_left;
+    align-items: center;
+    line-height: 2.5;
+    @media only screen and (max-width: 767px)
+{
+   margin-top: 5px;
+}
+.apply{
+    .heart{
+        width: 35px;
+        height: 35px;
+        border-radius: 5px;
+        color: #00D363;
+        font-size: 14px;
+        line-height: 35px;
+        text-align: center;
+        display: inline-block;
+        background: #EFFDF5;
+        margin-right: 15px;
+        transition: .5s;
+        &:hover{
+            background-color: $green_color;
+            color: $white_color;
+        }
+        i{
+                        transition: .5s;
+                        &:hover{
+                            animation:heartBeat;
+                            animation-duration: 2s; 
+                        }
+                    }
+    }
+}
+.date{
+    p{
+        color: #AAB1B7;
+        font-style: italic;
+        font-size: $Fsize;
+        font-weight: normal;
+    }
+}
+
+ }
+}
+
+
+
+  
+
+
