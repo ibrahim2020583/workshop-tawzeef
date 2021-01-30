@@ -38,6 +38,12 @@
     .collapse{
   .navbar-nav{padding: 10px 0;
     transition: .6s;
+    .navbar-toggler{
+      margin-right: 20px;
+    }
+   
+    }
+
     
 
     .nav-item{
@@ -95,8 +101,7 @@
    }
     
   };
-}  
-    
+
   
 
 .sticky{background-color: $main-color; transition: .6s;opacity: .7;}

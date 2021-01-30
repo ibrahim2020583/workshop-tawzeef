@@ -1,13 +1,12 @@
 .carousel{
     .carousel-inner{
         .carousel-item {
-            img{max-height: 800px;
+            img{max-height: 800px;};
 
                 
-                // @media only screen and (max-width: 500px) {
-                //    height:  1000px;
-                //   };
-            }
+              
+                  
+                }
             .overlay{
               @include overlay;
             };
@@ -27,4 +26,3 @@
 }
 
 .carousel-control-next , .carousel-control-prev{ top: 28%;}
-}

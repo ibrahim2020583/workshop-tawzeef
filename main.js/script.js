@@ -45,7 +45,6 @@ $('.our-companies').slick({
       }
     ]
   });
-<<<<<<< HEAD
  function myFunction(){
         let form = document.querySelector('.login-form')
         form.classList.add('d-none');
@@ -56,7 +55,6 @@ $('.our-companies').slick({
         form.classList.remove('d-none')
         form.classList.add('d-block')
     }
-=======
 
 // Loading Screen
 
@@ -96,4 +94,3 @@ for (var i = 0; i < btns.length; i++) {
   this.className += " active";
   });
 }
->>>>>>> 4c5aa89db298895855b7d2c39e1319f4a3173b71
