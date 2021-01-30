@@ -2,8 +2,12 @@
     .carousel-inner{
         .carousel-item {
             img{max-height: 800px;
+
                 
-            };
+                // @media only screen and (max-width: 500px) {
+                //    height:  1000px;
+                //   };
+            }
             .overlay{
               @include overlay;
             };

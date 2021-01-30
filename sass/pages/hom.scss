@@ -244,92 +244,171 @@
   }
 }
 
-
-
-
-
 // About us
 #AboutUs {
-    margin-top: $section_top;
-   
-    .video-about{margin: auto; background: url(../../images/job/01.png) center no-repeat;
-    padding: 130px 0;position: relative;
+  margin-top: $section_top;
 
-        .play-video{background-color:$green_color;
-            font-size: 3rem;
-            width: 80px;
-            height: 80px;
-            line-height: 80px;
-            text-align: center !important;
-            margin: auto;
-            color: $white_color
-            
-        };
-    };
-    .overlay{
-        @include overlay;}
-    .about-titel{
-        h2{
-            font-family: $font1;
-            font-size: 2.5rem;
-            font-weight: bolder;
-            padding: 20px 30px;
-            opacity: .5;
-        };
-        h6{
-            font-family: $font1;
-            font-size: 2rem;
-            font-weight: bolder;
-            padding: 10px 25px;
-            opacity: .6;
-        };
-        p{font-family: $font2;
-        font-size: 1.5rem;
-    font-weight: bolder;
-    line-height: 30px;
-opacity: .4;}
+  .video-about {
+    margin: auto;
+    background: url(../../images/job/01.png) center no-repeat;
+    padding: 130px 0;
+    position: relative;
+
+    .play-video {
+      background-color: $green_color;
+      font-size: 3rem;
+      width: 80px;
+      height: 80px;
+      line-height: 80px;
+      text-align: center !important;
+      margin: auto;
+      color: $white_color;
     }
   }
+  .overlay {
+    @include overlay;
+  }
+  .about-titel {
+    h2 {
+      font-family: $font1;
+      font-size: 2.5rem;
+      font-weight: bolder;
+      padding: 20px 30px;
+      opacity: 0.5;
+    }
+    h6 {
+      font-family: $font1;
+      font-size: 2rem;
+      font-weight: bolder;
+      padding: 10px 25px;
+      opacity: 0.6;
+    }
+    p {
+      font-family: $font2;
+      font-size: 1.5rem;
+      font-weight: bolder;
+      line-height: 30px;
+      opacity: 0.4;
+    }
+  }
+}
 // Popolar Categories
-.popolar_categories{
-  
-  h2{ text-transform: capitalize;
+.popolar_categories {
+  h2 {
+    text-transform: capitalize;
     color: $childcolor;
     margin-left: 0;
     font-size: $Fsize + 26;
     font-weight: 400;
     margin-top: 5px;
-  
-  };
-  .poplar{background-color:$gray-color ;
+  }
+  .poplar {
+    background-color: $gray-color;
     padding: 25px 0;
     width: 32%;
-    transition: .6s;
-    
-    
-    h5{color: $btn_bg;
-    font-size: 3rem;
-    transition: .6s;
-  };
-    p{font-weight: bolder;
-    font-family: $font2;
-  font-size: 1.5rem;
-  transition: .7s;};
-    span{color: $white_color;
-    font-size: 1rem;
-  background-color:$btn_bg;
-  padding: 0 15px;
-  transition: .8s;}
-  
-  &:hover{
-    
-      background-color:$green_color;
-      h5{color: $gray-color;};
-      p{color: $white_color;};
-      span{background-color: $white_color;
-      color:$btn_bg}
-  }
+    transition: 0.6s;
+
+
+    h5 {
+      color: $btn_bg;
+      font-size: 3rem;
+      transition: 0.6s;
+    }
+    p {
+      font-weight: bolder;
+      font-family: $font2;
+      font-size: 1.5rem;
+      transition: 0.7s;
+    }
+    span {
+      color: $white_color;
+      font-size: 1rem;
+      background-color: $btn_bg;
+      padding: 0 15px;
+      transition: 0.8s;
+    }
+
+    &:hover {
+      background-color: $green_color;
+      h5 {
+        color: $gray-color;
+      }
+      p {
+        color: $white_color;
+      }
+      span {
+        background-color: $white_color;
+        color: $btn_bg;
+      }
+    }
+    @media only screen and (max-width: 767px) {
+      width: 100%!important;
     }
   }
+
+}
+
+// Popolar Categories
+.login-form{
+  background-color:$gray-color3;
+  z-index: 1000;
+  top: 30px;
+  button{
+    // pointer-events: none;
+    
+    &:hover{
+      opacity: 0.7!important;
+    }
+  }
+ 
+form {
+  padding: 5px 10px;
+}
+
+.social :nth-child(1) {
+  background-color: #3b5998;
+  border:1px solid #3b5998 ;
   
-  // Popolar Categories
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1rem;
+  text-align: center;
+  margin: 5px 5px;
+  transition: 0.6s;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+.social :nth-child(2) {
+  background-color: #55acee;
+  border-color: #55acee;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1rem;
+  text-align: center;
+  margin: 5px 5px;
+  transition: 0.6s;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+.social :nth-child(3) {
+  background-color: #dd4b39;
+  border-color: #dd4b39;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1rem;
+  text-align: center;
+  margin: 5px 5px;
+  transition: 0.6s;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+}

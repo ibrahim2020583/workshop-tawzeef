@@ -36,6 +36,7 @@
         <i class="fas fa-arrow-up"></i>
       </button>
     </div>
+  
     <!-- ---------start-project----------- -->
     <!-- ------------header------------- -->
     <header>
@@ -76,7 +77,7 @@
             </ul>
            
             <div class="  btns">
-              <button class="btn bt m-3 fs-5 fw-bolder ">login</button>
+              <button class="btn bt m-3 fs-5 fw-bolder  " onclick= "Get()">login</button>
               <button class="btn m-3 fs-5 fw-bolder ">Post A Job</button>
             </div>
           </div>
@@ -84,9 +85,54 @@
 
          
         </div>
-
+        
       </div>
     </nav>
+    <div class="container">
+      
+      <div class="row d-flex justify-content-center position-absolute start-50  w-50  m-auto">
+        <div class="login-form col-md-6 mt-5   rounded position-relative d-none animate__animated animate__fadeInUp animate__delay-1s">
+          <button class="position-absolute top-0 end-0  btn-1 btn-danger" id="close" onclick="myFunction()">X</button>
+          <h3 class="text-center">login with Us</h3>
+          <form class="  " >
+            <div class="mb-3 ">
+              <label for="exampleInputusername" class="form-label">UserName</label>
+              <input type="text" class="form-control rounded-pill" id="UserName" placeholder="username">
+              
+            </div>
+            <div class="mb-3 ">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password " class="form-control rounded-pill" id="exampleInputPassword1" placeholder="password">
+            </div>
+            
+              <div class="d-flex justify-content-between ">
+                <div class="mb-3 form-check ">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Remember me
+                  </label>
+                </div>
+                <div class="">
+                 <a href="">Forgot Password</a>
+                </div>
+              </div>
+            
+            <div class="btn-login  ">
+              <button type="submit" class="btn-1 btn-success w-100  rounded-pill ">Login </button>
+            </div>
+            <div class="sign-up  mt-5">
+              <div class="">
+                <h4 class="text-center text-muted">or sign in with</h4>
+              </div>
+              <div class="social mt-5 text-light  d-flex justify-content-center ">
+                <i class="fab fa-facebook-f rounded-circle "></i>
+                <i class="fab fa-twitter rounded-circle"></i>
+                <i class="fab fa-google rounded-circle"></i>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
 
 
 
@@ -142,6 +188,7 @@
       <div class="row g-2">
         <div class="col-md-3">
           <div class="form-floating">
+            
             <input type="text" class="form-control" id="floatingInputGrid" placeholder="" value="">
             <label for="floatingInputGrid">Search Kayword</label>
           </div>
@@ -149,7 +196,7 @@
         <div class="col-md-3 col-6">
           <div class="form-floating">
             <select class="form-select" id="floatingSelectGrid" aria-label="">
-              <option selected>Location</option>
+              <option selected >Location</option>
               <option value="1">Dhek</option>
               <option value="2">California, USA</option>
               <option value="3">alex, Egypt</option>
@@ -180,28 +227,26 @@
     <div class="popular text-center wow animate__animated animate__fadeInUp" data-wow-duration="1s"
       data-wow-offset="200">
       <div class="row">
-        <div class="col">
+        <div class="col-md-2 col-4">
           <p>Popular Search :</p>
         </div>
-        <div class="col">
+        <div class="col-md-2   col-4 pt-2">
           <button type="button" class="btn">Design&Creative</button>
         </div>
 
-        <div class="col">
+        <div class="col-md-2  col-4 pt-2">
           <button type="button" class="btn">Markting</button>
         </div>
-        <div class="col">
+        <div class="col-md-2   col-4 pt-2">
           <button type="button" class="btn">Administration</button>
         </div>
-        <div class="col">
+        <div class="col-md-2   col-4 pt-2">
           <button type="button" class="btn">Teaching&Education</button>
         </div>
-        <div class="col">
+        <div class="col-md-2  col-4 pt-2">
           <button type="button" class="btn">Engineering</button>
         </div>
-        <div class="col">
-          <button type="button" class="btn">Software&Web</button>
-        </div>
+       
 
 
       </div>
@@ -453,38 +498,38 @@ end section job-title
  <div class="container">
   <div class="popolar_categories">
     <h2>Popolar Categories</h2>
-    <div class="row d-flex justify-content-between">
-      <div class="poplar text-center col-md-3 col-12 wow animate__animated animate__fadeInDown " data-wow-duration="1s" data-wow-offset="200">
+    <div class="row d-flex justify-content-around">
+      <div class="poplar text-center col-md-3 col-12 mt-2 wow animate__animated animate__fadeInDown  " data-wow-duration="1s" data-wow-offset="200">
       <h5><i class="fas fa-calculator"></i></h5>
       <p>Accounting/Finance</p>
       <span class="rounded  ">10,391</span>
     </div>
-      <div class="poplar text-center col-md-3 col-12 wow animate__animated animate__fadeInDown" data-wow-duration="1.5s"data-wow-offset="200">
+      <div class="poplar text-center col-md-3 col-12 mt-2 wow animate__animated animate__fadeInDown" data-wow-duration="1.5s"data-wow-offset="200">
       <h5><i class="fas fa-tools"></i></h5>
       <p>Automotive/jobs</p>
       <span class="rounded  ">192</span>
     </div>
-      <div class="poplar text-center col-md-3 col-12 wow animate__animated animate__fadeInDown" data-wow-duration="2s"data-wow-offset="200">
+      <div class="poplar text-center col-md-3 col-12 mt-2 wow animate__animated animate__fadeInDown" data-wow-duration="2s"data-wow-offset="200">
       <h5><i class="fas fa-hard-hat"></i></h5>
       <p>Constrution</p>
       <span class="rounded  ">1,091</span>
     </div>
   </div>
-    <div class="row d-flex justify-content-between pt-3">
-      <div class="poplar text-center col-md-3 col-12  wow animate__animated animate__fadeInUp
+    <div class="row d-flex justify-content-around mt-2">
+      <div class="poplar text-center col-md-3 col-12 mt-2  wow animate__animated animate__fadeInUp
       " data-wow-duration="1s"data-wow-offset="200">
       <h5><i class="fas fa-paint-brush"></i></h5>
       <p>Art/Design</p>
-      <span class="rounded  ">5,734</span>
+      <span class="rounded  ">5,733</span>
     </div>
-      <div class="poplar text-center col-md-3 col-12 wow animate__animated animate__fadeInUp
+      <div class="poplar text-center col-md-3 col-12 mt-2 wow animate__animated animate__fadeInUp
       " data-wow-duration="1.5s"data-wow-offset="200">
       <h5>
         <i class="fas fa-plus-square"></i></h5>
       <p>Healthcare</p>
-      <span class="rounded  ">482</span>
+      <span class="rounded  ">382</span>
     </div>
-      <div class="poplar text-center col-md-3 col-12 wow animate__animated animate__fadeInUp
+      <div class="poplar text-center col-md-3 col-12 mt-2  wow animate__animated animate__fadeInUp
       " data-wow-duration="2s"data-wow-offset="200">
       <h5>
         <i class="fas fa-utensils"></i>
@@ -675,8 +720,8 @@ end section job-title
 <!-- =============================
 end section Testimonial
 ============================= -->
-
   <!-- =============================
+    
     start section footer
   ============================= -->
 

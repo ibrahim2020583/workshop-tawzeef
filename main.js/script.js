@@ -45,3 +45,13 @@ $('.our-companies').slick({
       }
     ]
   });
+ function myFunction(){
+        let form = document.querySelector('.login-form')
+        form.classList.add('d-none');
+       
+    }
+    function Get(){
+        let form = document.querySelector('.login-form')
+        form.classList.remove('d-none')
+        form.classList.add('d-block')
+    }
