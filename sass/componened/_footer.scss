@@ -26,12 +26,12 @@
             }
             .fa-envelope-open,
              .fa-phone,
-             .fa-map-marker-alt,
+             .fa-map-marker,
              .fa-internet-explorer,
              .fa-twitter,
              .fa-instagram,
              .fa-dribbble,
-             .fa-facebook-f,
+             .fa-facebook,
              .fa-linkedin
                         {
                 color: $green_color;
@@ -69,4 +69,65 @@
        }
     }
    }
-  
+   /* Start Section Loading */
+
+   .loading-page {
+       background:$green-color;
+       color:#FFF;
+       position:fixed;
+       left:0;
+       top:0;
+       width:100%;
+       height:100%;
+       z-index:99999
+   }
+   
+   .logo-web {
+     width: 200px;
+     height: 200px;
+     line-height: 200px;
+     text-align: center;
+     position: relative;
+     margin: 300px auto;
+     h2{
+       line-height: 200px;
+     }  
+   
+   }
+   
+   .double-bounce1, .double-bounce2 {
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+     background-color: $main-color;
+     opacity: 0.6;
+     position: absolute;
+     top: 0;
+     left: 0;
+     -webkit-animation: bounce 2.0s infinite ease-in-out;
+     animation: bounce 2.0s infinite ease-in-out;
+   }
+   
+   .double-bounce2 {
+     -webkit-animation-delay: -1.0s;
+     animation-delay: -1.0s;
+     
+   }
+   
+   
+   @-webkit-keyframes bounce {
+     0%, 100% { -webkit-transform: scale(0.0) }
+     50% { -webkit-transform: scale(1.0) }
+   }
+   
+   @keyframes bounce {
+     0%, 100% { 
+       transform: scale(0.0);
+       -webkit-transform: scale(0.0);
+     } 50% { 
+       transform: scale(1.0);
+       -webkit-transform: scale(1.0);
+     }
+   }
+   
+   /* End Section Loading */

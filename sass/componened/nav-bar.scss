@@ -4,12 +4,51 @@
       font-family: $font1;
       font-size: 2rem
     };
+    .nav-item{
+      &:hover{
+       @extend .active;
+      }
+      
+  }
+      
+   .active{
+      position: relative;
+      &::after {
+       position: absolute;
+       left: 0;
+       right: 21px !important;
+       bottom:0;
+       width: 5px;
+       height: 5px;
+       background: green;
+       content: "";
+       margin: 0 auto;
+       border-radius: 50%;
+       transition: all, 0.3s;
+       @media only screen and (max-width: 992px)
+       {
+             opacity: 0;
+  }
+ 
+  }
+   }
     .collapse{
   .navbar-nav{padding: 10px 0;
     transition: .6s;
     
 
     .nav-item{
+      
+      .dropdown-toggle::after {
+        display: inline-block;
+         margin-left: 0; 
+        vertical-align: 0; 
+        content: "";
+        border-top: .3em solid;
+        border-right: .3em solid transparent;
+        border-bottom: 0;
+        border-left: .3em solid transparent;
+    }
       .nav-link{
         padding-right:  40px;
         font-family: $font1;
@@ -17,28 +56,36 @@
         font-size: 1.5rem;
         transition: .6s;
         font-weight: 500;
-        &:hover  {color: $green_color;};
+       &:hover{
+        color: $green_color;
+       }
+      
+         
       }
-      .active{color: $green_color}
+     
+     
     };
     .dropdown{
-      
       .dropdown-menu{transition: .6s;
         .dropdown-item{font-family: $font1;
+          color: $green_color;
           font-size:1.5rem;
-        &:hover{background-color: $green_color}}
+        &:hover{background-color: $green_color;
+          color: $white_color;
+        }}
       }
-
       }
     };
   }
-  .btns{font-family: $font1;
+  .btns{
+    font-family: $font1;
     font-weight: 700;
   }
- .bt{ background-color: $green_color;
+ a{ 
   color: $white_color;
-  
-  ;
+  .fa-user,.fa-sign-in-alt{
+    margin-left:5px; 
+  }
    &:hover{
      background-color:transparent;
      color: $green_color
