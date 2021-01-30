@@ -71,6 +71,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2rem;
 }
 .navbar .active, .navbar .nav-item:hover {
+  color: #00D363 !important;
+  font-size: 22px;
+  font-weight: bolder;
   position: relative;
 }
 .navbar .active::after, .navbar .nav-item:hover::after {

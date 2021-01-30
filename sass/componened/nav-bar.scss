@@ -12,6 +12,9 @@
   }
       
    .active{
+    color: $green_color !important;
+    font-size: 22px;
+    font-weight: bolder;
       position: relative;
       &::after {
        position: absolute;
