@@ -1,6 +1,6 @@
 
 .job-title{
-    padding: $padding 25px;
+    padding: $padding 25px ;
 background-color:$body-color;
     font-family: 'Amiri', serif;
    
@@ -116,6 +116,7 @@ h2{
         background: #EFFDF5;
         margin-right: 15px;
         transition: .5s;
+        
         &:hover{
             background-color: $green_color;
             color: $white_color;

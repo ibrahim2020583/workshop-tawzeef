@@ -45,6 +45,7 @@ $('.our-companies').slick({
       }
     ]
   });
+<<<<<<< HEAD
  function myFunction(){
         let form = document.querySelector('.login-form')
         form.classList.add('d-none');
@@ -55,3 +56,44 @@ $('.our-companies').slick({
         form.classList.remove('d-none')
         form.classList.add('d-block')
     }
+=======
+
+// Loading Screen
+
+$(window).load(function () {
+    
+    "use strict";
+    
+    // Loading Elements
+    
+    $(".loading-page .logo-web").fadeOut(2000, function () {
+        
+        // Show The Scroll
+
+        $("body").css("overflow", "auto");
+        
+        $(this).parent().fadeOut(2000, function () {
+            
+            $(this).remove();
+        });
+    });
+});
+
+
+// ==================
+// add or removing active
+// =======================
+
+// ==================
+// add or removing active
+// =======================
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("nav-link");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+>>>>>>> 4c5aa89db298895855b7d2c39e1319f4a3173b71
