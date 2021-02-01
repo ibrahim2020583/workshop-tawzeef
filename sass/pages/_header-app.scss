@@ -1,28 +1,43 @@
-.carousel{
-    .carousel-inner{
-        .carousel-item {
-            img{max-height: 800px;};
-
-                
-              
-                  
-                }
-            .overlay{
-              @include overlay;
-            };
-        ;
-        .carousel-caption{
-            z-index: 5;
+header{
+    background: url(../images/banner/banner.png) no-repeat center center  ;
+    background-size: cover;
+   ;
+     
+    
+    .header-banner{
+        
+        .header-titel{color:$white_color;
             text-align: left;
-            h2{font-family: $font1;
-            font-size: 5rem;}
-            h5{font-family: $font2;
-            font-size: 1.5rem;}
-            p{font-family: $font2;
-            font-size: 1.5rem;}
+            margin-top: 15%
+            
+            ;
+            @media only screen and (max-width: 600px){
+                margin-top: 35%;
+            }
+        
+            h5{font-size: 2rem;
+               font-family: $font2;};
+               h2{
+                   font-size: 3.2rem;
+                   line-height: 75px;
 
+               };
+               p{
+                   font-size: 1rem;
+                   margin-bottom: 35px;
+               };
+               button{padding: 13px 29px;
+            font-size: 1.5rem;
+        font-weight: 500;
+        box-shadow:none !important;
+        outline: none!important
+    ;}
+            
         }
+    };
+    .header-img{
+        margin-top: 25%;
+        text-align: right;
+        img{width: 80%;}
     }
 }
-
-.carousel-control-next , .carousel-control-prev{ top: 28%;}

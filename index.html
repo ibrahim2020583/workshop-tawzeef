@@ -37,175 +37,94 @@
       </button>
     </div>
   
-    <!-- ---------start-project----------- -->
-    <!-- ------------header------------- -->
-    <!-- ------------------navbar---------------------- -->
-    
-    <nav id="myDIV" class="navbar navbar-expand-lg navbar-light position-fixed w-100 top-0 left-0   ">
-          
-        
-          <div class="container">
-            <a class="navbar-brand text-light" href="#">
-            Logo
-            </a>
-            <button class="navbar-toggler bg-info mr-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon "></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active " aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="#AboutUs">About Us</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#Blog" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Blog
-                  </a>
-                  <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Blog</a></li>
-                    <li><a class="dropdown-item" href="#">Singl- blog</a></li>
-                    
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#Jobs">Jobs</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#ContactUs">Contact Us</a>
-                </li>
+    <!-- ----------------start-project-------------- -->
+<!-- ------------------------header---------------------- -->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light    ">
+      
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+                <li><a class="dropdown-item" href="#">Single Blog</a></li>
                 
               </ul>
-             
-              <!-- <div class="  btns"> -->
-                <li class="nav-item">
-                  <a class="nav-item nav-link" href="#" >sign up<i class="fa fa-user"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-item nav-link" href="#"onclick="Get()"  >log in<i class="fa fa-sign-in-alt"></i></a>
-                </li>
-                
-            <!-- </div> -->
-          </div>
-             
-          
-  
-          
-          </div>
-          
-        </nav>
-      
-      
-    <!-- login -form -->
-    <div class="container">
-      
-      <div class="row d-flex justify-content-center position-absolute start-50  w-50  m-auto">
-        <div class="login-form col-md-6 mt-5   rounded position-relative d-none animate__animated animate__fadeInUp animate__delay-1s">
-          <button class="position-absolute top-0 end-0  btn-1 btn-danger" id="close" onclick="myFunction()">X</button>
-          <h3 class="text-center">login with Us</h3>
-          <form class="  " >
-            <div class="mb-3 ">
-              <label for="exampleInputusername" class="form-label">UserName</label>
-              <input type="text" class="form-control rounded-pill" id="UserName" placeholder="username">
-              
-            </div>
-            <div class="mb-3 ">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password " class="form-control rounded-pill" id="exampleInputPassword1" placeholder="password">
-            </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Browse Job</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex ">
+            <button class="btn-1 " type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">login</button>
             
-              <div class="d-flex justify-content-between ">
-                <div class="mb-3 form-check ">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Remember me
-                  </label>
-                </div>
-                <div class="">
-                  <a href="">Forgot Password</a>
-                </div>
-              </div>
-              
-            <div class="btn-login  ">
-              <button type="submit" class="btn-1 btn-success w-100  rounded-pill ">Login </button>
-            </div>
-            <div class="sign-up  mt-5">
-              <div class="">
-                <h4 class="text-center text-muted">or sign in with</h4>
-              </div>
-              <div class="social mt-5 text-light  d-flex justify-content-center ">
-                <i class="fab fa-facebook-f rounded-circle "></i>
-                <i class="fab fa-twitter rounded-circle"></i>
-                <i class="fab fa-google rounded-circle"></i>
-              </div>
-            </div>
+
+            <button class="btn-1 " type="submit">Want A Job</button>
+            
           </form>
         </div>
       </div>
-    </div>
-<!-- /login -form -->
+    
+    </nav>
+  <!-- -----------------------navbar---------------------------- -->
+    
+    <!-- -----------------------/navbar---------------------------- -->
+    <!-- -----------------------header-banner--------------- -->
+    <section class="header-banner">
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="header-titel col-md-6 col-12 animate__animated animate__fadeInLeft animate__delay-2s">
+            <h5>4536+ Jobs listed</h5>
+            <h2>Find your Dream Job</h2>
+            <p>We provide online instant cash loans with quick approval that suit your term length
+            </p>
+            <button class="btn-1"> Post A Job</button>
 
-
-    <!-- ------------------/navbar---------------------- -->
-
-    <header>
-    <!-- -------------carsoul--------------------- -->
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/slider/about.png" class="d-block w-100 position-relative" alt="...">
-          <div class="overlay"></div>
-          <div class="carousel-caption top-50 d-none d-md-block">
-            <h5 class="animate__animated animate__fadeInRight animate__delay-2s fw-bolder">4536+ Jobs listed</h5>
-            <h2 class=" animate__animated animate__fadeInDown animate__delay-1s fw-bolder">Find your Dream Job</h2>
-            <button class="btn bt m-3 fs-5 fw-bolder ">Want A Job</button>
-            
-            
-            
+              
           </div>
-          
-        </div>
-        <div class="carousel-item">
-          <img src="images/slider/faq.png" class="d-block w-100 position-relative" alt="...">
-          <div class="overlay"></div>
-          <div class="carousel-caption top-50 d-none d-md-block ">
-            <h2 class="animate__animated animate__fadeInDown animate__delay-1s fw-bolder">Your Dream
-              Job is Waiting</h2>
-              <p class="animate__animated animate__fadeInUp animate__delay-2s fw-bolder">We provide online instant cash
-                loans with quick approval that suit your term length</p>
-  
-            </div>
-        
-        
-        </div>
-
+          <div class="header-img  d-none d-md-block text-right col-md-6  animate__animated animate__fadeInRight animate__delay-2s">
+            <img src="images/banner/illustration.png" alt="">
+          </div>
+        </div>.
       </div>
-      <a class="carousel-control-prev " href="#carouselExampleFade" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </a>
-      <a class="carousel-control-next " href="#carouselExampleFade" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </a>
-    </div>
-    <!-- -------------/carsoul--------------------- -->
-
-  </header>
-  <!-- ------------/header------------- -->
-  <!-- -------------search-job--- -->
- <section class="searchjob">
+    </section>
+    <!-- -----------------------/header-banner--------------- -->
+  
+</header>
+<!-- ------------------------/header---------------------- -->
+<!-- ------------------------search-Job---------------------- -->
+<section class="search-job">
   <div class="container">
-    <div class="search-job wow animate__animated animate__fadeInDown " data-wow-duration="1s" data-wow-offset="200">
+    <div class="section-titel">
+      <h2>Find Job</h2>
+    </div>
+    <div class="searchjob  " ">
       <div class="row g-2">
         <div class="col-md-3">
           <div class="form-floating">
             
-            <input type="text" class="form-control" id="floatingInputGrid" placeholder="" value="">
+            <input type="text " class="form-control col-md-3 col-12" id="floatingInputGrid" placeholder="" value="">
             <label for="floatingInputGrid">Search Kayword</label>
           </div>
         </div>
-        <div class="col-md-3 col-6">
+        <div class="col-md-3 col-12">
           <div class="form-floating">
             <select class="form-select" id="floatingSelectGrid" aria-label="">
               <option selected >Location</option>
@@ -216,7 +135,7 @@
             <label for="floatingSelectGrid">Location</label>
           </div>
         </div>
-        <div class="col-md-3 col-6">
+        <div class="col-md-3 col-12">
           <div class="form-floating">
             <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
               <option selected>Category</option>
@@ -228,73 +147,65 @@
           </div>
         </div>
         <div class="find-job col-md-3 col-12">
-          <button class="btn btn-lg">Find Job</button>
+          <button class="btn-1 btn-lg">Find Job</button>
         </div>
       </div>
     </div>
   </div>
- </section>
-  <!-- -------------/search-job--- -->
-  <!-- -------------Popular-search--- -->
-  <section class="popularsearch">
-    <div class="container">
-      <div class="popular text-center wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-        data-wow-offset="200">
-        <div class="row">
-          <div class="col-md-2 col-4">
-            <p>Popular Search :</p>
-          </div>
-          <div class="col-md-2   col-4 pt-2">
-            <button type="button" class="btn">Design&Creative</button>
-          </div>
-  
-          <div class="col-md-2  col-4 pt-2">
-            <button type="button" class="btn">Markting</button>
-          </div>
-          <div class="col-md-2   col-4 pt-2">
-            <button type="button" class="btn">Administration</button>
-          </div>
-          <div class="col-md-2   col-4 pt-2">
-            <button type="button" class="btn">Teaching&Education</button>
-          </div>
-          <div class="col-md-2  col-4 pt-2">
-            <button type="button" class="btn">Engineering</button>
-          </div>
-         
-  
-  
+</section>
+<!-- ------------------------/search-Job---------------------- -->
+<!-- ------------------------Popular Search--------------------- -->
+<section class="popular-search">
+  <div class="container">
+    <div class="section-titel">
+      <h2>Popular Search:</h2>
+      <div class="row d-flex align-items-center text-center">
+        <div class="search-titel col-md-2  col-6 p-1">
+          <button class="btn-1"> Design&Creative</button>
+        </div>
+        <div class="search-titel col-md-2  col-6 p-2">
+          <button class="btn-1"> Marketing</button>
+        </div>
+        <div class="search-titel col-md-2  col-6 p-2">
+          <button class="btn-1"> Adiministration</button>
+        </div>
+        <div class="search-titel col-md-2  col-6 p-2">
+          <button class="btn-1"> Teaching</button>
+        </div>
+        <div class="search-titel col-md-2  col-6 p-2">
+          <button class="btn-1"> Software&Web</button>
+        </div>
+        <div class="search-titel col-md-2  col-6 p-2 ">
+          <button class="btn-1 "> Enginneering</button>
         </div>
       </div>
     </div>
-  </section>
-  <!-- -------------/Popular-search--- -->
-  <!-- ---------end-project----------- -->
-<!-- ------------------About us--------------- -->
-<section id="AboutUs">
+  </div>
+</section>
+<!-- ------------------------/Popular Search---------------------- -->
+<!-- ------------------------About Us---------------------- -->
+<section class="aboutUs">
   <div class="container">
-    <div class="row">
-      <div class="video-about col-md-6 col-12 rounded wow animate__animated animate__slideInDown " data-wow-duration="2s" data-wow-offset="200">
-        <div class="overlay"></div>
+    <div class="row d-flex justify-content-between">
+      <div class="about-vedio col-md-6 col-12 border rounded-3 wow animate__animated animate__fadeInDown" data-wow-duration="2s" data-wow-offset="200">
+  
         
         <div class="play-video border rounded-circle">
-          <i class="fas fa-play"></i>
-        </div>
-      
-        </div>
-        <div class="about-titel col-md-6 col-12 wow animate__animated animate__slideInUp " data-wow-duration="2s" data-wow-offset="200">
-          <h2>About Us</h2>
-          <h6>Why People Choose Us ?</h6>
-          <p>We pay a lot of attention to the employers we cooperate with and vacancies they submit to our job board.
-            We have recently launched our employment blog where we review top rated vacancies and give useful advice to our readers.
-            We pay a lot of attention to the employers we cooperate with and vacancies they submit to our job board.
-            
-          </p>
+          <i class="fas fa-play " type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal-1" ></i>
         </div>
       </div>
+      <div class="about-titel  col-md-5 col-12 wow animate__animated animate__fadeInUp pt-5 " data-wow-duration="2s" data-wow-offset="200">
+       <div class="section-titel">
+         <h2>ABOUT US</h2>
+       </div>
+       <h5> Careers for Your Careers</h5>
+       <p>Eveniet voluptatibus voluptates suscipit minima, cum voluptatum ut dolor, sed facere corporis qui, ea quisquam quis odit minus nulla vitae. Sit, voluptatem.</p>
+       <p>Ipsum harum assumenda in eum vel eveniet numquam, cumque vero vitae enim cupiditate deserunt eligendi officia modi consectetur. Expedita tempora quos nobis earum hic ex asperiores quisquam optio nostrum sit!</p>
+      </div>
     </div>
-  
+  </div>
 </section>
-<!-- ------------------/About us--------------- -->
+<!-- ------------------------/About Us---------------------- -->
   
 <!-- =============================
     start section job-title
@@ -835,6 +746,122 @@ end section Testimonial
     </div>
   </div>
   </div>
+
+
+<!-- login form -->
+   <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog  ">
+    <div class="modal-content ">
+      <div class="modal-header">
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body ">
+        <div class="container">
+         
+          <div class="row d-flex justify-content-center  w-100  m-auto">
+            <div class="login-form    rounded position-relative ">
+             
+             
+              <form class=" " >
+                <div class="mb-3 ">
+                  <label for="exampleInputusername" class="form-label">UserName</label>
+                  <input type="text" class="form-control rounded-pill" id="UserName" placeholder="username">
+                  
+                </div>
+                <div class="mb-3 ">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password " class="form-control rounded-pill" id="exampleInputPassword1" placeholder="password">
+                </div>
+                
+                  <div class="d-flex justify-content-between ">
+                    <div class="mb-3 form-check ">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Remember me
+                      </label>
+                    </div>
+                    <div class="">
+                     <a href="">Forgot Password</a>
+                    </div>
+                  </div>
+                
+                <div class="btn-login  ">
+                  <button type="submit" class="btn-1  w-100  rounded-pill ">Login </button>
+                </div>
+                <div class="sign-up  mt-5">
+                  <div class="">
+                    <h4 class="text-center text-muted">or sign in with</h4>
+                  </div>
+                  <div class="social mt-5 text-light  d-flex justify-content-center ">
+                    <i class="fab fa-facebook-f face "></i>
+                    <i class="fab fa-twitter twitter"></i>
+                    <i class="fab fa-google google"></i>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div> 
+      </div>
+      
+    </div>
+  </div>
+</div>
+   <!-- /login form -->
+   <!-- about-vedio -->
+   <!-- Modal -->
+<div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-light">
+      <div class="modal-header">
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body ">
+        <video src="vedio/I Can't Believe This Job Board Got $1.5 Million in Funding.mp4"  class="w-100" controls autoplay muted>
+         
+        </video>
+      </div>
+     
+    </div>
+  </div>
+</div>
+   <!-- /about-vedio -->
+  
+  
+  
+    
+       
+       
+<!-- ----------------/start-project-------------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   <!-- Optional JavaScript; choose one of the two! -->

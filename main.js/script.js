@@ -4,7 +4,7 @@ AOS.init();
 window.addEventListener('scroll' , ()=> {
     let nav = document.querySelector('.navbar')
     let btn = document.querySelector(".back-top")
-    nav.classList.toggle('sticky' , window.scrollY > 200),
+    nav.classList.toggle('sticky' , window.scrollY > 0),
     btn.classList.toggle('d-block' , window.scrollY > 200)
 })
 // slick slider
@@ -78,19 +78,4 @@ $(window).load(function () {
 });
 
 
-// ==================
-// add or removing active
-// =======================
 
-// ==================
-// add or removing active
-// =======================
-var header = document.getElementById("myDIV");
-var btns = header.getElementsByClassName("nav-link");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
-}

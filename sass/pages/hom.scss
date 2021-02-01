@@ -9,34 +9,105 @@
   }
 }
 
+
+// find job
 .search-job {
- padding: 100px 0;
+  padding: 50px 0;
+  background-color:$body-color;
+  .section-titel{
+      h2{
+          font-size: 2.5rem;
+          font-weight: 400;
+          font-family: $font1;
 
-  label {
-    font-size: 1.5rem;
-    font-family: $font1;
+      }
   }
-  .find-job {
-    button {
-      padding: 10px 50px;
-      font-family: $font1;
-      font-size: 1.5rem;
-    }
-  }
-}
+ 
+   label {
+     font-size: 1.5rem;
+     font-family: $font1;
+      
+   };
+  .find-job{
+      button{
+          width: 100%;
+          padding: 13px 30px;
+          outline: none!important;
+      }
+  }}
+// find job
+// Popular Search
+.popular-search{
+  padding: 30px 0;
+  background-color:$body-color;
+  .section-titel{
+      h2{
+          font-size: 2.5rem;
+          font-weight: 400;
+          font-family: $font1;
 
-.popular {
+      };
+      .search-titel{
+          button{
+              padding: 5px 15px;
+              outline: none;
+              font-size: 1.2rem;
+              width: 100%;
+             
+          }
+      }
+}}
+// Popular Search
+// AboutUs
+.aboutUs{
   padding: 100px 0;
-  p {
-    font-size: 1.4rem;
-    padding: 5px 0;
-    font-weight: bolder;
-    font-family: $font1;
-  }
-  button {
-    padding: 5px 5px;
-  }
+  .about-vedio{
+      background:url(../images/about/photo-1544717297-fa95b6ee9643.jpg)no-repeat center center;
+      background-size:cover;
+      padding: 200px 0;
+     box-shadow: 5px 10px #888888
+
+  };
+  .play-video {
+      background-color: $blue_color;
+      font-size: 3rem;
+      width: 80px;
+      height: 80px;
+      line-height: 90px;
+      text-align: center !important;
+      margin: auto;
+      color: $white_color;
+    };
+    .about-titel{
+        padding: 30px 35px;
+        box-shadow: 5px 10px 10px 5px #888888
+        ;
+        .section-titel{
+            h2{font-size: 2.5rem;
+              font-weight: 400;
+              font-family: $font1; 
+          }
+        };
+        h5{
+            font-size: 1.5rem;
+            font-weight: 400;
+            font-family: $font2;
+            opacity: .8;
+            text-align: center;
+            
+        };
+        p{
+            font-size: 1.2rem;
+            font-weight: 400;
+            font-family: $font2;
+            opacity: .5;
+            padding: 15px 0;
+            
+        }
+    }
 }
+//About Us
+
 
 #Featured-Candidates {
   margin-top: $section_top;
@@ -244,54 +315,7 @@
   }
 }
 
-// About us
-#AboutUs {
-  padding: 100px 0;
 
-  .video-about {
-    margin: auto;
-    background: url(../../images/job/01.png) center no-repeat;
-    padding: 130px 0;
-    position: relative;
-
-    .play-video {
-      background-color: $green_color;
-      font-size: 3rem;
-      width: 80px;
-      height: 80px;
-      line-height: 80px;
-      text-align: center !important;
-      margin: auto;
-      color: $white_color;
-    }
-  }
-  .overlay {
-    @include overlay;
-  }
-  .about-titel {
-    h2 {
-      font-family: $font1;
-      font-size: 2.5rem;
-      font-weight: bolder;
-      padding: 20px 30px;
-      opacity: 0.5;
-    }
-    h6 {
-      font-family: $font1;
-      font-size: 2rem;
-      font-weight: bolder;
-      padding: 10px 25px;
-      opacity: 0.6;
-    }
-    p {
-      font-family: $font2;
-      font-size: 1.5rem;
-      font-weight: bolder;
-      line-height: 30px;
-      opacity: 0.4;
-    }
-  }
-}
 // Popolar Categories
 .popolar_categories {
   padding: 100px 0;
@@ -350,66 +374,3 @@
 }
 
 // Popolar Categories
-.login-form{
-  background-color:$gray-color3;
-  z-index: 1000;
-  top: 30px;
-  button{
-    // pointer-events: none;
-    
-    &:hover{
-      opacity: 0.7!important;
-    }
-  }
- 
-form {
-  padding: 5px 10px;
-}
-
-.social :nth-child(1) {
-  background-color: #3b5998;
-  border:1px solid #3b5998 ;
-  
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  font-size: 1rem;
-  text-align: center;
-  margin: 5px 5px;
-  transition: 0.6s;
-  &:hover {
-    opacity: 0.7;
-  }
-}
-.social :nth-child(2) {
-  background-color: #55acee;
-  border-color: #55acee;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  font-size: 1rem;
-  text-align: center;
-  margin: 5px 5px;
-  transition: 0.6s;
-  &:hover {
-    opacity: 0.7;
-  }
-}
-.social :nth-child(3) {
-  background-color: #dd4b39;
-  border-color: #dd4b39;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  font-size: 1rem;
-  text-align: center;
-  margin: 5px 5px;
-  transition: 0.6s;
-  &:hover {
-    opacity: 0.7;
-  }
-}
-}
