@@ -41,10 +41,6 @@
               color: $main-color;
               margin-top: 40px;
               transition: .5s;
-
-              &:hover{
-                color: $green_color;
-              }
             }
 
           }
@@ -53,24 +49,21 @@
   }
   .carousel-control-prev-icon,
   .carousel-control-next-icon{
-    background-color: aqua;
-    border-radius: 50%;
-    
+    z-index: 1;
   }
   .carousel-control-prev{
     left: unset;
-   
     top: -150px;
 right: 0 !important;
   }
   .carousel-control-next{
-    top: 150px;
+    top: 50px;
   }
  .fa-angle-right,
   .fa-angle-left{
-  
-    color: $main-color !important;
-    background-color: $green_color !important;
+  z-index: 1;
+    color: $blue-color !important;
+    // background-color: #7FC1FC !important;
    width: 50px;
    height: 50px;
    line-height: 50px;
@@ -79,8 +72,8 @@ right: 0 !important;
    text-align: center;
    &:hover{
    
-    background-color: $main-color !important;
-    color: $green_color !important;
+    background-color: $blue-color !important;
+    color: #fff  !important;
    }
    @media only screen and(max-width:767px){
 visibility: hidden;    }

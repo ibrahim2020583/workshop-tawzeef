@@ -58,7 +58,9 @@ header{
  }
  .sticky {background-color:$black; transition: .6s; opacity: .7;z-index: 3;;
  
- 
+ .dropdown-menu{
+   margin-top: 15px;
+ }
    
        
      
