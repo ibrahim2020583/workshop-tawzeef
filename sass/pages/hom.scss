@@ -319,11 +319,48 @@ opacity: .8;
     }
   }
 }
+// dream-job
+.dream-job{
+ 
+  margin: 50px 0;
+  // border-radius:15px;
+  
+   ;
 
+  .dream-titel{
+    background:url(../images/job/hero-2.jpg)no-repeat center center;
+    background-size:cover;
+    background-attachment: fixed;
+  padding: 100px 0;
+  
+
+    h2{
+      font-size: 4rem;
+      font-weight: 400;
+      font-family: $font1;
+      color: $white_color;
+      padding: 10px 0;
+    };
+    h6{font-size: 2rem;
+    font-weight: 400;
+  font-family: $font2;
+color: $white_color;
+padding: 10px 0;}
+    ;
+button{
+  padding: 5px 15px;
+  outline: none;
+  font-size: 1.5rem;
+  margin: 20px 5px;
+}
+  }
+}
+// dream-job
 
 // Popolar Categories
 .popolar_categories {
   padding: 100px 0;
+  
   h2 {
     text-transform: capitalize;
     color: $childcolor;
@@ -333,10 +370,11 @@ opacity: .8;
     margin-top: 5px;
   }
   .poplar {
-    background-color: $gray-color;
+    background-color: $white_color;
     padding: 25px 0;
     width: 32%;
     transition: 0.6s;
+    box-shadow:5px 10px 10px 5px #888888 ;
 
 
     h5 {
@@ -359,17 +397,8 @@ opacity: .8;
     }
 
     &:hover {
-      background-color: $green_color;
-      h5 {
-        color: $gray-color;
-      }
-      p {
-        color: $white_color;
-      }
-      span {
-        background-color: $white_color;
-        color: $btn_bg;
-      }
+      background-color: $gray_color;
+     
     }
     @media only screen and (max-width: 767px) {
       width: 100%!important;
