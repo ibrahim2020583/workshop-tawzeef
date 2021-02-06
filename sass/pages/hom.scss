@@ -1,13 +1,4 @@
-// .back-top {
-//   right: 10px;
-//   bottom: 0;
-//   z-index: 6;
-//   display: none;
-//   transition: 0.7s;
-//   button {
-//     font-size: 2rem;
-//   }
-// }
+
 
 
 // find job
@@ -109,44 +100,7 @@
 //About Us
 
 
-#Featured-Candidates {
-  margin-top: $section_top;
-
-  .section-titel {
-    text-align: center;
-    font-size: 3rem;
-    font-family: $font1;
-    h1 {
-      padding-bottom: 25px;
-    }
-  }
-  .featured-candidates {
-    div {
-      margin: 0 5px;
-      text-align: center;
-      height: 250px;
-
-      img {
-        margin: auto;
-        padding: 10px 0;
-      }
-      h6 {
-        font-size: 1.2rem;
-        font-family: $font1;
-        font-weight: bolder;
-        padding: 5px 0;
-      }
-      p {
-        font-size: 1.2rem;
-        font-family: $font2;
-        font-weight: bolder;
-        padding: 5px 0;
-        opacity: 0.6;
-      }
-    }
-  }
-}
-
+// top-campanies
 #Top-Companies {
   padding: 100px 0;
   .our-companies {
@@ -178,6 +132,57 @@
     }
   }
 }
+// top -campanies
+// our-blog
+.our-blog{
+  padding: 50px 0;
+  background-color:$body-color;
+  .section-titel{ 
+    text-align: center;
+    h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: $font1;
+
+
+};
+}
+.single-blog{
+  width: 23%!important;
+  border-radius:2.3rem !important;
+  @media only screen and (max-width: 500px) {
+    width: 100% !important;;
+  }
+  
+  ;
+  img{width: 100%;
+    height: 250px;
+    ;
+    border-radius:2.3rem !important;
+    transition: .6s;
+    &:hover{opacity: .6;
+      
+     }
+  };
+  span{padding: 5px 10px;
+  opacity: .7;};
+  h4{
+  font-weight: bolder;
+font-family: $font1;};
+p{font-size: 1.1rem;
+font-weight: 400;
+opacity: .8;
+}
+
+  };
+  button{
+    padding: 5px 15px;
+    outline: none;
+    font-size: 1.2rem;
+    ;
+  }
+}
+// our-blog
 
 .job-title {
   padding: $padding 25px;
@@ -374,3 +379,24 @@
 }
 
 // Popolar Categories
+// model-veido
+#exampleModal-1{
+  .modal-content{
+    width: 150%;
+    right: 30%;
+    @media only screen and (max-width: 767px) {
+      width: 100%!important;
+      right: 0;
+    }
+    .btn-close{
+      color:$black !important;
+      background:none;
+      font-size: 1.5rem;
+      font-weight: bolder;
+      font-family: $font2;
+      text-align: center;
+      outline: none;
+      
+    }
+  }
+}

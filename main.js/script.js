@@ -1,19 +1,12 @@
-//animation div
-// AOS.init();
+
 // stickynavbar
 window.addEventListener('scroll' , ()=> {
     let nav = document.querySelector('.navbar')
-    let btn = document.querySelector(".back-top")
-    nav.classList.toggle('sticky' , window.scrollY > 0),
-    btn.classList.toggle('d-block' , window.scrollY > 200)
+    
+    nav.classList.toggle('sticky' , window.scrollY > 0)
+   
 });
-// slick slider
-// $('.featured-candidates').slick({
-//     infinite: true,
-//     slidesToShow: 3,
-//     slidesToScroll: 2,
-//     autoplay: true,
-//   autoplaySpeed: 2000
+
 //   });
 //   campony slider
 $('.our-companies').slick({
@@ -45,17 +38,7 @@ $('.our-companies').slick({
       }
     ]
   });
- function myFunction(){
-        let form = document.querySelector('.login-form')
-        form.classList.add('d-none');
-       
-    }
-    function Get(){
-        let form = document.querySelector('.login-form')
-        form.classList.remove('d-none')
-        form.classList.add('d-block')
-    }
-
+ 
 // Loading Screen
 
 $(window).load(function () {

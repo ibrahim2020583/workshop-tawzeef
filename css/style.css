@@ -114,6 +114,42 @@ header button {
   box-shadow: none !important;
   outline: none !important;
 }
+header .mode {
+  text-align: right;
+  padding: 10px 0;
+}
+header .label {
+  background-color: #00D363;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+  height: 28px;
+  width: 55px;
+  padding: 5px;
+  position: relative;
+}
+header .checkbox {
+  position: absolute;
+  opacity: 0;
+}
+header .checkbox:checked + label .ball {
+  transform: translateX(24px);
+}
+header .ball {
+  background-color: #fff;
+  height: 27px;
+  width: 27px;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  right: 0;
+  transition: 0.2s linear;
+}
+header i {
+  color: #fff;
+}
 
 .sticky {
   background-color: #000;
@@ -400,40 +436,6 @@ header .header-img img {
   padding: 15px 0;
 }
 
-#Featured-Candidates {
-  margin-top: 80px;
-}
-#Featured-Candidates .section-titel {
-  text-align: center;
-  font-size: 3rem;
-  font-family: "Amiri", serif;
-}
-#Featured-Candidates .section-titel h1 {
-  padding-bottom: 25px;
-}
-#Featured-Candidates .featured-candidates div {
-  margin: 0 5px;
-  text-align: center;
-  height: 250px;
-}
-#Featured-Candidates .featured-candidates div img {
-  margin: auto;
-  padding: 10px 0;
-}
-#Featured-Candidates .featured-candidates div h6 {
-  font-size: 1.2rem;
-  font-family: "Amiri", serif;
-  font-weight: bolder;
-  padding: 5px 0;
-}
-#Featured-Candidates .featured-candidates div p {
-  font-size: 1.2rem;
-  font-family: "Cairo", sans-serif;
-  font-weight: bolder;
-  padding: 5px 0;
-  opacity: 0.6;
-}
-
 #Top-Companies {
   padding: 100px 0;
 }
@@ -462,6 +464,55 @@ header .header-img img {
   font-weight: bolder;
   padding: 5px 0;
   opacity: 0.6;
+}
+
+.our-blog {
+  padding: 50px 0;
+  background-color: #f5f7fa;
+}
+.our-blog .section-titel {
+  text-align: center;
+}
+.our-blog .section-titel h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-family: "Amiri", serif;
+}
+.our-blog .single-blog {
+  width: 23% !important;
+  border-radius: 2.3rem !important;
+}
+@media only screen and (max-width: 500px) {
+  .our-blog .single-blog {
+    width: 100% !important;
+  }
+}
+.our-blog .single-blog img {
+  width: 100%;
+  height: 250px;
+  border-radius: 2.3rem !important;
+  transition: 0.6s;
+}
+.our-blog .single-blog img:hover {
+  opacity: 0.6;
+}
+.our-blog .single-blog span {
+  padding: 5px 10px;
+  opacity: 0.7;
+}
+.our-blog .single-blog h4 {
+  font-weight: bolder;
+  font-family: "Amiri", serif;
+}
+.our-blog .single-blog p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  opacity: 0.8;
+}
+.our-blog button {
+  padding: 5px 15px;
+  outline: none;
+  font-size: 1.2rem;
 }
 
 .job-title {
@@ -657,6 +708,26 @@ header .header-img img {
   .popolar_categories .poplar {
     width: 100% !important;
   }
+}
+
+#exampleModal-1 .modal-content {
+  width: 150%;
+  right: 30%;
+}
+@media only screen and (max-width: 767px) {
+  #exampleModal-1 .modal-content {
+    width: 100% !important;
+    right: 0;
+  }
+}
+#exampleModal-1 .modal-content .btn-close {
+  color: #000 !important;
+  background: none;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-family: "Cairo", sans-serif;
+  text-align: center;
+  outline: none;
 }
 
 .job-title {
@@ -936,6 +1007,12 @@ form h4 {
 }
 .modal .modal-header .btn-close {
   color: #fff !important;
+  background: none;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-family: "Cairo", sans-serif;
+  text-align: center;
+  outline: none;
 }
 
 .text #goup {
