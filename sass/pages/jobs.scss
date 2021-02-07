@@ -1,0 +1,86 @@
+.header-banner{
+   .header-titel{
+       margin-top: 25%
+   ;
+   
+};
+.header-img{
+    margin-top: 15%;
+    text-align: right;
+    img{width: 60%;}
+}
+} 
+.job-listing{
+    text-align: center;
+    margin: 100px 0;
+    .filter{
+        border-radius: 10px;
+        box-shadow: -5px -8px #888888;
+        height: 100%;
+        padding: 10px 0;
+        
+        .section-titel{
+            text-align: left;
+            padding: 15px 5px;
+            h2{
+                font-size: 2rem;
+                font-weight: 400;
+                font-family: $font1;
+            };
+        }
+        .form-filter{
+            padding: 10px 5px;
+            margin: auto
+            ;
+            .form-floating{
+                label{font-size: 1.5rem;};
+                option{font-family: $font2;}
+            };
+        }
+   
+    button{
+       width:  88%;
+      
+        font-size: 1.5rem;
+        letter-spacing: 4px;
+        font-weight: bolder;
+        margin: 10px 20px;
+    };
+ };
+ .our-job{
+ .job-ditaels{
+     box-shadow: 5px 8px #888888;
+     margin: 10px 0;
+     .jobs_left{ 
+         
+        padding: 15px 5px;
+         h2{
+            font-size: 1.5rem;
+            font-weight: 400;
+            font-family: $font1;
+        
+         };
+         
+         };
+         .job-right{
+             width: 50%;
+             .form-select{
+                option{font-family: $font2;
+                };
+             };
+             label{
+                 font-size: 1.5rem;
+                 padding: 5px 5px
+             };
+           
+             }
+             
+         }
+     };
+     button{
+        padding: 5px 15px;
+        outline: none;
+        font-size: 1.2rem;
+        ;
+      }
+ }

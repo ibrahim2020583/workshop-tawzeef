@@ -484,7 +484,8 @@ header .header-img img {
 }
 @media only screen and (max-width: 500px) {
   .our-blog .single-blog {
-    width: 100% !important;
+    width: 48% !important;
+    padding: 5px 0;
   }
 }
 .our-blog .single-blog img {
@@ -658,12 +659,24 @@ header .header-img img {
 
 .dream-job {
   margin: 50px 0;
-}
-.dream-job .dream-titel {
-  background: url(../images/job/hero-2.jpg) no-repeat center center;
+  background: url(../images/job/hero_1.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
+  position: relative;
+}
+.dream-job .overlay {
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  z-index: 0;
+  position: absolute;
+}
+.dream-job .dream-titel {
   padding: 100px 0;
+  z-index: 3000;
+  position: relative;
 }
 .dream-job .dream-titel h2 {
   font-size: 4rem;
@@ -1049,6 +1062,81 @@ form h4 {
   z-index: 1;
   font-size: 70px;
   cursor: pointer;
+}
+
+.header-banner .header-titel {
+  margin-top: 25%;
+}
+.header-banner .header-img {
+  margin-top: 15%;
+  text-align: right;
+}
+.header-banner .header-img img {
+  width: 60%;
+}
+
+.job-listing {
+  text-align: center;
+  margin: 100px 0;
+}
+.job-listing .filter {
+  border-radius: 10px;
+  box-shadow: -5px -8px #888888;
+  height: 100%;
+  padding: 10px 0;
+}
+.job-listing .filter .section-titel {
+  text-align: left;
+  padding: 15px 5px;
+}
+.job-listing .filter .section-titel h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Amiri", serif;
+}
+.job-listing .filter .form-filter {
+  padding: 10px 5px;
+  margin: auto;
+}
+.job-listing .filter .form-filter .form-floating label {
+  font-size: 1.5rem;
+}
+.job-listing .filter .form-filter .form-floating option {
+  font-family: "Cairo", sans-serif;
+}
+.job-listing .filter button {
+  width: 88%;
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  margin: 10px 20px;
+}
+.job-listing .our-job .job-ditaels {
+  box-shadow: 5px 8px #888888;
+  margin: 10px 0;
+}
+.job-listing .our-job .job-ditaels .jobs_left {
+  padding: 15px 5px;
+}
+.job-listing .our-job .job-ditaels .jobs_left h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Amiri", serif;
+}
+.job-listing .our-job .job-ditaels .job-right {
+  width: 50%;
+}
+.job-listing .our-job .job-ditaels .job-right .form-select option {
+  font-family: "Cairo", sans-serif;
+}
+.job-listing .our-job .job-ditaels .job-right label {
+  font-size: 1.5rem;
+  padding: 5px 5px;
+}
+.job-listing button {
+  padding: 5px 15px;
+  outline: none;
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
