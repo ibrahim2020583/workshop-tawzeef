@@ -7,7 +7,7 @@ header{
     .header-banner{
         
         .header-titel{color:$white_color;
-            text-align: left;
+            // text-align: left;
             margin-top: 15%
             
             ;
@@ -16,10 +16,14 @@ header{
             }
         
             h5{font-size: 2rem;
-               font-family: $font2;};
+               font-family: $font2;
+            //    text-align: right
+            };
                h2{
                    font-size: 3.2rem;
                    line-height: 75px;
+                //    text-align: right
+
 
                };
                p{
@@ -37,7 +41,7 @@ header{
     };
     .header-img{
         margin-top: 25%;
-        text-align: right;
+        // text-align: right;
         img{width: 80%;}
     }
 }

@@ -132,3 +132,83 @@ setInterval(()=>{
   img3.src = arr[randomNumber];
 },2000)
 // random image
+// /* <!-- * ------------------------------------------------------
+//  start choise langage and changed rtl or ltr navbar
+// ------------------------------------------------------------- --> */
+english.onclick = () => {
+  setLanugage("english");
+  localStorage.setItem("Lang", "english");
+};
+arabic.onclick = () => {
+  setLanugage("arabic");
+  localStorage.setItem("Lang", "arabic");
+};
+onload = () => {
+  setLanugage(localStorage.getItem("Lang"));
+};
+        // ========================
+        // nav bar
+        // ========================
+function setLanugage(getLanuage) {
+  if (getLanuage === "english") {
+    logo.innerHTML = "  tawzef.com";
+    home.innerHTML = "  Home ";
+    About.innerHTML = "About Us";
+    pages.innerHTML = "pages";
+    candidates.innerHTML = "candidates";
+    job.innerHTML = "job details ";
+    elements.innerHTML = "elements ";
+    Blog.innerHTML = "Blog";
+    Blog1.innerHTML = "Blog";
+    Single.innerHTML = "Single Blog ";
+    Browse.innerHTML = "Browse Job";
+    Contact.innerHTML = "Contact Us";
+    login.innerHTML = "login  ";
+    Job.innerHTML = "Want A Job  ";
+    english.innerHTML = "english  ";
+    arabic.innerHTML = "arabic  ";
+
+
+// =====================================
+//             translat header
+// =====================================
+    listed.innerHTML = "4536+ Jobs listed";
+    Dream.innerHTML = "Find your Dream Job";  
+    We.innerHTML = "We provide online instant cash loans with quick approval that suit your term length";  
+    post.innerHTML = " Post A Job ";  
+      ltr = document.body.style.direction = "ltr";
+  } else if (getLanuage === "arabic") {
+      logo.innerHTML = " توظيف كوم";
+      home.innerHTML = "  الرئيسية ";
+      About.innerHTML = "حول";
+      pages.innerHTML = "االصفحات";
+      candidates.innerHTML = "المرشحين";
+      job.innerHTML = "تفاصيل الوظائف";
+      elements.innerHTML = "العناصر ";
+      Blog.innerHTML = "المدونة";
+      Blog1.innerHTML = "مدونة";
+      Single.innerHTML = "مدونة شخصية";
+      Browse.innerHTML = "  تصفح الوظائف    ";
+      Contact.innerHTML = "تواصل معنا  ";
+      login.innerHTML = "دخول  ";
+      Job.innerHTML = "وظائف  ";
+      english.innerHTML = "انجليزي  ";
+      arabic.innerHTML = "عربي  ";
+      // =====================================
+      //             translat header
+      // =====================================
+      listed.innerHTML = " أكثر من 4536 قائمة وظائف";
+      Dream.innerHTML = " ابحث عن الوظيفة التي تحلم بها  ";
+      We.innerHTML = "نحن نقدم قروضًا نقدية فورية عبر الإنترنت بموافقة سريعة تناسب طول مدتك";  
+      post.innerHTML = " انشر وظيفة";  
+      rtl = document.body.style.direction = "rtl";
+  }
+};
+
+
+       
+
+// /* <!-- * ------------------------------------------------------
+//  end choise langage
+// ------------------------------------------------------------- --> */
+
