@@ -149,6 +149,7 @@ header .ball {
 }
 header i {
   color: #fff;
+  cursor: pointer;
 }
 
 .sticky {
@@ -1034,6 +1035,7 @@ form h4 {
   font-family: "Cairo", sans-serif;
   text-align: center;
   outline: none;
+  font-family: "Cairo", sans-serif;
 }
 
 .text #goup {
@@ -1047,7 +1049,7 @@ form h4 {
   line-height: 50px;
   text-align: center;
   z-index: 1;
-  font-size: 70px;
+  font-size: 100px;
   cursor: pointer;
 }
 
