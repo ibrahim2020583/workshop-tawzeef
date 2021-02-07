@@ -64,6 +64,18 @@ h1, h2, h3, h4, h5, h6 {
   color: #00D363;
 }
 
+.square_btn {
+  display: inline-block;
+  position: relative;
+  padding: 0.5em 1.4em;
+  text-decoration: none;
+  background: #00D363;
+  color: #FFF;
+  border-bottom: solid 5px #000;
+  border-right: solid 5px #000;
+  border-radius: 50%;
+}
+
 header .navbar {
   z-index: 3;
   position: fixed !important;
@@ -149,6 +161,7 @@ header .ball {
 }
 header i {
   color: #fff;
+  cursor: pointer;
 }
 
 .sticky {
@@ -323,7 +336,6 @@ header {
 }
 header .header-banner .header-titel {
   color: #fff;
-  text-align: left;
   margin-top: 15%;
 }
 @media only screen and (max-width: 600px) {
@@ -352,7 +364,6 @@ header .header-banner .header-titel button {
 }
 header .header-img {
   margin-top: 25%;
-  text-align: right;
 }
 header .header-img img {
   width: 80%;
@@ -1047,6 +1058,7 @@ form h4 {
   font-family: "Cairo", sans-serif;
   text-align: center;
   outline: none;
+  font-family: "Cairo", sans-serif;
 }
 
 .text #goup {
@@ -1060,7 +1072,7 @@ form h4 {
   line-height: 50px;
   text-align: center;
   z-index: 1;
-  font-size: 70px;
+  font-size: 100px;
   cursor: pointer;
 }
 
