@@ -49,8 +49,12 @@
  };
  .our-job{
  .job-ditaels{
-     box-shadow: 5px 8px #888888;
+     
      margin: 10px 0;
+     transition: .6s;
+     &:hover{
+        box-shadow: 5px 8px #888888;
+     }
      .jobs_left{ 
          
         padding: 15px 5px;
@@ -63,7 +67,7 @@
          
          };
          .job-right{
-             width: 50%;
+             width: 45%;
              .form-select{
                 option{font-family: $font2;
                 };

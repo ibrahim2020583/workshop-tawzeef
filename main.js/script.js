@@ -137,7 +137,7 @@ setInterval(()=>{
 // ------------------------------------------------------------- --> */
 english.onclick = () => {
   setLanugage("english");
-  localStorage.setItem("Lang", "english");
+  localStorage.setItem("Lang", "En");
 };
 arabic.onclick = () => {
   setLanugage("arabic");
@@ -165,8 +165,8 @@ function setLanugage(getLanuage) {
     Contact.innerHTML = "Contact Us";
     login.innerHTML = "login  ";
     Job.innerHTML = "Want A Job  ";
-    english.innerHTML = "english  ";
-    arabic.innerHTML = "arabic  ";
+    english.innerHTML = "Ar  ";
+    arabic.innerHTML = "Ar  ";
 
 
 // =====================================
@@ -192,8 +192,8 @@ function setLanugage(getLanuage) {
       Contact.innerHTML = "تواصل معنا  ";
       login.innerHTML = "دخول  ";
       Job.innerHTML = "وظائف  ";
-      english.innerHTML = "انجليزي  ";
-      arabic.innerHTML = "عربي  ";
+      english.innerHTML = "En ";
+      arabic.innerHTML = "En";
       // =====================================
       //             translat header
       // =====================================
