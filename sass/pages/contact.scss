@@ -1,0 +1,37 @@
+.map{
+    margin-top: 70px;
+    
+    .google-map{
+        width: 100%;
+    }
+    
+}
+.get-in-touch{
+       margin-top: 70px;
+       margin-bottom: 70px;
+}
+.media{
+    display: flex;
+    
+    .contact-icon{
+        margin-right: 25px;
+        font-size: 30px;
+        color: gray
+    };
+    p{
+        font-size: 20px;
+        color: gray;
+
+    };
+    h4{
+        font-weight: bold;
+    }
+   
+}
+.get-in-touch{
+    .col-md-6{
+        @media (max-width : 768px){
+            margin-top: 20px;
+        }
+    }
+}

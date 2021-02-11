@@ -1151,4 +1151,38 @@ form h4 {
   font-size: 1.2rem;
 }
 
+.map {
+  margin-top: 70px;
+}
+.map .google-map {
+  width: 100%;
+}
+
+.get-in-touch {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.media {
+  display: flex;
+}
+.media .contact-icon {
+  margin-right: 25px;
+  font-size: 30px;
+  color: gray;
+}
+.media p {
+  font-size: 20px;
+  color: gray;
+}
+.media h4 {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .get-in-touch .col-md-6 {
+    margin-top: 20px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
