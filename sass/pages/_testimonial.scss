@@ -1,13 +1,14 @@
 .Testimonial{
-  padding: $padding 0;
+  padding: $padding +50 0;
   font-family: 'Amiri', serif;
             text-align: center;
             h2{
               text-transform: capitalize; 
               color: $childcolor;
-              font-family: 'Cairo', sans-serif;
+              // font-family: 'Cairo', sans-serif;
               font-size: $Fsize + 26;
               font-weight: 400;
+              margin-bottom: 25px;
             }
   .slide{
       .carousel-inner{
@@ -17,7 +18,7 @@
       .carousel-item{
       .icon{
             display: flex;
-            padding: $padding - 50;
+            // padding: $padding - 50;
             line-height: 1.5;
             position: relative;
             overflow: hidden;
@@ -37,9 +38,12 @@
            
             .lead{
               margin-left: 15px;
-              max-width: 600px;
+              // margin-top: 25px;
+              max-width: 1000px;
+              font-size: 20px;
+              line-height: 2;
               color: $main-color;
-              margin-top: 40px;
+              // margin-top: 40px;
               transition: .5s;
             }
 
