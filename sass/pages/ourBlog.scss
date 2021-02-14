@@ -1,0 +1,170 @@
+header{
+    height: 70%;
+    ;
+    .header-img{
+        margin-top: 8% !important;
+
+    };
+    .header-titel{
+        margin-top: 3% !important;
+    }
+}
+
+
+
+
+
+.my-blog{
+    padding: 50px 0;
+    .our-blogs{
+        .date-blog{
+            a{
+                left: 30px ;
+               top: 55%;
+                
+                padding: 5px 30px;
+               
+                font-size: 1.5rem;
+                font-weight: bolder;
+                font-family: $font2;
+                h3{
+                    line-height: 1.2;
+               
+                    font-weight: bolder;
+                }
+                p{
+                    line-height: 28px;
+                    font-weight: 600;
+                }
+                @media only screen and (max-width: 767px) {
+                    top:18%;
+                    padding: 2px 30px;
+
+                  }
+            }
+        };
+        .blog-datiles{
+            margin: 25px;
+            h2{
+                font-size: 1.5rem;
+                font-weight: bolder;
+                
+            };
+            p{
+                font-size: 1rem;
+                opacity: .6;
+                font-weight: 400;
+                line-height: 25px;
+
+            };
+            span{
+                padding: 5px 5px;
+                opacity: .7;
+            }
+        }
+     
+    };
+    .recent{
+       
+        text-align: center;
+        .search{
+            padding: 20px 10px;
+            background:$white_color;
+            border-radius:10px;
+            margin: 15px 0;
+            input{height: 50px;
+                font-size: 1rem;
+                padding: 20px;
+
+            };
+            button{
+                width: 100%;
+                margin: 10px 0
+            }
+        };
+        .our-catagory{
+            margin: 10px 0;
+            padding: 15px 10px;
+            text-align: left;
+            background:$white_color;
+            border-radius:10px
+            h3{
+               font-weight: bolder;
+
+            };
+            hr{width: 80%;}
+            p{
+                opacity: .6;
+                font-size: 1rem;
+                font-weight: bolder;
+                transition: .6s;
+                &:hover{
+                    color: $green_color;
+                    cursor: pointer;
+                }
+            }
+        }
+    };
+    .posts{
+        padding: 20px 10px;
+        background:$white_color;
+        border-radius:10px;
+        margin: 10px 0;
+        text-align: left;
+        h2{
+            font-weight: bolder;
+        };
+        .my-post{
+            .post-titel{
+                padding:10px 2px ;
+                h4{
+                    font-size: 1.1rem;
+                    font-weight: bolder;
+                    transition: .6s;
+
+                    &:hover{
+                        color:$green_color;
+                        cursor: pointer;
+                    }
+                    
+
+                };
+                p{
+                    opacity: .6;
+                    font-weight: bolder;
+                }
+        }
+    }
+};
+.instgram-posts{  padding: 20px 10px;
+    background:$white_color;
+    border-radius:10px;
+    margin: 15px 0;
+    text-align: left;
+    h2{
+        font-weight: bolder;
+    };
+   
+    
+    
+};
+.subscribe{
+    padding: 20px 10px;
+    background:$white_color;
+    border-radius:10px;
+    margin: 15px 0;
+    text-align: left;
+    h2{
+        font-weight: bolder;
+    }
+    input{height: 50px;
+        font-size: 1rem;
+        padding: 20px;
+
+    };
+    button{
+        width: 100%;
+        margin: 10px 0
+    }
+};
+}
