@@ -328,7 +328,6 @@ header i {
 header {
   background: url(../images/banner/banner.png) no-repeat center center;
   background-size: cover;
-  height: 100vh;
   padding: 100px;
 }
 header .header-banner .header-titel {
@@ -1182,16 +1181,6 @@ form h4 {
   .get-in-touch .col-md-6 {
     margin-top: 20px;
   }
-}
-
-header {
-  height: 70%;
-}
-header .header-img {
-  margin-top: 8% !important;
-}
-header .header-titel {
-  margin-top: 3% !important;
 }
 
 .my-blog {
