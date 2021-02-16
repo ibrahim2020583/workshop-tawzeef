@@ -3,6 +3,9 @@ header{
     background-size: cover;
 //    height: 70%;
    padding: $padding;
+   @media only screen and (max-width: 768px){
+    padding: unset;
+ }
     .header-banner{
         
         .header-titel{color:$white_color;

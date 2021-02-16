@@ -89,10 +89,9 @@ header .navbar {
     background-color: #fff;
     opacity: 1 !important;
   }
-  header .navbar .navbar-toggler {
-    background-color: #bdbdbd;
-    box-shadow: none;
-  }
+}
+header .navbar .navbar-toggler {
+  background-color: #00D363;
 }
 header .navbar-brand {
   font-size: 2rem;
@@ -100,7 +99,7 @@ header .navbar-brand {
   font-weight: 600;
 }
 header .navbar-nav .nav-item {
-  padding: 5px 10px;
+  padding: 3px 5px;
 }
 header .navbar-nav .nav-item .nav-link {
   color: #fff;
@@ -258,13 +257,13 @@ header i {
   margin-right: 5px;
   margin-left: 5px;
 }
-/* Start Section Loading */
 .loading-page {
   background: #00D363;
   color: #FFF;
   position: fixed;
   left: 0;
   top: 0;
+  right: 0;
   width: 100%;
   height: 100%;
   z-index: 99999;
@@ -329,6 +328,11 @@ header {
   background: url(../images/banner/banner.png) no-repeat center center;
   background-size: cover;
   padding: 100px;
+}
+@media only screen and (max-width: 768px) {
+  header {
+    padding: unset;
+  }
 }
 header .header-banner .header-titel {
   color: #fff;
@@ -1318,6 +1322,206 @@ form h4 {
 .my-blog .subscribe button {
   width: 100%;
   margin: 10px 0;
+}
+
+@media (max-width: 991px) {
+  .personal {
+    margin: 0;
+    text-align: center;
+  }
+
+  li {
+    list-style: none;
+  }
+}
+span {
+  /* display: block; */
+  color: #888888;
+  text-transform: capitalize;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.Summary {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.lead, .footer .copyright .span {
+  font-size: 20px;
+  color: #666666;
+  margin-top: 43px;
+}
+
+.WorkExperience {
+  margin-top: 85px;
+}
+
+details[open] summary ~ * {
+  animation: open 0.3s ease-in-out;
+}
+
+@keyframes open {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary {
+  font-size: 24px;
+  background-color: #fff;
+  color: #333333;
+  border-left: 5px solid #00D363;
+  text-transform: capitalize;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  font-weight: 300;
+  list-style: none;
+  padding: 15px;
+}
+
+details summary:hover {
+  border-top: 1px solid #00D363;
+  border-right: 1px solid #00D363;
+  border-bottom: 1px solid #00D363;
+  border-left: 5px solid r #00D363;
+}
+
+details summary:after {
+  content: "+";
+  color: #00D363;
+  position: absolute;
+  line-height: 0;
+  margin-top: 1rem;
+  right: 5px;
+  font-weight: 200;
+  transform-origin: center;
+  transition: 200ms linear;
+}
+
+details[open] summary:after {
+  transform: rotate(45deg);
+  font-size: 2rem;
+}
+
+details summary {
+  outline: 0;
+}
+
+details p {
+  font-size: 0.95rem;
+  margin: 0 0 1rem;
+  margin-top: 43px;
+}
+
+.table {
+  font-family: "Nunito";
+  line-height: 30px;
+  margin-top: 32px;
+  color: #888888;
+  font-size: 20px;
+}
+
+.answer {
+  font-size: 20px;
+  color: #333333;
+  font-family: "Nunito";
+  line-height: 0;
+  padding: 25px;
+}
+
+details li {
+  font-size: 20px;
+  color: #333333;
+  text-transform: capitalize;
+  margin: 0 0 1rem;
+  margin-top: 43px;
+}
+
+.skill-progress, h4 {
+  margin-top: 43px;
+}
+
+.progress {
+  height: 25px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+  font-size: 15px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  justify-content: space-between;
+}
+
+.progress-bar span {
+  margin-left: 80px;
+  color: #fff;
+  font-size: 15px;
+  justify-content: space-between;
+}
+
+.figure {
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.uploadcv {
+  padding: 100px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 768px) {
+  .uploadcv {
+    padding: unset;
+  }
+}
+.uploadcv h2 {
+  text-align: center;
+}
+.uploadcv .form-check-input {
+  outline: none !important;
+  box-shadow: none !important;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.uploadcv form {
+  box-shadow: -1px 3px 3px 3px #ccc;
+  border: 2px solid #00D363;
+  padding: 5px 10px;
+  background-color: #fff;
+}
+.uploadcv form .form-control {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.uploadcv form .form-check-input {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.uploadcv form .form-control {
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+  border-bottom: 1px solid;
+  box-shadow: none;
+  margin-top: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,51 @@
+
+
+// body{
+//     // background-color: #ccc;
+
+// }
+.uploadcv{
+    padding: 100px;
+    margin: 0 auto;
+    @media only screen and (max-width: 768px){
+     padding: unset;
+  }
+
+    h2{
+        text-align: center;
+    }
+    .form-check-input{
+        outline: none !important;
+        box-shadow: none !important;
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+    form {
+        box-shadow: -1px 3px 3px 3px #ccc;
+        border: 2px solid $green-color;
+        padding: 5px 10px;
+        background-color: #fff;
+        .form-control{
+          outline: none !important;
+          box-shadow: none !important;
+          }
+          .form-check-input{
+            outline: none !important;
+            box-shadow: none !important;
+          }
+        
+          .form-control{
+            outline: none;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            border-radius: 0;
+            border-bottom:1px solid;
+            box-shadow: none;
+            margin-top: 12px;
+          }
+      }
+     
+      
+}
