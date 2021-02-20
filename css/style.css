@@ -1524,6 +1524,7 @@ details li {
   margin-top: 12px;
 }
 
+<<<<<<< HEAD
 .our-candidates {
   padding: 50px 0;
 }
@@ -1557,6 +1558,71 @@ details li {
   font-weight: 600;
   font-size: 1rem;
   opacity: 0.8;
+=======
+.job-details {
+  margin-top: 70px;
+}
+.job-details .job-ditaels {
+  border-bottom: 1px solid #EAEAEA;
+}
+.job-details .job-content {
+  background-color: #fff;
+  margin-top: -9px;
+  padding: 15px;
+}
+.job-details .job-content .Responsibility {
+  margin-top: 5px;
+}
+.job-details .job-content .Qualifications {
+  margin-top: 5px;
+}
+.job-details .job-content p {
+  font-size: 20px;
+  color: gray;
+}
+.job-details .job-content li {
+  font-size: 20px;
+  color: gray;
+}
+.job-details .apply-for-job {
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 15px;
+}
+.job-details .apply-for-job .btn-1 {
+  width: 100%;
+}
+
+.job-summery {
+  background-color: #fff;
+  padding: 20px;
+}
+.job-summery .job-semmury-head {
+  border-bottom: 1px solid #EAEAEA;
+}
+.job-summery .job-semmury-content {
+  margin-top: 30px;
+}
+
+.share-at {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 15px;
+}
+.share-at .icon {
+  color: gray;
+  margin-right: 5px;
+}
+.share-at .icon:hover {
+  color: blue;
+}
+
+.job-map {
+  margin-top: 5px;
+}
+.job-map .job-map-content {
+  width: 100%;
+>>>>>>> fd16d2e9806a3902d84579783ba28d69833d66d5
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,68 @@
+.job-details{
+    margin-top: 70px;
+    .job-ditaels{
+        border-bottom: 1px solid #EAEAEA;
+    };
+    .job-content{
+        background-color: #fff;
+        margin-top: -9px;
+        padding: 15px;
+        .Responsibility{
+            margin-top: 5px;
+        };
+        .Qualifications{
+            margin-top: 5px;
+
+        };
+        p{
+            font-size: 20px;
+            color: gray;
+        };
+        li{
+            font-size: 20px;
+            color: gray;
+        }
+
+    }
+    .apply-for-job{
+        margin-top: 10px;
+        background-color: #fff;
+        padding: 15px;
+        .btn-1{
+            width: 100%;
+        }
+
+
+    }
+}
+.job-summery{
+    background-color: #fff;
+    padding: 20px;
+    .job-semmury-head{
+        border-bottom: 1px solid #EAEAEA;
+    };
+    .job-semmury-content{
+        margin-top: 30px;
+    }
+
+}
+.share-at{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 15px;
+    .icon{
+        color: gray;
+        margin-right: 5px;
+        &:hover{
+            color: blue;
+        }
+    }
+
+
+}
+.job-map{
+    margin-top: 5px;
+    .job-map-content{
+        width: 100%;
+    }
+}
