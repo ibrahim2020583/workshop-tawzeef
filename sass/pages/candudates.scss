@@ -1,0 +1,36 @@
+.our-candidates{
+    padding: 50px 0 ;
+
+    .my-candidates{
+        width: 23% ;
+        background:$white_color;
+        text-align: center;
+      margin: 5px 5px;
+      border-radius: 10px;
+      transition: .6s;
+      @media only screen and (max-width: 767px) {
+       width: 100% ;
+
+      }
+      &:hover{h4{
+          color: $green_color;
+      }}
+      .image-candidates{
+          margin: 15px 0;
+      }
+        .candidates-titel{
+            margin: 15px 0;
+            h4{
+                font-size: 1.3rem;
+                font-weight: 600;
+
+            };
+            p{
+                font-weight: 600;
+                font-size: 1rem;
+                opacity: .8;
+            }
+        }
+
+    }
+}
