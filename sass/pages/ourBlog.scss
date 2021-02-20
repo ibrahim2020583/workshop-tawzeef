@@ -27,8 +27,8 @@
                     font-weight: 600;
                 }
                 @media only screen and (max-width: 767px) {
-                    top:25%;
-                    padding: 2px 30px;
+                    top:20%;
+                    padding: 0px 25px;
 
                   }
             }
@@ -104,27 +104,54 @@
         h2{
             font-weight: bolder;
         };
-        .my-post{
-            .post-titel{
-                padding:10px 2px ;
-                h4{
-                    font-size: 1.1rem;
-                    font-weight: bolder;
-                    transition: .6s;
+//         .my-post{
+//             .post-titel{
+//                 padding:10px 2px ;
+//                 h4{
+//                     font-size: 1.1rem;
+//                     font-weight: bolder;
+//                     transition: .6s;
 
-                    &:hover{
-                        color:$green_color;
-                        cursor: pointer;
-                    }
+//                     &:hover{
+//                         color:$green_color;
+//                         cursor: pointer;
+//                     }
                     
 
-                };
-                p{
-                    opacity: .6;
-                    font-weight: bolder;
+//                 };
+//                 p{
+//                     opacity: .6;
+//                     font-weight: bolder;
+//                 }
+//         }
+//     }
+// };
+        .my-post{
+            figure{
+                display: flex;
+                text-align: center;
+                align-items: center;
+                figcaption{
+                    margin: 0 15px;
+                    h4{
+                        font-size: 1.1rem;
+                        font-weight: bolder;
+                        transition: .6s;
+    
+                        &:hover{
+                            color:$green_color;
+                            cursor: pointer;
+                        }
+                        
+    
+                    };
+                    p{
+                        opacity: .6;
+                        font-weight: bolder;
+                    }
+
                 }
-        }
-    }
+            }
 };
 .instgram-posts{  padding: 20px 10px;
     background:$white_color;
@@ -158,11 +185,4 @@
     }
 };
 }
-figure{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    figcaption{
-        margin: 0 5px;
-    }
 }
