@@ -1324,6 +1324,15 @@ form h4 {
   margin: 10px 0;
 }
 
+figure {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+figure figcaption {
+  margin: 0 5px;
+}
+
 @media (max-width: 991px) {
   .personal {
     margin: 0;
@@ -1524,7 +1533,6 @@ details li {
   margin-top: 12px;
 }
 
-<<<<<<< HEAD
 .our-candidates {
   padding: 50px 0;
 }
@@ -1541,24 +1549,27 @@ details li {
     width: 100%;
   }
 }
-.our-candidates .my-candidates:hover h4 {
-  color: #00D363;
-}
 .our-candidates .my-candidates .image-candidates {
   margin: 15px 0;
 }
 .our-candidates .my-candidates .candidates-titel {
   margin: 15px 0;
 }
-.our-candidates .my-candidates .candidates-titel h4 {
+.our-candidates .my-candidates .candidates-titel a h4 {
   font-size: 1.3rem;
   font-weight: 600;
+  color: #000;
+  transition: 0.6s;
+}
+.our-candidates .my-candidates .candidates-titel a h4:hover {
+  color: #00D363;
 }
 .our-candidates .my-candidates .candidates-titel p {
   font-weight: 600;
   font-size: 1rem;
   opacity: 0.8;
-=======
+}
+
 .job-details {
   margin-top: 70px;
 }
@@ -1622,7 +1633,6 @@ details li {
 }
 .job-map .job-map-content {
   width: 100%;
->>>>>>> fd16d2e9806a3902d84579783ba28d69833d66d5
 }
 
 /*# sourceMappingURL=style.css.map */

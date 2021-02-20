@@ -173,7 +173,7 @@ function setLanugage(getLanuage) {
     pages.innerHTML = "pages";
     candidates.innerHTML = "candidates";
     job.innerHTML = "job details ";
-    elements.innerHTML = "elements ";
+    
     Blog.innerHTML = "Blog";
     Blog1.innerHTML = "Blog";
     Single.innerHTML = "Single Blog ";
@@ -192,6 +192,43 @@ function setLanugage(getLanuage) {
     We.innerHTML =
       "We provide online instant cash loans with quick approval that suit your term length";
     post.innerHTML = " Post A Job ";
+   // ===============================
+    //  FIND JOB
+    // ====================
+    
+    Find.innerHTML = "FIND JOB " ;
+    search.innerHTML = "Search Kayword " ;
+    locatio.innerHTML = "Location " ;
+    category.innerHTML  = "Category" ;
+    Jobss.innerHTML = "Find Job" ;
+    loct.innerHTML = "Location" ;
+    dh.innerHTML = "India" ; 
+    us.innerHTML = "California, USA" ;
+    alex.innerHTML = "alex, Egypt";
+    cat.innerHTML = "Category";
+    sal.innerHTML = "Sales" ;
+    it.innerHTML = "IT" ; 
+    des.innerHTML = "Designers";
+    // ===============================
+    //  Popular Search:
+    // ====================
+    Popula1.innerHTML = "Popular Search: " ;
+    creat1.innerHTML = "Design&Creative" ;
+    markt1.innerHTML = "Marketing";
+    adimin1.innerHTML = "Adiministration" ;
+    teach1.innerHTML = "Teaching" ;
+    soft1.innerHTML = "Software&Web " ;
+    engine1.innerHTML = "Enginneering";
+    // ==========================
+    // About Us
+    // ==================
+    About1.innerHTML = "ABOUT US" ;
+    careers.innerHTML = "Careers for Your Careers" ;
+    eveniet.innerHTML = "Eveniet voluptatibus voluptates suscipit minima, cum voluptatum ut dolor, sed facere corporis qui, eaquisquam quis odit minus nulla vitae. Sit, voluptatem." ;
+    ibsum.innerHTML = "Ipsum harum assumenda in eum vel eveniet numquam, cumque vero vitae enim cupiditate deserunt eligendiofficia modi consectetur. Expedita tempora quos nobis earum hic ex asperiores quisquam optio nostrum sit!" ;
+    
+    
+
     ltr = document.body.style.direction = "ltr";
   } else if (getLanuage === "arabic") {
     logo.innerHTML = " توظيف كوم";
@@ -200,7 +237,7 @@ function setLanugage(getLanuage) {
     pages.innerHTML = "االصفحات";
     candidates.innerHTML = "المرشحين";
     job.innerHTML = "تفاصيل الوظائف";
-    elements.innerHTML = "العناصر ";
+   
     Blog.innerHTML = "المدونة";
     Blog1.innerHTML = "مدونة";
     Single.innerHTML = "مدونة شخصية";
@@ -217,10 +254,50 @@ function setLanugage(getLanuage) {
     Dream.innerHTML = " ابحث عن الوظيفة التي تحلم بها  ";
     We.innerHTML =
       "نحن نقدم قروضًا نقدية فورية عبر الإنترنت بموافقة سريعة تناسب طول مدتك";
-    post.innerHTML = " انشر وظيفة";
+    post.innerHTML = " انشر  وظيفة";
+    // ===============================
+    //  FIND JOB
+    // ====================
+    
+    Find.innerHTML = "ابحث عن وظيفتك" ;
+    search.innerHTML = "كلمات البحث" ;
+    locatio.innerHTML = "الموقع" ;
+    category.innerHTML  = "الفئه" ;
+    Jobss.innerHTML = "ابحث عن وظيفتك" ;
+    loct.innerHTML = "الموقع" ;
+    dh.innerHTML = "الهند" ; 
+    us.innerHTML ="كاليفورنيا، الولايات المتحدة الأمريكية" ;
+    alex.innerHTML = "الاسكندريه, مصر";
+    cat.innerHTML = "الفئه";
+    sal.innerHTML = "المبيعات" ;
+    it.innerHTML = "مهندس برمجيات" ; 
+    des.innerHTML = "مصممين";
+
+
+    // ====================
+      // Popular Search:
+    // ====================
+    popula1.innerHTML = "بحث شائع:" ;
+    creat1.innerHTML = "التصميم الإبداعي" ;
+    markt1.innerHTML = "تسويق";
+    adimin1.innerHTML = "إدارة" ;
+    teach1.innerHTML = "تعليم" ;
+    soft1.innerHTML = "البرمجيات والويب" ;
+    engine1.innerHTML = "هندسة" ;
+    // ==========================
+    // About Us
+    // ==================
+    About1.innerHTML = " ماذا عنا" ;
+    careers.innerHTML = "وظائف لحياتك المهنية" ;
+    eveniet.innerHTML = "موقع توظيف يوفر فرص عمل ووظائف , مختلف المؤهلات والتخصصات في أكبر شركات مصر" ;
+    
+    ibsum.innerHTML = " يساعد توظيف أكثر من 9,500 شركة في البحث عن موظفين و 1,400,000 شخص في البحث عن وظائف" ;
+     
+
     rtl = document.body.style.direction = "rtl";
   }
 }
+//
 
 // /* <!-- * ------------------------------------------------------
 //  end choise langage

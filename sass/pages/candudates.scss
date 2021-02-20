@@ -12,17 +12,23 @@
        width: 100% ;
 
       }
-      &:hover{h4{
-          color: $green_color;
-      }}
+     
       .image-candidates{
           margin: 15px 0;
       }
         .candidates-titel{
             margin: 15px 0;
-            h4{
+            a{
+               h4{
                 font-size: 1.3rem;
                 font-weight: 600;
+                color: $black;
+                transition: .6s;
+                 &:hover{
+                   color: $green_color
+               }
+               }
+              
 
             };
             p{

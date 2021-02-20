@@ -158,3 +158,11 @@
     }
 };
 }
+figure{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    figcaption{
+        margin: 0 5px;
+    }
+}
