@@ -1138,7 +1138,7 @@ form h4 {
   font-family: "Amiri", serif;
 }
 .job-listing .our-job .job-ditaels .job-right {
-  width: 45%;
+  width: 50%;
 }
 .job-listing .our-job .job-ditaels .job-right .form-select option {
   font-family: "Cairo", sans-serif;
@@ -1208,7 +1208,7 @@ form h4 {
 }
 @media only screen and (max-width: 767px) {
   .my-blog .our-blogs .date-blog a {
-    top: 18%;
+    top: 25%;
     padding: 2px 30px;
   }
 }
@@ -1522,6 +1522,107 @@ details li {
   border-bottom: 1px solid;
   box-shadow: none;
   margin-top: 12px;
+}
+
+<<<<<<< HEAD
+.our-candidates {
+  padding: 50px 0;
+}
+.our-candidates .my-candidates {
+  width: 23%;
+  background: #fff;
+  text-align: center;
+  margin: 5px 5px;
+  border-radius: 10px;
+  transition: 0.6s;
+}
+@media only screen and (max-width: 767px) {
+  .our-candidates .my-candidates {
+    width: 100%;
+  }
+}
+.our-candidates .my-candidates:hover h4 {
+  color: #00D363;
+}
+.our-candidates .my-candidates .image-candidates {
+  margin: 15px 0;
+}
+.our-candidates .my-candidates .candidates-titel {
+  margin: 15px 0;
+}
+.our-candidates .my-candidates .candidates-titel h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.our-candidates .my-candidates .candidates-titel p {
+  font-weight: 600;
+  font-size: 1rem;
+  opacity: 0.8;
+=======
+.job-details {
+  margin-top: 70px;
+}
+.job-details .job-ditaels {
+  border-bottom: 1px solid #EAEAEA;
+}
+.job-details .job-content {
+  background-color: #fff;
+  margin-top: -9px;
+  padding: 15px;
+}
+.job-details .job-content .Responsibility {
+  margin-top: 5px;
+}
+.job-details .job-content .Qualifications {
+  margin-top: 5px;
+}
+.job-details .job-content p {
+  font-size: 20px;
+  color: gray;
+}
+.job-details .job-content li {
+  font-size: 20px;
+  color: gray;
+}
+.job-details .apply-for-job {
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 15px;
+}
+.job-details .apply-for-job .btn-1 {
+  width: 100%;
+}
+
+.job-summery {
+  background-color: #fff;
+  padding: 20px;
+}
+.job-summery .job-semmury-head {
+  border-bottom: 1px solid #EAEAEA;
+}
+.job-summery .job-semmury-content {
+  margin-top: 30px;
+}
+
+.share-at {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 15px;
+}
+.share-at .icon {
+  color: gray;
+  margin-right: 5px;
+}
+.share-at .icon:hover {
+  color: blue;
+}
+
+.job-map {
+  margin-top: 5px;
+}
+.job-map .job-map-content {
+  width: 100%;
+>>>>>>> fd16d2e9806a3902d84579783ba28d69833d66d5
 }
 
 /*# sourceMappingURL=style.css.map */
