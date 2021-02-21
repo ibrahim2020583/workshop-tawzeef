@@ -37,7 +37,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <i onclick="topFunction()" id="goup" class=" fa fa-sort-up"></i>
+          <i  id="goup" class=" fa fa-sort-up"></i>
 
         </div>
       </div>
@@ -45,7 +45,8 @@
   </section>
   <!-- ----------------start-project-------------- -->
   <!-- ------------------------header---------------------- -->
-  <header>
+  <header >
+    <div class="overlay"></div>
     <!-- -----------------------navbar---------------------------- -->
     <nav class="navbar navbar-expand-lg navbar-light    ">
 
@@ -73,6 +74,7 @@
              
                 <li><a id="candidates" class="dropdown-item" href="pages/candidates.html">candidates</a></li>
                 <li><a id="job" class="dropdown-item" href="pages/job-details.html">job details </a></li>
+                <li><a id="faq" class="dropdown-item" href="pages/FAQ.html">FAQ </a></li>
                 
               </ul>
             </li>
@@ -97,12 +99,12 @@
           </ul>
 
           <form class="d-flex ">
-            <button id="login" class="btn-1 " type="button" data-bs-toggle="modal"
-              data-bs-target="#exampleModal">login</button>
+            <a id="login" class="btn-1 " type="button" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">login</a>
 
 
-           <a href="pages/jobs.html">
-            <button id="Job" class="btn-1 " type="button">Want A Job</button>
+           <a href="pages/jobs.html" id="Job" class="btn-1 "type="button">Want A Job
+            
            </a>
             <!-- ---------------translation--- -->
             <div class="mode ">
@@ -126,7 +128,7 @@
     <section class="header-banner">
       <div class="container">
         <div class="row d-flex justify-content-between">
-          <div class="header-titel col-md-6 col-12 animate__animated animate__fadeInLeft animate__delay-2s">
+          <div class="header-titel  col-12 animate__animated animate__fadeInLeft animate__delay-2s">
             <h5 id="listed" class="animate__animated animate__fadeInDown animate__delay-2s">4536+ Jobs listed</h5>
             <h2 id="Dream" class="animate__animated animate__fadeInUp animate__delay-2s">Find your Dream Job</h2>
             <p id="We" class="animate__animated animate__fadeInUp animate__delay-2s">We provide online instant cash
@@ -136,10 +138,7 @@
 
 
           </div>
-          <div
-            class="header-img  d-none d-md-block text-right col-md-6  animate__animated animate__fadeInRight animate__delay-2s">
-            <img src="images/banner/illustration.png" alt="">
-          </div>
+         
         </div>.
       </div>
     </section>
@@ -240,6 +239,7 @@
     <div class="container">
       <div class="row d-flex justify-content-between">
         <div class="about-vedio col-md-6 col-12 border rounded-3 ">
+          <div class="overlay"></div>
 
 
           <div class="play-video border rounded-circle">

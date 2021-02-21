@@ -3,20 +3,21 @@
 
 // find job
 .search-job {
-  padding: $padding 0;
-  background-color:$body-color;
+  
+  
   .section-titel{
       h2{
-          font-size: 2.5rem;
+          
           font-weight: 400;
-          font-family: $font1;
+          font-family: $font2;
 
       }
   }
  
    label {
-     font-size: 1.5rem;
-     font-family: $font1;
+     font-size: 1.2rem;
+     font-family: $font2;
+     color:$black
       
    };
   .find-job{
@@ -33,9 +34,9 @@
   background-color:$body-color;
   .section-titel{
       h2{
-          font-size: 2.5rem;
+          
           font-weight: 400;
-          font-family: $font1;
+          font-family: $font2;
 
       };
       .search-titel{
@@ -53,14 +54,16 @@
 .aboutUs{
   padding: 100px 0;
   .about-vedio{
-      background:url(../images/about/photo-1544717297-fa95b6ee9643.jpg)no-repeat center center;
+      background:url(../../images/slider/faq.png)no-repeat center center;
       background-size:cover;
       padding: 200px 0;
+      
+     
      
 
   };
   .play-video {
-      background-color: $blue_color;
+      background-color: $green_color;
       font-size: 3rem;
       width: 80px;
       height: 80px;
@@ -68,6 +71,7 @@
       text-align: center !important;
       margin: auto;
       color: $white_color;
+      ;
     };
     .about-titel{
         padding: 30px 35px;
@@ -76,11 +80,11 @@
         .section-titel{
             h2{font-size: 2.5rem;
               font-weight: 400;
-              font-family: $font1; 
+              font-family: $font2; 
           }
         };
         h5{
-            font-size: 1.5rem;
+            font-size: 1rem;
             font-weight: 400;
             font-family: $font2;
             opacity: .8;
@@ -119,7 +123,7 @@
       }
       h6 {
         font-size: 1.2rem;
-        font-family: $font1;
+        font-family: $font2;
         font-weight: bolder;
       }
       p {
@@ -140,9 +144,9 @@
   .section-titel{ 
     text-align: center;
     h2{
-    font-size: 2.5rem;
+    
     font-weight: 400;
-    font-family: $font1;
+    font-family: $font2;
 
 
 };
@@ -169,7 +173,7 @@
   opacity: .7;};
   h4{
   font-weight: bolder;
-font-family: $font1;};
+font-family: $font2;};
 p{font-size: 1.1rem;
 font-weight: 400;
 opacity: .8;
@@ -188,7 +192,7 @@ opacity: .8;
 .job-title {
   padding: $padding 25px;
   background-color: $body-color;
-  font-family: "Amiri", serif;
+  font-family: $font2;
 
   .listing_title {
     text-align: left;
@@ -350,7 +354,7 @@ opacity: .8;
     h2{
       font-size: 4rem;
       font-weight: 400;
-      font-family: $font1;
+      font-family: $font2;
       color: $white_color;
       padding: 10px 0;
     };
@@ -378,7 +382,7 @@ button{
     text-transform: capitalize;
     color: $childcolor;
     margin-left: 0;
-    font-size: $Fsize + 26;
+    font-size: 2rem;
     font-weight: 400;
     margin-top: 5px;
   }
