@@ -926,6 +926,12 @@ header .header-banner .header-titel button {
   font-size: 40px;
   font-weight: 400;
 }
+.Testimonial .slide {
+  background: #fff;
+  border-radius: 15px;
+  padding: 15px 0;
+  box-shadow: 0 10px 6px -6px #fff;
+}
 .Testimonial .slide .carousel-inner .carousel-item {
   text-align: center;
 }
@@ -1621,8 +1627,6 @@ details li {
 }
 .job-map .job-map-content {
   width: 100%;
-<<<<<<< HEAD
-=======
 }
 
 .FAQ {
@@ -1639,7 +1643,6 @@ details li {
 }
 .FAQ .faq-titel button:hover {
   color: #00D363;
->>>>>>> 7bff1ce00f52d6eef306a689fc12d4e4a1dba7a1
 }
 
 /*# sourceMappingURL=style.css.map */
