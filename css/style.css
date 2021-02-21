@@ -916,32 +916,25 @@ header .header-img img {
 }
 
 .Testimonial {
-  padding: 150px 0;
+  padding: 100px 0;
   font-family: "Amiri", serif;
   text-align: center;
 }
 .Testimonial h2 {
   text-transform: capitalize;
   color: #1F1F1F;
+  font-family: "Cairo", sans-serif;
   font-size: 40px;
   font-weight: 400;
-  margin-bottom: 25px;
 }
-.Testimonial .slide .carousel-inner {
-  display: flex;
-  text-align: left;
+.Testimonial .slide .carousel-inner .carousel-item {
+  text-align: center;
 }
 .Testimonial .slide .carousel-inner .carousel-item .icon {
-  display: flex;
-  line-height: 1.5;
+  text-align: center;
   position: relative;
   overflow: hidden;
   z-index: 1;
-}
-@media only screen and (max-width: 767px) {
-  .Testimonial .slide .carousel-inner .carousel-item .icon {
-    display: block;
-  }
 }
 .Testimonial .slide .carousel-inner .carousel-item .icon:hover img {
   transform: scale(1) rotate(360deg);
@@ -951,29 +944,29 @@ header .header-img img {
   transition: transform 0.5s ease-in-out;
 }
 .Testimonial .slide .carousel-inner .carousel-item .icon .lead, .Testimonial .slide .carousel-inner .carousel-item .icon .footer .copyright .span, .footer .copyright .Testimonial .slide .carousel-inner .carousel-item .icon .span {
-  margin-left: 15px;
-  max-width: 1000px;
-  font-size: 20px;
-  line-height: 2;
-  color: #001D38;
+  text-align: center;
+  padding: 0 200px;
   transition: 0.5s;
 }
-.Testimonial .carousel-control-prev-icon,
-.Testimonial .carousel-control-next-icon {
+.Testimonial .slide .carousel-inner .carousel-item .icon .lead .p, .Testimonial .slide .carousel-inner .carousel-item .icon .footer .copyright .span .p, .footer .copyright .Testimonial .slide .carousel-inner .carousel-item .icon .span .p {
+  font-size: 25px;
+}
+@media only screen and (max-width: 767px) {
+  .Testimonial .slide .carousel-inner .carousel-item .icon .lead, .Testimonial .slide .carousel-inner .carousel-item .icon .footer .copyright .span, .footer .copyright .Testimonial .slide .carousel-inner .carousel-item .icon .span {
+    padding: unset;
+  }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   z-index: 1;
 }
-.Testimonial .carousel-control-prev {
-  left: unset;
-  top: -150px;
-  right: 0 !important;
-}
-.Testimonial .carousel-control-next {
-  top: 50px;
-}
-.Testimonial .fa-angle-right,
-.Testimonial .fa-angle-left {
+
+.fa-angle-right,
+.fa-angle-left {
   z-index: 1;
   color: #168BF5 !important;
+  background-color: #7FC1FC !important;
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -981,14 +974,14 @@ header .header-img img {
   font-size: 30px;
   text-align: center;
 }
-.Testimonial .fa-angle-right:hover,
-.Testimonial .fa-angle-left:hover {
+.fa-angle-right:hover,
+.fa-angle-left:hover {
   background-color: #168BF5 !important;
-  color: #fff !important;
+  color: #7FC1FC !important;
 }
 @media only screen and (max-width: 767px) {
-  .Testimonial .fa-angle-right,
-.Testimonial .fa-angle-left {
+  .fa-angle-right,
+.fa-angle-left {
     visibility: hidden;
   }
 }
@@ -1524,7 +1517,6 @@ details li {
   margin-top: 12px;
 }
 
-<<<<<<< HEAD
 .our-candidates {
   padding: 50px 0;
 }
@@ -1558,7 +1550,8 @@ details li {
   font-weight: 600;
   font-size: 1rem;
   opacity: 0.8;
-=======
+}
+
 .job-details {
   margin-top: 70px;
 }
@@ -1622,7 +1615,6 @@ details li {
 }
 .job-map .job-map-content {
   width: 100%;
->>>>>>> fd16d2e9806a3902d84579783ba28d69833d66d5
 }
 
 /*# sourceMappingURL=style.css.map */

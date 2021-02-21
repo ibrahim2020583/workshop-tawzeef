@@ -1,31 +1,23 @@
 .Testimonial{
-  padding: $padding +50 0;
+  padding: 100px 0;
   font-family: 'Amiri', serif;
             text-align: center;
             h2{
               text-transform: capitalize; 
               color: $childcolor;
-              // font-family: 'Cairo', sans-serif;
+              font-family: 'Cairo', sans-serif;
               font-size: $Fsize + 26;
               font-weight: 400;
-              margin-bottom: 25px;
             }
   .slide{
       .carousel-inner{
-            display: flex;
-            text-align: left;
-            
       .carousel-item{
+        text-align: center;
       .icon{
-            display: flex;
-            // padding: $padding - 50;
-            line-height: 1.5;
+        text-align: center;
             position: relative;
             overflow: hidden;
             z-index: 1;
-            @media only screen and(max-width:767px){
-            display: block;
-            }
             &:hover img{
               transform: scale(1) rotate(360deg);
             }
@@ -34,17 +26,18 @@
               transition: transform .5s ease-in-out;
              
             }
-            
-           
             .lead{
-              margin-left: 15px;
-              // margin-top: 25px;
-              max-width: 1000px;
-              font-size: 20px;
-              line-height: 2;
-              color: $main-color;
-              // margin-top: 40px;
+              text-align: center;
+              // color: $main-color;
+              padding: 0 200px;
               transition: .5s;
+              .p{
+                font-size: 25px;
+              }
+              @media only screen and(max-width:767px){
+                padding: unset;
+              }
+                 }
             }
 
           }
@@ -55,19 +48,11 @@
   .carousel-control-next-icon{
     z-index: 1;
   }
-  .carousel-control-prev{
-    left: unset;
-    top: -150px;
-right: 0 !important;
-  }
-  .carousel-control-next{
-    top: 50px;
-  }
  .fa-angle-right,
   .fa-angle-left{
   z-index: 1;
     color: $blue-color !important;
-    // background-color: #7FC1FC !important;
+    background-color: #7FC1FC !important;
    width: 50px;
    height: 50px;
    line-height: 50px;
@@ -75,11 +60,9 @@ right: 0 !important;
    font-size: 30px;
    text-align: center;
    &:hover{
-   
     background-color: $blue-color !important;
-    color: #fff  !important;
+    color: #7FC1FC  !important;
    }
    @media only screen and(max-width:767px){
 visibility: hidden;    }
  }
-}
