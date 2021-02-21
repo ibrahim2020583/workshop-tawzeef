@@ -212,7 +212,7 @@ function setLanugage(getLanuage) {
     // ===============================
     //  Popular Search:
     // ====================
-    Popula1.innerHTML = "Popular Search: " ;
+    popula1.innerHTML = "Popular Search: " ;
     creat1.innerHTML = "Design&Creative" ;
     markt1.innerHTML = "Marketing";
     adimin1.innerHTML = "Adiministration" ;
