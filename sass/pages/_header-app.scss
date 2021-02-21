@@ -1,7 +1,17 @@
 header{
-    background: url(../images/banner/banner.png) no-repeat center center  ;
+    background: url(../../images/banner/background-01-1920x870.jpg) no-repeat center center  ;
     background-size: cover;
-//    height: 70%;
+    position: relative;
+    .overlay{
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        background-color: rgba(0, 0, 0, 0.5) !important;
+        z-index: 0;
+        position:absolute
+      }
+
    padding: $padding;
    @media only screen and (max-width: 768px){
     padding: unset;
@@ -13,6 +23,7 @@ header{
             margin-top: 15%
             
             ;
+            text-align: center;
             @media only screen and (max-width: 600px){
                 margin-top: 35%;
             }
@@ -41,9 +52,5 @@ header{
             
         }
     };
-    .header-img{
-        margin-top: 25%;
-        // text-align: right;
-        img{width: 100%;}
-    }
+    
 }

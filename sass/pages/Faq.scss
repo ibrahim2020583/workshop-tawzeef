@@ -1,0 +1,17 @@
+.FAQ{
+padding-top: 100px;
+.faq-titel {
+    h2{
+        font-weight: bolder;
+        font-size: 2rem;
+    };
+    button {
+        font-weight: 600;
+        font-size: 1rem;
+        transition: .6s;
+        &:hover{
+            color: $green_color;
+        }
+    }
+}
+}
