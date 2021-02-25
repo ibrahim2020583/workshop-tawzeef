@@ -1645,4 +1645,40 @@ details li {
   color: #00D363;
 }
 
+.post-job {
+  margin-top: 30px;
+}
+.post-job .check-span {
+  color: #28a745;
+}
+.post-job .post-content {
+  padding: 20px;
+  background-color: #fff;
+}
+.post-job .location {
+  margin-top: 20px;
+}
+.post-job .job-desc {
+  margin-top: 20px;
+}
+
+.job-summery p {
+  color: #28a745;
+}
+
+.job-summery-2 {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+}
+.job-summery-2 .job-semmury-head {
+  border-bottom: 1px solid #EAEAEA;
+}
+.job-summery-2 .job-semmury-content {
+  margin-top: 30px;
+}
+.job-summery-2 .job-semmury-content p {
+  color: #28a745;
+}
+
 /*# sourceMappingURL=style.css.map */
