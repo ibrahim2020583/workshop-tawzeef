@@ -35,7 +35,7 @@
             ;
             .form-floating{
                 label{font-size: 1.5rem;};
-                option{font-family: $font2;}
+                option{font-family: $font1;}
             };
         }
    
@@ -70,7 +70,7 @@
          .job-right{
              width: 50%;
              .form-select{
-                option{font-family: $font2;
+                option{font-family: $font1;
                 };
              };
              label{
