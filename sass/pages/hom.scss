@@ -14,12 +14,19 @@
       }
   }
  
-   label {
-     font-size: 1.2rem;
-     font-family: $font1;
-     color:$black
+   .form-select {
+     
+     padding: 10px 30px
       
    };
+   .form-floating1{
+    .form-control{
+      padding: 10px 30px;
+      height: 58px;font-size: 1.2rem;
+     font-family: $font1;
+     color:$black ;
+    }
+   }
   .find-job{
       button{
           width: 100%;

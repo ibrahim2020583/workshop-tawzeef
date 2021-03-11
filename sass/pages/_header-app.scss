@@ -28,8 +28,11 @@ header{
                 margin-top: 35%;
             }
         
-            h5{font-size: 2rem;
+            h5{span{
+                font-size: 2rem;
                font-family: $font1;
+               color: $white_color
+            }
             //    text-align: right
             };
                h2{

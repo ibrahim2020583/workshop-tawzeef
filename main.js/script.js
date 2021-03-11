@@ -4,8 +4,29 @@ window.addEventListener("scroll", () => {
 
   nav.classList.toggle("sticky", window.scrollY > 0);
 });
+// counter number
+const counter = document.querySelectorAll('.counter')
 
-//   });
+counter.forEach(counter => {
+    counter.innerText = '0' + ""
+
+    const updateCounter = () => {
+        const target = +counter.getAttribute('data-target')
+        const c = +counter.innerText
+
+        const increment = target / 800
+
+        if(c < target) {
+            counter.innerText = `${Math.ceil(c + increment)}`
+            setTimeout(updateCounter, 1)
+        } else {
+            counter.innerText = target
+        }
+    }
+
+    updateCounter()
+})
+// count number
 //   campony slider
 $(".our-companies").slick({
   // infinite: true,
@@ -252,8 +273,8 @@ function setLanugage(getLanuage) {
 
     Find.innerHTML = "FIND JOB ";
     search.innerHTML = "Search Kayword ";
-    locatio.innerHTML = "Location ";
-    category.innerHTML = "Category";
+    
+    
     Jobss.innerHTML = "Find Job";
     loct.innerHTML = "Location";
     dh.innerHTML = "India";
@@ -422,8 +443,8 @@ function setLanugage(getLanuage) {
 
     Find.innerHTML = "ابحث عن وظيفتك";
     search.innerHTML = "كلمات البحث";
-    locatio.innerHTML = "الموقع";
-    category.innerHTML = "الفئه";
+    
+  
     Jobss.innerHTML = "ابحث عن وظيفتك";
     loct.innerHTML = "الموقع";
     dh.innerHTML = "الهند";

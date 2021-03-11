@@ -354,9 +354,10 @@ header .header-banner .header-titel {
     margin-top: 35%;
   }
 }
-header .header-banner .header-titel h5 {
+header .header-banner .header-titel h5 span {
   font-size: 2rem;
   font-family: "Amiri", serif;
+  color: #fff;
 }
 header .header-banner .header-titel h2 {
   font-size: 3.2rem;
@@ -381,7 +382,12 @@ header .header-banner .header-titel button {
   font-weight: 400;
   font-family: "Amiri", serif;
 }
-.search-job label {
+.search-job .form-select {
+  padding: 10px 30px;
+}
+.search-job .form-floating1 .form-control {
+  padding: 10px 30px;
+  height: 58px;
   font-size: 1.2rem;
   font-family: "Amiri", serif;
   color: #000;
@@ -1111,11 +1117,19 @@ form h4 {
   padding: 10px 5px;
   margin: auto;
 }
-.job-listing .filter .form-filter .form-floating label {
-  font-size: 1.5rem;
+.job-listing .filter .form-filter .form-floating .form-select {
+  font-size: 1rem;
+  padding: 10px 30px;
 }
 .job-listing .filter .form-filter .form-floating option {
   font-family: "Amiri", serif;
+}
+.job-listing .filter .form-filter .form-floating1 .form-control {
+  padding: 10px 30px;
+  height: 58px;
+  font-size: 1.2rem;
+  font-family: "Amiri", serif;
+  color: #000;
 }
 .job-listing .filter button {
   width: 88%;
@@ -1142,14 +1156,15 @@ form h4 {
 .job-listing .our-job .job-ditaels .job-right {
   width: 50%;
 }
+.job-listing .our-job .job-ditaels .job-right .form-select {
+  padding: 10px 30px;
+  font-size: 1rem;
+}
 .job-listing .our-job .job-ditaels .job-right .form-select option {
   font-family: "Amiri", serif;
 }
-.job-listing .our-job .job-ditaels .job-right label {
-  font-size: 1.5rem;
-  padding: 5px 5px;
-}
-.job-listing button {
+
+button {
   padding: 5px 15px;
   outline: none;
   font-size: 1.2rem;

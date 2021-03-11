@@ -34,9 +34,18 @@
             margin: auto
             ;
             .form-floating{
-                label{font-size: 1.5rem;};
+                .form-select{font-size: 1rem;
+                padding: 10px 30px};
                 option{font-family: $font1;}
             };
+            .form-floating1{
+                .form-control{
+                    padding: 10px 30px;
+                    height: 58px;font-size: 1.2rem;
+                   font-family: $font1;
+                   color:$black ;
+                }
+            }
         }
    
     button{
@@ -70,12 +79,12 @@
          .job-right{
              width: 50%;
              .form-select{
+                 padding: 10px 30px;
+                 font-size: 1rem;
                 option{font-family: $font1;
                 };
              };
-             label{
-                 font-size: 1.5rem;
-                 padding: 5px 5px
+             
              };
            
              }
@@ -88,4 +97,4 @@
         font-size: 1.2rem;
         ;
       }
- }
+ 
