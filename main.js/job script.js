@@ -6,19 +6,6 @@ window.addEventListener('scroll' , ()=> {
    
 });
 
-$(document).ready(function(){ 
-    $(window).scroll(function(){ 
-        if ($(this).scrollTop() > 100) { 
-            $('#goup').fadeIn(); 
-        } else { 
-            $('#goup').fadeOut(); 
-        } 
-    }); 
-    $('#goup').click(function(){ 
-        $("html, body").animate({ scrollTop: 0 }, 600); 
-        return false; 
-    }); 
-});
 
 const $dropdown = $(".dropdown");
 const $dropdownToggle = $(".dropdown-toggle");
@@ -44,4 +31,17 @@ $(window).on("load resize", function() {
   } else {
     $dropdown.off("mouseenter mouseleave");
   }
+});
+$(document).ready(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      $("#goup").fadeIn();
+    } else {
+      $("#goup").fadeOut();
+    }
+  });
+  $("#goup").click(function () {
+    $("html, body").animate({ scrollTop: 0 }, 600);
+    return false;
+  });
 });

@@ -5,27 +5,27 @@ window.addEventListener("scroll", () => {
   nav.classList.toggle("sticky", window.scrollY > 0);
 });
 // counter number
-const counter = document.querySelectorAll('.counter')
+const counter = document.querySelectorAll(".counter");
 
-counter.forEach(counter => {
-    counter.innerText = '0' + ""
+counter.forEach((counter) => {
+  counter.innerText = "0" + "";
 
-    const updateCounter = () => {
-        const target = +counter.getAttribute('data-target')
-        const c = +counter.innerText
+  const updateCounter = () => {
+    const target = +counter.getAttribute("data-target");
+    const c = +counter.innerText;
 
-        const increment = target / 800
+    const increment = target / 800;
 
-        if(c < target) {
-            counter.innerText = `${Math.ceil(c + increment)}`
-            setTimeout(updateCounter, 1)
-        } else {
-            counter.innerText = target
-        }
+    if (c < target) {
+      counter.innerText = `${Math.ceil(c + increment)}`;
+      setTimeout(updateCounter, 1);
+    } else {
+      counter.innerText = target;
     }
+  };
 
-    updateCounter()
-})
+  updateCounter();
+});
 // count number
 //   campony slider
 $(".our-companies").slick({
@@ -242,7 +242,6 @@ onload = () => {
 // ========================
 function setLanugage(getLanuage) {
   if (getLanuage === "english") {
-    
     home.innerHTML = "  Home ";
     About.innerHTML = "About Us";
     pages.innerHTML = "pages";
@@ -273,8 +272,7 @@ function setLanugage(getLanuage) {
 
     Find.innerHTML = "FIND JOB ";
     search.innerHTML = "Search Kayword ";
-    
-    
+
     Jobss.innerHTML = "Find Job";
     loct.innerHTML = "Location";
     dh.innerHTML = "India";
@@ -294,10 +292,10 @@ function setLanugage(getLanuage) {
     teach1.innerHTML = "Teaching";
     soft1.innerHTML = "Software&Web ";
     engine1.innerHTML = "Enginneering";
-     // ==================
+    // ==================
     // our blog
     // ===============
-    our.innerHTML = "OUR BLOG" ;
+    our.innerHTML = "OUR BLOG";
     blog.innerHTML = "View More Blog";
     // =================
     // our blog
@@ -413,7 +411,6 @@ function setLanugage(getLanuage) {
     Manager3.innerHTML = "  Manager   ";
     ltr = document.body.style.direction = "ltr";
   } else if (getLanuage === "arabic") {
-    
     home.innerHTML = "  الرئيسية ";
     About.innerHTML = "حول";
     pages.innerHTML = "االصفحات";
@@ -443,8 +440,7 @@ function setLanugage(getLanuage) {
 
     Find.innerHTML = "ابحث عن وظيفتك";
     search.innerHTML = "كلمات البحث";
-    
-  
+
     Jobss.innerHTML = "ابحث عن وظيفتك";
     loct.innerHTML = "الموقع";
     dh.innerHTML = "الهند";
@@ -468,12 +464,12 @@ function setLanugage(getLanuage) {
     // ==================
     // our blog
     // ===============
-    our.innerHTML = "مدونتنا" ;
+    our.innerHTML = "مدونتنا";
     blog.innerHTML = "شاهد اكثر عن مدونتنا";
     // =================
     // our blog
     // ==================
-      // ==========================
+    // ==========================
     // About Us
     // ==================
     About1.innerHTML = " ماذا عنا";
