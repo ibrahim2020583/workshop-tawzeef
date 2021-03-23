@@ -1,0 +1,94 @@
+
+#about-us {
+    padding: 100px 0;
+    .about-titel{
+        h2{
+            font-weight: bolder;
+            font-size: 2.5rem;
+            padding: 10px 5px;
+        } ;
+        p{
+            font-size: 1rem;
+            opacity: .8;
+        }
+        button {
+            margin: 15px 0;
+            outline: none;
+        }
+    } 
+}
+.our-advantages{
+    padding: 50px 0 ;
+    background-color: $white_color;
+    
+    
+    .my-advantages {
+        h4{
+            font-size: 1.5rem;
+            font-weight: bolder;
+           transition: .6s;
+           cursor: pointer;
+            &:hover{
+                color: $green_color;
+
+            }
+        };
+        i{
+            color:$green_color
+        }
+    }
+}
+.our-team{
+    padding: 50px 0;
+    .my-team{
+      
+       &:hover{
+         img{
+            opacity: .6;
+         }
+       }
+        h4{
+            .name{
+                font-size: 1.8rem;
+                font-weight: bolder;
+                color: $black;
+            };
+            .do{
+                font-size: 1rem;
+                color: $green_color;
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+
+.icreaseup{
+    padding: 100px 0;
+    background-color: #232323;
+    .counter-container{
+        text-align: center;
+        i{
+            color: $green_color;
+            font-size: 3rem
+        };
+        .counter{
+            font-size: 2.5rem;
+            font-weight: bolder;
+            color: $white_color;
+        };
+        span{
+            font-size: 1.5rem;
+            font-weight: bolder;
+            color : $white_color
+        }
+    }
+}
+
+.section-titel{
+    text-align: center;
+    padding: 20px 0;
+    h2{
+        font-weight: bolder;
+        font-size: 2.5rem;
+    }}

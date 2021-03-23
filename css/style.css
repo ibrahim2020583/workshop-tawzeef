@@ -367,35 +367,31 @@ header .header-banner .header-titel p {
   font-size: 1rem;
   margin-bottom: 35px;
 }
-header .header-banner .header-titel button {
-  padding: 13px 29px;
-  font-size: 1.5rem;
-  font-weight: 500;
-  box-shadow: none !important;
-  outline: none !important;
+header .header-banner .header-titel .search-job {
+  padding: 20px 0;
 }
-
-.search-job {
-  padding: 100px 0;
-}
-.search-job .section-titel h2 {
-  font-weight: 400;
-  font-family: "Amiri", serif;
-}
-.search-job .form-select {
+header .header-banner .header-titel .search-job .form-select {
   padding: 10px 30px;
 }
-.search-job .form-floating1 .form-control {
+header .header-banner .header-titel .search-job .form-floating1 .form-control {
   padding: 10px 30px;
   height: 58px;
   font-size: 1.2rem;
   font-family: "Amiri", serif;
   color: #000;
 }
-.search-job .find-job button {
+header .header-banner .header-titel .search-job .find-job button {
   width: 100%;
   padding: 13px 30px;
   outline: none !important;
+}
+@media only screen and (max-width: 600px) {
+  header .header-banner .header-titel .search-job {
+    text-align: center !important;
+  }
+  header .header-banner .header-titel .search-job button {
+    width: 80% !important;
+  }
 }
 
 .popular-search {
@@ -403,6 +399,7 @@ header .header-banner .header-titel button {
   background-color: #f5f7fa;
 }
 .popular-search .section-titel h2 {
+  text-align: left;
   font-weight: 400;
   font-family: "Amiri", serif;
 }
@@ -1546,6 +1543,10 @@ details li {
   margin-top: 12px;
 }
 
+.search {
+  padding: 50px 0;
+}
+
 .our-candidates {
   padding: 50px 0;
 }
@@ -1698,6 +1699,88 @@ details li {
 }
 .job-summery-2 .job-semmury-content p {
   color: #28a745;
+}
+
+#about-us {
+  padding: 100px 0;
+}
+#about-us .about-titel h2 {
+  font-weight: bolder;
+  font-size: 2.5rem;
+  padding: 10px 5px;
+}
+#about-us .about-titel p {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+#about-us .about-titel button {
+  margin: 15px 0;
+  outline: none;
+}
+
+.our-advantages {
+  padding: 50px 0;
+  background-color: #fff;
+}
+.our-advantages .my-advantages h4 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.our-advantages .my-advantages h4:hover {
+  color: #00D363;
+}
+.our-advantages .my-advantages i {
+  color: #00D363;
+}
+
+.our-team {
+  padding: 50px 0;
+}
+.our-team .my-team:hover img {
+  opacity: 0.6;
+}
+.our-team .my-team h4 .name {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  color: #000;
+}
+.our-team .my-team h4 .do {
+  font-size: 1rem;
+  color: #00D363;
+  font-weight: bolder;
+}
+
+.icreaseup {
+  padding: 100px 0;
+  background-color: #232323;
+}
+.icreaseup .counter-container {
+  text-align: center;
+}
+.icreaseup .counter-container i {
+  color: #00D363;
+  font-size: 3rem;
+}
+.icreaseup .counter-container .counter {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #fff;
+}
+.icreaseup .counter-container span {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.section-titel {
+  text-align: center;
+  padding: 20px 0;
+}
+.section-titel h2 {
+  font-weight: bolder;
+  font-size: 2.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

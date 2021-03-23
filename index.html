@@ -50,7 +50,7 @@
     <!-- -----------------------navbar---------------------------- -->
     <nav class="navbar navbar-expand-lg navbar-light    ">
 
-      <div class="container">
+      <div class="container " id="nav-bar" >
         <a  class="navbar-brand text-white" href="index.html">
           <img src="images/logo5.png" alt="" class="w-50">
         </a>
@@ -64,7 +64,7 @@
               <a id="home" class="nav-link " aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a id="About" class="nav-link" href="#aboutUs">About Us</a>
+              <a id="About" class="nav-link" href="pages/about us.html">About Us</a>
             </li>
             <li class="nav-item dropdown">
               <a id="pages" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -136,12 +136,64 @@
               <span>Jobs listed</span>
 
             </h5>
-            <h2 id="Dream" class="animate__animated animate__fadeInUp animate__delay-2s">Find your Dream Job</h2>
+            <div class="header-slider">
+              <h2 id="Dream" class="animate__animated animate__fadeInUp animate__delay-2s ">Find your Dream Job</h2>
+              <h2 id="Dream" class="animate__animated animate__fadeInUp animate__delay-2s ">Start Building Your Own Career Now</h2>
+              <h2 id="Dream" class="animate__animated animate__fadeInUp animate__delay-2s ">Build Your Future</h2>
+            </div>
+           
+          
             <p id="We" class="animate__animated animate__fadeInUp animate__delay-2s">We provide online instant cash
               loans with quick approval that suit your term length
             </p>
-            <button id="post" class="btn-1"> <a style="color: #fff;" href="pages/post-job.html">Post A job</a></button>
-
+         
+           
+            <section class="search-job">
+              <div class="container">
+                
+                <div class="searchjob  " >
+                <div class=" row g-2">
+                  <div class="col-md-3">
+            
+                    <div class="form-floating1">
+          
+                      <input type="text " class="form-control col-md-3 col-12" id="search" placeholder="Search Kayword" value="">
+                      
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-12">
+                    <div class="form-floating">
+                      <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example" >
+                        
+          
+                        <option selected id="loct">Location</option>
+                        <option value="1" id="dh">India</option>
+                        <option value="2" id="us">California, USA</option>
+                        <option value="3" id= "alex">alex, Egypt</option>
+                      </select>
+                      
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-12">
+                    <div class="form-floating cate">
+                      <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example" >
+                        <option selected  id="cat">Category</option>
+                        <option value="1" id="sal">Sales</option>
+                        <option value="2" id="it">IT</option>
+                        <option value="3" id="des">Designer</option>
+                      </select>
+                      
+                    </div>
+                  </div>
+                  <div class="find-job col-md-3 col-12">
+                   <a href="pages/jobs.html">
+                    <button class="btn-1 btn-lg" id="Jobss">Find Job</button>
+                   </a>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </section>
 
           </div>
          
@@ -153,54 +205,7 @@
   </header>
   <!-- ------------------------/header---------------------- -->
   <!-- ------------------------search-Job---------------------- -->
-  <section class="search-job">
-    <div class="container">
-      <div class="section-titel">
-        <h2 id="Find">Find Job</h2>
-      </div>
-      <div class="searchjob  " >
-      <div class=" row g-2">
-        <div class="col-md-3">
-  
-          <div class="form-floating1">
-
-            <input type="text " class="form-control col-md-3 col-12" id="search" placeholder="Search Kayword" value="">
-            
-          </div>
-        </div>
-        <div class="col-md-3 col-12">
-          <div class="form-floating">
-            <select class="form-select" id="floatingSelectGrid" aria-label="">
-
-
-              <option selected id="loct">Location</option>
-              <option value="1" id="dh">India</option>
-              <option value="2" id="us">California, USA</option>
-              <option value="3" id= "alex">alex, Egypt</option>
-            </select>
-            
-          </div>
-        </div>
-        <div class="col-md-3 col-12">
-          <div class="form-floating">
-            <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
-              <option selected  id="cat">Category</option>
-              <option value="1" id="sal">Sales</option>
-              <option value="2" id="it">IT</option>
-              <option value="3" id="des">Designer</option>
-            </select>
-            
-          </div>
-        </div>
-        <div class="find-job col-md-3 col-12">
-         <a href="pages/jobs.html">
-          <button class="btn-1 btn-lg" id="Jobss">Find Job</button>
-         </a>
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
+ 
   <!-- ------------------------/search-Job---------------------- -->
   <!-- ------------------------Popular Search--------------------- -->
   <section class="popular-search">
@@ -487,41 +492,53 @@ end section job-title
       <div class="popolar_categories">
         <h2 id="Popolar">Popolar Categories</h2>
         <div class="row d-flex justify-content-around">
-          <div class="poplar text-center col-md-3 col-12 mt-2">
+          <div class="poplar text-center col-md-3 col-12 mt-2"  >
+           <a href="pages/jobs.html">
             <h5><i class="fas fa-calculator"></i></h5>
-            <p id="Accounting">Accounting/Finance</p>
+            <p id="Accounting" h>Accounting/Finance</p>
             <span class="rounded  ">10,391</span>
+           </a>
           </div>
           <div class="poplar text-center col-md-3 col-12 mt-2 ">
-            <h5><i class="fas fa-tools"></i></h5>
+            <a href="pages/jobs.html">
+              <h5><i class="fas fa-tools"></i></h5>
             <p id="Automotive">Automotive/jobs</p>
             <span class="rounded  ">192</span>
+            </a>
           </div>
           <div class="poplar text-center col-md-3 col-12 mt-2 ">
-            <h5><i class="fas fa-hard-hat"></i></h5>
+            <a href="pages/jobs.html">
+              <h5><i class="fas fa-hard-hat"></i></h5>
             <p id="Constrution">Constrution</p>
             <span class="rounded  ">1,091</span>
+            </a>
           </div>
         </div>
         <div class="row d-flex justify-content-around mt-2">
           <div class="poplar text-center col-md-3 col-12 mt-2">
-            <h5><i class="fas fa-paint-brush"></i></h5>
+            <a href="pages/jobs.html">
+              <h5><i class="fas fa-paint-brush"></i></h5>
             <p id="Art">Art/Design</p>
             <span class="rounded  ">5,733</span>
+            </a>
           </div>
           <div class="poplar text-center col-md-3 col-12 mt-2 ">
+           <a href="pages/jobs.html">
             <h5>
               <i class="fas fa-plus-square"></i>
             </h5>
             <p id="Healthcare">Healthcare</p>
             <span class="rounded  ">382</span>
+           </a>
           </div>
           <div class="poplar text-center col-md-3 col-12 mt-2 ">
-            <h5>
-              <i class="fas fa-utensils"></i>
-            </h5>
-            <p id="Resturant">Resturant/Food</p>
-            <span class="rounded  ">675</span>
+            <a href="pages/jobs.html">
+              <h5>
+                <i class="fas fa-utensils"></i>
+              </h5>
+              <p id="Resturant">Resturant/Food</p>
+              <span class="rounded  ">675</span>
+            </a>
           </div>
         </div>
       </div>

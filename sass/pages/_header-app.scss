@@ -46,12 +46,41 @@ header{
                    font-size: 1rem;
                    margin-bottom: 35px;
                };
-               button{padding: 13px 29px;
-            font-size: 1.5rem;
-        font-weight: 500;
-        box-shadow:none !important;
-        outline: none!important
-    ;}
+              // find job
+.search-job {
+    padding: 20px 0;
+    
+   
+   
+     .form-select {
+       
+       padding: 10px 30px
+        
+     };
+     .form-floating1{
+      .form-control{
+        padding: 10px 30px;
+        height: 58px;font-size: 1.2rem;
+       font-family: $font1;
+       color:$black ;
+      }
+     }
+    .find-job{
+        button{
+            width: 100%;
+            padding: 13px 30px;
+            outline: none!important;
+        }
+    }
+    @media only screen and (max-width: 600px){
+        text-align: center!important;
+        button{
+            width: 80%!important;}
+           
+        ;
+    }
+}
+  // find job
             
         }
     };

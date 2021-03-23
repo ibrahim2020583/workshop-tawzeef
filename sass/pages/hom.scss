@@ -1,46 +1,13 @@
 
 
 
-// find job
-.search-job {
-  padding: 100px 0;
-  
-  .section-titel{
-      h2{
-          
-          font-weight: 400;
-          font-family: $font1;
 
-      }
-  }
- 
-   .form-select {
-     
-     padding: 10px 30px
-      
-   };
-   .form-floating1{
-    .form-control{
-      padding: 10px 30px;
-      height: 58px;font-size: 1.2rem;
-     font-family: $font1;
-     color:$black ;
-    }
-   }
-  .find-job{
-      button{
-          width: 100%;
-          padding: 13px 30px;
-          outline: none!important;
-      }
-  }}
-// find job
 // Popular Search
 .popular-search{
   padding: 10px 0;
   background-color:$body-color;
   .section-titel{
-      h2{
+      h2{text-align: left;
           
           font-weight: 400;
           font-family: $font1;
@@ -397,7 +364,7 @@ button{
     font-weight: 400;
     margin-top: 5px;
   }
-  .poplar {
+   .poplar {
     background-color: $white_color;
     padding: 25px 0;
     width: 32%;

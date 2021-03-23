@@ -1,8 +1,10 @@
 // stickynavbar
 window.addEventListener("scroll", () => {
   let nav = document.querySelector(".navbar");
+  let navbr = document.querySelector("#nav-bar");
 
   nav.classList.toggle("sticky", window.scrollY > 0);
+  
 });
 // counter number
 const counter = document.querySelectorAll(".counter");
@@ -27,6 +29,14 @@ counter.forEach((counter) => {
   updateCounter();
 });
 // count number
+// header slider
+$('.header-slider').slick(
+  {
+    autoplay: true,
+    autoplaySpeed: 2000,
+  }
+);
+// header slider
 //   campony slider
 $(".our-companies").slick({
   // infinite: true,
@@ -265,12 +275,12 @@ function setLanugage(getLanuage) {
     Dream.innerHTML = "Find your Dream Job";
     We.innerHTML =
       "We provide online instant cash loans with quick approval that suit your term length";
-    post.innerHTML = " Post A Job ";
+    
     // ===============================
     //  FIND JOB
     // ====================
 
-    Find.innerHTML = "FIND JOB ";
+    
     search.innerHTML = "Search Kayword ";
 
     Jobss.innerHTML = "Find Job";
@@ -433,12 +443,12 @@ function setLanugage(getLanuage) {
     Dream.innerHTML = " ابحث عن الوظيفة التي تحلم بها  ";
     We.innerHTML =
       "نحن نقدم قروضًا نقدية فورية عبر الإنترنت بموافقة سريعة تناسب طول مدتك";
-    post.innerHTML = " انشر  وظيفة";
+    
     // ===============================
     //  FIND JOB
     // ====================
 
-    Find.innerHTML = "ابحث عن وظيفتك";
+    
     search.innerHTML = "كلمات البحث";
 
     Jobss.innerHTML = "ابحث عن وظيفتك";
@@ -480,7 +490,7 @@ function setLanugage(getLanuage) {
     ibsum.innerHTML =
       " يساعد توظيف أكثر من 9,500 شركة في البحث عن موظفين و 1,400,000 شخص في البحث عن وظائف";
 
-    post.innerHTML = " انشر وظيفة";
+    // post.innerHTML = " انشر وظيفة";
     // ========================
     // translat joblisting
     // =======================
