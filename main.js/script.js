@@ -75,14 +75,14 @@ $(window).load(function () {
 
   // Loading Elements
 
-  $(".loading-page .logo-web").fadeOut(2000, function () {
+  $(".loading-page .logo-web").fadeOut(1000, function () {
     // Show The Scroll
 
     $("body").css("overflow", "auto");
 
     $(this)
       .parent()
-      .fadeOut(2000, function () {
+      .fadeOut(1000, function () {
         $(this).remove();
       });
   });

@@ -1,18 +1,18 @@
 .Testimonial{
-  padding: 100px 0;
-  font-family: 'Amiri', serif;
-            text-align: center;
+  padding: 25px 0;
+  background:#fff;
+border-top: 2px solid $green-color;
+border-bottom: 2px solid $green-color;
+font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+text-align: center;
             h2{
               text-transform: capitalize; 
               color: $childcolor;
               font-family: 'Cairo', sans-serif;
-              font-size: $Fsize + 26;
+              font-size: $Fsize + 22;
               font-weight: 400;
             }
   .slide{
-    background:#fff;
-border-radius: 15px;
-padding: 15px 0;
 box-shadow: $box-shadow;
 // border: 1px solid $green-color;
       .carousel-inner{
@@ -31,13 +31,26 @@ box-shadow: $box-shadow;
               transition: transform .5s ease-in-out;
              
             }
+            .front{
+              font-size: 20px;
+              margin-top: 5px;
+              color: $green-color;
+            }
+            .span{
+              font-size: 20px;
+              color: #74757f;
+            }
             .lead{
               text-align: center;
-              // color: $main-color;
+              color: #74757f;
               padding: 0 200px;
               transition: .5s;
               .p{
-                font-size: 25px;
+                font-size: 20px;
+                color: #74757f;
+                margin-top: -15px;
+                margin-bottom: -5px;
+
               }
               @media only screen and(max-width:767px){
                 padding: unset;
@@ -56,18 +69,17 @@ box-shadow: $box-shadow;
  .fa-angle-right,
   .fa-angle-left{
   z-index: 1;
-    color: $blue-color !important;
-    background-color: #7FC1FC !important;
+    color: $green-color !important;
    width: 50px;
    height: 50px;
-   line-height: 50px;
+   line-height: 0px;
    border-radius: 50%;
    font-size: 30px;
    text-align: center;
-   &:hover{
-    background-color: $blue-color !important;
-    color: #7FC1FC  !important;
-   }
+  
    @media only screen and(max-width:767px){
 visibility: hidden;    }
  }
+ .quote-light-mark {
+  fill: #aeb1be;
+}

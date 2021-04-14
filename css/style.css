@@ -169,7 +169,7 @@ header i {
 }
 
 .footer {
-  padding: 150px 0;
+  padding: 100px 0;
   background-color: #001D38;
   color: #fff;
   border-top: 8px solid #00D363;
@@ -183,6 +183,15 @@ header i {
 }
 .footer .twzif h2:hover, .footer .copyright h2:hover {
   color: #00D363;
+  cursor: pointer;
+}
+.footer .twzif .lead, .footer .copyright .lead, .footer .copyright .span, .footer .twzif span, .footer .copyright span {
+  margin-top: 5px;
+  transition: 0.5s;
+}
+.footer .twzif .lead:hover, .footer .copyright .lead:hover, .footer .copyright .span:hover, .footer .twzif span:hover, .footer .copyright span:hover {
+  color: #fff;
+  cursor: pointer;
 }
 .footer .twzif .lead .fa-envelope-open, .footer .copyright .lead .fa-envelope-open, .footer .copyright .span .fa-envelope-open,
 .footer .twzif .lead .fa-phone,
@@ -193,22 +202,13 @@ header i {
 .footer .copyright .span .fa-map-marker-alt,
 .footer .twzif .lead .fa-internet-explorer,
 .footer .copyright .lead .fa-internet-explorer,
-.footer .copyright .span .fa-internet-explorer,
-.footer .twzif .lead .fa-twitter,
-.footer .copyright .lead .fa-twitter,
-.footer .copyright .span .fa-twitter,
-.footer .twzif .lead .fa-instagram,
-.footer .copyright .lead .fa-instagram,
-.footer .copyright .span .fa-instagram,
-.footer .twzif .lead .fa-dribbble,
-.footer .copyright .lead .fa-dribbble,
-.footer .copyright .span .fa-dribbble,
-.footer .twzif .lead .fa-facebook,
-.footer .copyright .lead .fa-facebook,
-.footer .copyright .span .fa-facebook,
-.footer .twzif .lead .fa-linkedin,
-.footer .copyright .lead .fa-linkedin,
-.footer .copyright .span .fa-linkedin {
+.footer .copyright .span .fa-internet-explorer, .footer .twzif span .fa-envelope-open, .footer .copyright span .fa-envelope-open,
+.footer .twzif span .fa-phone,
+.footer .copyright span .fa-phone,
+.footer .twzif span .fa-map-marker-alt,
+.footer .copyright span .fa-map-marker-alt,
+.footer .twzif span .fa-internet-explorer,
+.footer .copyright span .fa-internet-explorer {
   color: #00D363;
   margin-right: 5px;
 }
@@ -217,20 +217,25 @@ header i {
   margin-top: 15px;
 }
 .footer .social .fab {
-  background-color: #001D38;
-  color: #525151;
-  border: 1px solid;
-  border-color: #525151;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  border-radius: 50%;
-  font-size: 18px;
-  transition: 0.5s;
+  background-color: transparent !important;
 }
-.footer .social .fab:hover {
-  background-color: #00D363;
-  border: none;
+.footer .social .fa-twitter {
+  color: #1da1f2;
+}
+.footer .social .fa-instagram {
+  color: #c13584;
+}
+.footer .social .fa-dribbble {
+  color: #ff8833;
+}
+.footer .social .fa-facebook-f {
+  color: #3b5998;
+}
+.footer .social .fa-linkedin {
+  color: #0077b5;
+}
+.footer .social .google {
+  color: #dd4b39;
 }
 .footer .form-control {
   border-radius: 20px;
@@ -922,21 +927,21 @@ header .header-banner .header-titel .search-job .find-job button {
 }
 
 .Testimonial {
-  padding: 100px 0;
-  font-family: "Amiri", serif;
+  padding: 25px 0;
+  background: #fff;
+  border-top: 2px solid #00D363;
+  border-bottom: 2px solid #00D363;
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   text-align: center;
 }
 .Testimonial h2 {
   text-transform: capitalize;
   color: #1F1F1F;
   font-family: "Cairo", sans-serif;
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 400;
 }
 .Testimonial .slide {
-  background: #fff;
-  border-radius: 15px;
-  padding: 15px 0;
   box-shadow: 0 10px 6px -6px #fff;
 }
 .Testimonial .slide .carousel-inner .carousel-item {
@@ -955,13 +960,26 @@ header .header-banner .header-titel .search-job .find-job button {
   border-radius: 50%;
   transition: transform 0.5s ease-in-out;
 }
+.Testimonial .slide .carousel-inner .carousel-item .icon .front {
+  font-size: 20px;
+  margin-top: 5px;
+  color: #00D363;
+}
+.Testimonial .slide .carousel-inner .carousel-item .icon .span {
+  font-size: 20px;
+  color: #74757f;
+}
 .Testimonial .slide .carousel-inner .carousel-item .icon .lead, .Testimonial .slide .carousel-inner .carousel-item .icon .footer .copyright .span, .footer .copyright .Testimonial .slide .carousel-inner .carousel-item .icon .span {
   text-align: center;
+  color: #74757f;
   padding: 0 200px;
   transition: 0.5s;
 }
 .Testimonial .slide .carousel-inner .carousel-item .icon .lead .p, .Testimonial .slide .carousel-inner .carousel-item .icon .footer .copyright .span .p, .footer .copyright .Testimonial .slide .carousel-inner .carousel-item .icon .span .p {
-  font-size: 25px;
+  font-size: 20px;
+  color: #74757f;
+  margin-top: -15px;
+  margin-bottom: -5px;
 }
 @media only screen and (max-width: 767px) {
   .Testimonial .slide .carousel-inner .carousel-item .icon .lead, .Testimonial .slide .carousel-inner .carousel-item .icon .footer .copyright .span, .footer .copyright .Testimonial .slide .carousel-inner .carousel-item .icon .span {
@@ -977,25 +995,23 @@ header .header-banner .header-titel .search-job .find-job button {
 .fa-angle-right,
 .fa-angle-left {
   z-index: 1;
-  color: #168BF5 !important;
-  background-color: #7FC1FC !important;
+  color: #00D363 !important;
   width: 50px;
   height: 50px;
-  line-height: 50px;
+  line-height: 0px;
   border-radius: 50%;
   font-size: 30px;
   text-align: center;
-}
-.fa-angle-right:hover,
-.fa-angle-left:hover {
-  background-color: #168BF5 !important;
-  color: #7FC1FC !important;
 }
 @media only screen and (max-width: 767px) {
   .fa-angle-right,
 .fa-angle-left {
     visibility: hidden;
   }
+}
+
+.quote-light-mark {
+  fill: #aeb1be;
 }
 
 .modal-content {
