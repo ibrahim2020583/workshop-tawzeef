@@ -131,108 +131,7 @@ $(window).on("load resize", function () {
     $dropdown.off("mouseenter mouseleave");
   }
 });
-// random image
-let img = document.querySelector("#image");
-let text = document.querySelector(".blog-text");
-let user = document.querySelector(".blog-user");
-let date = document.querySelector(".blog-date");
-let arr = [
-  "images/blog/blog_4.png",
-  "images/blog/blog_2.png",
-  "images/blog/single_blog_5.png",
-  "images/blog/single_blog_1.png",
-];
-let arrText = [
-  "7 Factors for Choosing Between Two Jobs",
-  "How to Write a Creative Cover Letter",
-  "The Right Way to Quit a Job You Started",
-  "Google inks pact for new 35-storey office",
-];
-let arrUser = ["Mark", "John", "Noha", "Sara"];
-let arrDate = ["jun 15, 2019", "Nov 20, 2021", "May 10, 2019", "Dec 28, 2020"];
-setInterval(() => {
-  let randomNumber = Math.floor(Math.random() * arr.length);
-  img.src = arr[randomNumber];
-  text.innerHTML = arrText[Math.floor(Math.random() * arrText.length)];
-  user.innerHTML = arrUser[Math.floor(Math.random() * arrUser.length)];
-  date.innerHTML = arrDate[Math.floor(Math.random() * arrDate.length)];
-}, 1000);
-let img1 = document.querySelector("#image1");
-let text1 = document.querySelector(".blog-text1");
-let user1 = document.querySelector(".blog-user1");
-let date1 = document.querySelector(".blog-date1");
-let arr1 = [
-  "images/blog/blog_4.png",
-  "images/blog/blog_2.png",
-  "images/blog/single_blog_5.png",
-  "images/blog/single_blog_1.png",
-];
-let arrText1 = [
-  "7 Factors for Choosing Between Two Jobs",
-  "How to Write a Creative Cover Letter",
-  "The Right Way to Quit a Job You Started",
-  "Google inks pact for new 35-storey office",
-];
-let arrUser1 = ["Mark", "John", "Noha", "Sara"];
-let arrDate1 = ["jun 15, 2019", "Nov 20, 2021", "May 10, 2019", "Dec 28, 2020"];
-setInterval(() => {
-  let randomNumber = Math.floor(Math.random() * arr1.length);
-  img1.src = arr1[randomNumber];
-  text1.innerHTML = arrText1[Math.floor(Math.random() * arrText1.length)];
-  user1.innerHTML = arrUser[Math.floor(Math.random() * arrUser1.length)];
-  date1.innerHTML = arrDate1[Math.floor(Math.random() * arrDate1.length)];
-}, 3000);
-let img2 = document.querySelector("#image2");
-let text2 = document.querySelector(".blog-text2");
-let user2 = document.querySelector(".blog-user2");
-let date2 = document.querySelector(".blog-date2");
-let arr2 = [
-  "images/blog/blog_4.png",
-  "images/blog/blog_2.png",
-  "images/blog/single_blog_5.png",
-  "images/blog/single_blog_1.png",
-];
-let arrText2 = [
-  "7 Factors for Choosing Between Two Jobs",
-  "How to Write a Creative Cover Letter",
-  "The Right Way to Quit a Job You Started",
-  "Google inks pact for new 35-storey office",
-];
-let arrUser2 = ["Mark", "John", "Noha", "Sara"];
-let arrDate2 = ["jun 15, 2019", "Nov 20, 2021", "May 10, 2019", "Dec 28, 2020"];
-setInterval(() => {
-  let randomNumber = Math.floor(Math.random() * arr2.length);
-  img2.src = arr2[randomNumber];
-  text2.innerHTML = arrText2[Math.floor(Math.random() * arrText2.length)];
-  user2.innerHTML = arrUser2[Math.floor(Math.random() * arrUser2.length)];
-  date2.innerHTML = arrDate2[Math.floor(Math.random() * arrDate2.length)];
-}, 4000);
-let img3 = document.querySelector("#image3");
-let text3 = document.querySelector(".blog-text3");
-let user3 = document.querySelector(".blog-user3");
-let date3 = document.querySelector(".blog-date3");
-let arr3 = [
-  "images/blog/blog_4.png",
-  "images/blog/blog_2.png",
-  "images/blog/single_blog_5.png",
-  "images/blog/single_blog_1.png",
-];
-let arrText3 = [
-  "7 Factors for Choosing Between Two Jobs",
-  "How to Write a Creative Cover Letter",
-  "The Right Way to Quit a Job You Started",
-  "Google inks pact for new 35-storey office",
-];
-let arrUser3 = ["Mark", "John", "Noha", "Sara"];
-let arrDate3 = ["jun 15, 2019", "Nov 20, 2021", "May 10, 2019", "Dec 28, 2020"];
-setInterval(() => {
-  let randomNumber = Math.floor(Math.random() * arr3.length);
-  img3.src = arr3[randomNumber];
-  text3.innerHTML = arrText3[Math.floor(Math.random() * arrText3.length)];
-  user3.innerHTML = arrUser3[Math.floor(Math.random() * arrUser3.length)];
-  date3.innerHTML = arrDate3[Math.floor(Math.random() * arrDate3.length)];
-}, 2000);
-// random image
+
 // /* <!-- * ------------------------------------------------------
 //  start choise langage and changed rtl or ltr navbar
 // ------------------------------------------------------------- --> */
@@ -295,13 +194,12 @@ function setLanugage(getLanuage) {
     // ===============================
     //  Popular Search:
     // ====================
-    popula1.innerHTML = "Popular Search: ";
-    creat1.innerHTML = "Design&Creative";
-    markt1.innerHTML = "Marketing";
-    adimin1.innerHTML = "Adiministration";
-    teach1.innerHTML = "Teaching";
-    soft1.innerHTML = "Software&Web ";
-    engine1.innerHTML = "Enginneering";
+    health1.innerHTML="Healthcare";
+    mobile1.innerHTML="Mobile job";
+    web1.innerHTML="Web developer";
+    cons1.innerHTML="Construction";
+    food1.innerHTML= "Foodservice";
+    fina1.innerHTML="Finance"
     // ==================
     // our blog
     // ===============
@@ -464,13 +362,12 @@ function setLanugage(getLanuage) {
     // ====================
     // Popular Search:
     // ====================
-    popula1.innerHTML = "بحث شائع:";
-    creat1.innerHTML = "التصميم الإبداعي";
-    markt1.innerHTML = "تسويق";
-    adimin1.innerHTML = "إدارة";
-    teach1.innerHTML = "تعليم";
-    soft1.innerHTML = "البرمجيات والويب";
-    engine1.innerHTML = "هندسة";
+    health1.innerHTML="الرعاىة الصحية";
+    mobile1.innerHTML="وظيفة المحمول";
+    web1.innerHTML="مطور ويب";
+    cons1.innerHTML="بناء";
+    food1.innerHTML= "خدمة الطعام";
+    fina1.innerHTML="تمويل"
     // ==================
     // our blog
     // ===============

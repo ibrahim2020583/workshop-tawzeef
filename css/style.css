@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
 html, body {
   height: 100%;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
   -webkit-font-smoothing: antialiased;
   position: relative;
   font-weight: normal;
@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn {
   text-transform: capitalize;
-  background-color: transparent;
+  background-color: #f7ea00;
   color: #00D363;
   border: 1px solid #00D363;
   border-radius: 5px;
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
 }
 .btn-1:hover {
-  background-color: transparent;
+  background-color: #f7ea00;
   color: #00D363;
 }
 
@@ -95,7 +95,7 @@ header .navbar .navbar-toggler {
 }
 header .navbar-brand {
   font-size: 2rem;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
   font-weight: 600;
 }
 header .navbar-nav .nav-item {
@@ -105,7 +105,7 @@ header .navbar-nav .nav-item .nav-link {
   color: #fff;
   font-size: 1.1rem;
   font-weight: 400;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
   transition: 0.6s;
 }
 header .navbar-nav .nav-item .nav-link:hover {
@@ -361,7 +361,7 @@ header .header-banner .header-titel {
 }
 header .header-banner .header-titel h5 span {
   font-size: 2rem;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
   color: #fff;
 }
 header .header-banner .header-titel h2 {
@@ -382,7 +382,7 @@ header .header-banner .header-titel .search-job .form-floating1 .form-control {
   padding: 10px 30px;
   height: 58px;
   font-size: 1.2rem;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
   color: #000;
 }
 header .header-banner .header-titel .search-job .find-job button {
@@ -400,19 +400,26 @@ header .header-banner .header-titel .search-job .find-job button {
 }
 
 .popular-search {
-  padding: 10px 0;
-  background-color: #f5f7fa;
+  margin-top: -30px;
 }
-.popular-search .section-titel h2 {
-  text-align: left;
-  font-weight: 400;
-  font-family: "Amiri", serif;
+.popular-search .single-job {
+  transition: 0.6s ease-in;
+  background-color: #00D363;
+  padding: 30px 0;
 }
-.popular-search .section-titel .search-titel button {
-  padding: 5px 15px;
-  outline: none;
-  font-size: 1.2rem;
-  width: 100%;
+.popular-search .single-job i {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #fff;
+}
+.popular-search .single-job p {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #fff;
+  padding: 5px 0;
+}
+.popular-search .single-job:hover {
+  background-color: #bebebe;
 }
 
 #aboutUs {
@@ -440,19 +447,19 @@ header .header-banner .header-titel .search-job .find-job button {
 #aboutUs .about-titel .section-titel h2 {
   font-size: 2.5rem;
   font-weight: 400;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
 }
 #aboutUs .about-titel h5 {
   font-size: 1rem;
   font-weight: 400;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
   opacity: 0.8;
   text-align: center;
 }
 #aboutUs .about-titel p {
   font-size: 1.2rem;
   font-weight: 400;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
   opacity: 0.5;
   padding: 15px 0;
 }
@@ -476,12 +483,12 @@ header .header-banner .header-titel .search-job .find-job button {
 }
 #Top-Companies .our-companies .company h6 {
   font-size: 1.2rem;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
   font-weight: bolder;
 }
 #Top-Companies .our-companies .company p {
   font-size: 1.2rem;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
   font-weight: bolder;
   padding: 5px 0;
   opacity: 0.6;
@@ -497,7 +504,7 @@ header .header-banner .header-titel .search-job .find-job button {
 }
 .our-blog .section-titel h2 {
   font-weight: 400;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
 }
 .our-blog .single-blog {
   width: 23% !important;
@@ -527,7 +534,7 @@ header .header-banner .header-titel .search-job .find-job button {
 }
 .our-blog .single-blog h4 {
   font-weight: bolder;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
   font-size: 1.2rem;
   margin: 0 0 !important;
 }
@@ -540,7 +547,7 @@ header .header-banner .header-titel .search-job .find-job button {
 .job-title {
   padding: 100px 25px;
   background-color: #f5f7fa;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
 }
 .job-title .listing_title {
   text-align: left;
@@ -702,14 +709,14 @@ header .header-banner .header-titel .search-job .find-job button {
 .dream-job .dream-titel h2 {
   font-size: 4rem;
   font-weight: 400;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
   color: #fff;
   padding: 10px 0;
 }
 .dream-job .dream-titel h6 {
   font-size: 2rem;
   font-weight: 400;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
   color: #fff;
   padding: 10px 0;
 }
@@ -745,7 +752,7 @@ header .header-banner .header-titel .search-job .find-job button {
 }
 .popolar_categories .poplar p {
   font-weight: bolder;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
   font-size: 1.5rem;
   transition: 0.7s;
 }
@@ -780,7 +787,7 @@ header .header-banner .header-titel .search-job .find-job button {
   background: none;
   font-size: 1.5rem;
   font-weight: bolder;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
   text-align: center;
   outline: none;
 }
@@ -1075,10 +1082,10 @@ form h4 {
   background: none;
   font-size: 1.5rem;
   font-weight: bolder;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
   text-align: center;
   outline: none;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
 }
 
 .text #goup {
@@ -1124,7 +1131,7 @@ form h4 {
 .job-listing .filter .section-titel h2 {
   font-size: 2rem;
   font-weight: 400;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
 }
 .job-listing .filter .form-filter {
   padding: 10px 5px;
@@ -1135,13 +1142,13 @@ form h4 {
   padding: 10px 30px;
 }
 .job-listing .filter .form-filter .form-floating option {
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
 }
 .job-listing .filter .form-filter .form-floating1 .form-control {
   padding: 10px 30px;
   height: 58px;
   font-size: 1.2rem;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
   color: #000;
 }
 .job-listing .filter button {
@@ -1164,7 +1171,7 @@ form h4 {
 .job-listing .our-job .job-ditaels .jobs_left h2 {
   font-size: 1.5rem;
   font-weight: 400;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
 }
 .job-listing .our-job .job-ditaels .job-right {
   width: 50%;
@@ -1174,7 +1181,7 @@ form h4 {
   font-size: 1rem;
 }
 .job-listing .our-job .job-ditaels .job-right .form-select option {
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
 }
 
 button {
@@ -1226,7 +1233,7 @@ button {
   padding: 5px 30px;
   font-size: 1.5rem;
   font-weight: bolder;
-  font-family: "Amiri", serif;
+  font-family: "Vollkorn", serif;
 }
 .my-blog .our-blogs .date-blog a h3 {
   line-height: 1.2;
