@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
 html, body {
   height: 100%;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
   -webkit-font-smoothing: antialiased;
   position: relative;
   font-weight: normal;
@@ -33,8 +33,8 @@ h1, h2, h3, h4, h5, h6 {
 .btn {
   text-transform: capitalize;
   background-color: transparent;
-  color: #00D363;
-  border: 1px solid #00D363;
+  color: #81b214;
+  border: 1px solid #81b214;
   border-radius: 5px;
   padding: 10px 30px;
   outline: none;
@@ -42,15 +42,15 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
 }
 .btn:hover {
-  background-color: #00D363;
+  background-color: #81b214;
   color: #fff;
 }
 
 .btn-1 {
   text-transform: capitalize;
-  background-color: #00D363;
+  background-color: #81b214;
   color: #fff;
-  border: 1px solid #00D363;
+  border: 1px solid #81b214;
   border-radius: 5px;
   padding: 5px 15px;
   outline: none;
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn-1:hover {
   background-color: transparent;
-  color: #00D363;
+  color: #81b214;
 }
 
 .square_btn {
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding: 0.5em 1.4em;
   text-decoration: none;
-  background: #00D363;
+  background: #81b214;
   color: #FFF;
   border-bottom: solid 5px #000;
   border-right: solid 5px #000;
@@ -91,11 +91,11 @@ header .navbar {
   }
 }
 header .navbar .navbar-toggler {
-  background-color: #00D363;
+  background-color: #81b214;
 }
 header .navbar-brand {
   font-size: 2rem;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
   font-weight: 600;
 }
 header .navbar-nav .nav-item {
@@ -105,11 +105,11 @@ header .navbar-nav .nav-item .nav-link {
   color: #fff;
   font-size: 1.1rem;
   font-weight: 400;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
   transition: 0.6s;
 }
 header .navbar-nav .nav-item .nav-link:hover {
-  color: #00D363;
+  color: #81b214;
 }
 @media only screen and (max-width: 991px) {
   header .navbar-nav .nav-item .nav-link {
@@ -128,7 +128,7 @@ header .mode {
   padding: 10px 0;
 }
 header .label {
-  background-color: #00D363;
+  background-color: #81b214;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -170,23 +170,24 @@ header i {
 
 .footer {
   padding: 100px 0;
-  background-color: #001D38;
+  background-color: #206a5d;
   color: #fff;
-  border-top: 8px solid #00D363;
+  border-top: 8px solid #81b214;
 }
 .footer .twzif, .footer .copyright {
   padding: 5px;
 }
 .footer .twzif h2, .footer .copyright h2 {
-  border-bottom: 1px dashed #00D363;
+  border-bottom: 1px dashed #81b214;
   transition: 0.5s;
 }
 .footer .twzif h2:hover, .footer .copyright h2:hover {
-  color: #00D363;
+  color: #81b214;
   cursor: pointer;
 }
 .footer .twzif .lead, .footer .copyright .lead, .footer .copyright .span, .footer .twzif span, .footer .copyright span {
   margin-top: 5px;
+  color: #000;
   transition: 0.5s;
 }
 .footer .twzif .lead:hover, .footer .copyright .lead:hover, .footer .copyright .span:hover, .footer .twzif span:hover, .footer .copyright span:hover {
@@ -209,7 +210,7 @@ header i {
 .footer .copyright span .fa-map-marker-alt,
 .footer .twzif span .fa-internet-explorer,
 .footer .copyright span .fa-internet-explorer {
-  color: #00D363;
+  color: #81b214;
   margin-right: 5px;
 }
 .footer .social {
@@ -229,7 +230,7 @@ header i {
   color: #ff8833;
 }
 .footer .social .fa-facebook-f {
-  color: #3b5998;
+  color: #0078d7;
 }
 .footer .social .fa-linkedin {
   color: #0077b5;
@@ -245,25 +246,25 @@ header i {
 .footer .input-group-text {
   border-top-right-radius: 20px !important;
   border-bottom-right-radius: 20px !important;
-  background-color: #00D363;
+  background-color: #81b214;
   color: #fff;
 }
 .footer .input-group-text a {
   color: #fff;
 }
 .footer .copyright {
-  border-bottom: 1px dashed #00D363;
+  border-bottom: 1px dashed #81b214;
   text-align: center;
   border-right: none;
   text-transform: capitalize;
 }
 .footer .copyright .fa-heart {
-  color: #00D363;
+  color: #81b214;
   margin-right: 5px;
   margin-left: 5px;
 }
 .loading-page {
-  background: #00D363;
+  background: #81b214;
   color: #FFF;
   position: fixed;
   left: 0;
@@ -296,7 +297,7 @@ header i {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #001D38;
+  background-color: #206a5d;
   opacity: 0.6;
   position: absolute;
   top: 0;
@@ -361,7 +362,7 @@ header .header-banner .header-titel {
 }
 header .header-banner .header-titel h5 span {
   font-size: 2rem;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
   color: #fff;
 }
 header .header-banner .header-titel h2 {
@@ -382,7 +383,7 @@ header .header-banner .header-titel .search-job .form-floating1 .form-control {
   padding: 10px 30px;
   height: 58px;
   font-size: 1.2rem;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
   color: #000;
 }
 header .header-banner .header-titel .search-job .find-job button {
@@ -406,7 +407,7 @@ header .header-banner .header-titel .search-job .find-job button {
 .popular-search .section-titel h2 {
   text-align: left;
   font-weight: 400;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
 }
 .popular-search .section-titel .search-titel button {
   padding: 5px 15px;
@@ -424,7 +425,7 @@ header .header-banner .header-titel .search-job .find-job button {
   padding: 200px 0;
 }
 #aboutUs .play-video {
-  background-color: #00D363;
+  background-color: #81b214;
   font-size: 3rem;
   width: 80px;
   height: 80px;
@@ -440,19 +441,19 @@ header .header-banner .header-titel .search-job .find-job button {
 #aboutUs .about-titel .section-titel h2 {
   font-size: 2.5rem;
   font-weight: 400;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
 }
 #aboutUs .about-titel h5 {
   font-size: 1rem;
   font-weight: 400;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
   opacity: 0.8;
   text-align: center;
 }
 #aboutUs .about-titel p {
   font-size: 1.2rem;
   font-weight: 400;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
   opacity: 0.5;
   padding: 15px 0;
 }
@@ -476,12 +477,12 @@ header .header-banner .header-titel .search-job .find-job button {
 }
 #Top-Companies .our-companies .company h6 {
   font-size: 1.2rem;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
   font-weight: bolder;
 }
 #Top-Companies .our-companies .company p {
   font-size: 1.2rem;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
   font-weight: bolder;
   padding: 5px 0;
   opacity: 0.6;
@@ -497,7 +498,7 @@ header .header-banner .header-titel .search-job .find-job button {
 }
 .our-blog .section-titel h2 {
   font-weight: 400;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
 }
 .our-blog .single-blog {
   width: 23% !important;
@@ -527,7 +528,7 @@ header .header-banner .header-titel .search-job .find-job button {
 }
 .our-blog .single-blog h4 {
   font-weight: bolder;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
   font-size: 1.2rem;
   margin: 0 0 !important;
 }
@@ -540,7 +541,7 @@ header .header-banner .header-titel .search-job .find-job button {
 .job-title {
   padding: 100px 25px;
   background-color: #f5f7fa;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
 }
 .job-title .listing_title {
   text-align: left;
@@ -552,7 +553,7 @@ header .header-banner .header-titel .search-job .find-job button {
 }
 .job-title .listing_title h2 {
   text-transform: capitalize;
-  color: #1F1F1F;
+  color: #080808;
   margin-left: 0;
   font-size: 40px;
   font-weight: 400;
@@ -587,7 +588,7 @@ header .header-banner .header-titel .search-job .find-job button {
   margin-bottom: 10px;
 }
 .job-ditaels:hover {
-  border-color: #00D363;
+  border-color: #81b214;
 }
 @media only screen and (max-width: 767px) {
   .job-ditaels {
@@ -617,12 +618,12 @@ header .header-banner .header-titel .search-job .find-job button {
   line-height: 1.5;
 }
 .job-ditaels .jobs_left .job-conetent h4 {
-  color: #1F1F1F;
+  color: #080808;
   transition: 0.5s;
   text-transform: capitalize;
 }
 .job-ditaels .jobs_left .job-conetent h4:hover {
-  color: #00D363;
+  color: #81b214;
 }
 .job-ditaels .jobs_left .job-conetent .lead, .job-ditaels .jobs_left .job-conetent .footer .copyright .span, .footer .copyright .job-ditaels .jobs_left .job-conetent .span {
   display: flex;
@@ -661,7 +662,7 @@ header .header-banner .header-titel .search-job .find-job button {
   transition: 0.5s;
 }
 .job-ditaels .job-right .apply .heart:hover {
-  background-color: #00D363;
+  background-color: #81b214;
   color: #fff;
 }
 .job-ditaels .job-right .apply .heart i {
@@ -702,14 +703,14 @@ header .header-banner .header-titel .search-job .find-job button {
 .dream-job .dream-titel h2 {
   font-size: 4rem;
   font-weight: 400;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
   color: #fff;
   padding: 10px 0;
 }
 .dream-job .dream-titel h6 {
   font-size: 2rem;
   font-weight: 400;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
   color: #fff;
   padding: 10px 0;
 }
@@ -725,7 +726,7 @@ header .header-banner .header-titel .search-job .find-job button {
 }
 .popolar_categories h2 {
   text-transform: capitalize;
-  color: #1F1F1F;
+  color: #080808;
   margin-left: 0;
   font-size: 2rem;
   font-weight: 400;
@@ -745,7 +746,7 @@ header .header-banner .header-titel .search-job .find-job button {
 }
 .popolar_categories .poplar p {
   font-weight: bolder;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
   font-size: 1.5rem;
   transition: 0.7s;
 }
@@ -780,7 +781,7 @@ header .header-banner .header-titel .search-job .find-job button {
   background: none;
   font-size: 1.5rem;
   font-weight: bolder;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
   text-align: center;
   outline: none;
 }
@@ -800,7 +801,7 @@ header .header-banner .header-titel .search-job .find-job button {
 }
 .job-title .listing_title h2 {
   text-transform: capitalize;
-  color: #1F1F1F;
+  color: #080808;
   margin-left: 0;
   font-size: 40px;
   font-weight: 400;
@@ -835,7 +836,7 @@ header .header-banner .header-titel .search-job .find-job button {
   margin-bottom: 10px;
 }
 .job-ditaels:hover {
-  border-color: #00D363;
+  border-color: #81b214;
 }
 @media only screen and (max-width: 767px) {
   .job-ditaels {
@@ -865,12 +866,12 @@ header .header-banner .header-titel .search-job .find-job button {
   line-height: 1.5;
 }
 .job-ditaels .jobs_left .job-conetent h4 {
-  color: #1F1F1F;
+  color: #080808;
   transition: 0.5s;
   text-transform: capitalize;
 }
 .job-ditaels .jobs_left .job-conetent h4:hover {
-  color: #00D363;
+  color: #81b214;
 }
 .job-ditaels .jobs_left .job-conetent .lead, .job-ditaels .jobs_left .job-conetent .footer .copyright .span, .footer .copyright .job-ditaels .jobs_left .job-conetent .span {
   display: flex;
@@ -909,7 +910,7 @@ header .header-banner .header-titel .search-job .find-job button {
   transition: 0.5s;
 }
 .job-ditaels .job-right .apply .heart:hover {
-  background-color: #00D363;
+  background-color: #81b214;
   color: #fff;
 }
 .job-ditaels .job-right .apply .heart i {
@@ -929,14 +930,14 @@ header .header-banner .header-titel .search-job .find-job button {
 .Testimonial {
   padding: 25px 0;
   background: #fff;
-  border-top: 2px solid #00D363;
-  border-bottom: 2px solid #00D363;
+  border-top: 2px solid #81b214;
+  border-bottom: 2px solid #81b214;
   font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   text-align: center;
 }
 .Testimonial h2 {
   text-transform: capitalize;
-  color: #1F1F1F;
+  color: #080808;
   font-family: "Cairo", sans-serif;
   font-size: 36px;
   font-weight: 400;
@@ -963,7 +964,7 @@ header .header-banner .header-titel .search-job .find-job button {
 .Testimonial .slide .carousel-inner .carousel-item .icon .front {
   font-size: 20px;
   margin-top: 5px;
-  color: #00D363;
+  color: #81b214;
 }
 .Testimonial .slide .carousel-inner .carousel-item .icon .span {
   font-size: 20px;
@@ -995,7 +996,7 @@ header .header-banner .header-titel .search-job .find-job button {
 .fa-angle-right,
 .fa-angle-left {
   z-index: 1;
-  color: #00D363 !important;
+  color: #81b214 !important;
   width: 50px;
   height: 50px;
   line-height: 0px;
@@ -1015,7 +1016,7 @@ header .header-banner .header-titel .search-job .find-job button {
 }
 
 .modal-content {
-  background-color: #001D38;
+  background-color: #206a5d;
   border-radius: 15px;
 }
 .modal-content .modal-header {
@@ -1051,7 +1052,7 @@ form h4 {
   margin-top: 15px;
 }
 .social .fab {
-  background-color: #001D38;
+  background-color: #206a5d;
   color: #525151;
   border: 1px solid;
   border-color: #525151;
@@ -1063,7 +1064,7 @@ form h4 {
   transition: 0.5s;
 }
 .social .fab:hover {
-  background-color: #00D363;
+  background-color: #81b214;
   border: none;
 }
 
@@ -1075,10 +1076,10 @@ form h4 {
   background: none;
   font-size: 1.5rem;
   font-weight: bolder;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
   text-align: center;
   outline: none;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
 }
 
 .text #goup {
@@ -1086,7 +1087,7 @@ form h4 {
   bottom: 10px;
   right: 5px;
   display: none;
-  color: #027be6;
+  color: #81b214;
   border: 0;
   text-align: center;
   line-height: 50px;
@@ -1124,7 +1125,7 @@ form h4 {
 .job-listing .filter .section-titel h2 {
   font-size: 2rem;
   font-weight: 400;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
 }
 .job-listing .filter .form-filter {
   padding: 10px 5px;
@@ -1135,13 +1136,13 @@ form h4 {
   padding: 10px 30px;
 }
 .job-listing .filter .form-filter .form-floating option {
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
 }
 .job-listing .filter .form-filter .form-floating1 .form-control {
   padding: 10px 30px;
   height: 58px;
   font-size: 1.2rem;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
   color: #000;
 }
 .job-listing .filter button {
@@ -1164,7 +1165,7 @@ form h4 {
 .job-listing .our-job .job-ditaels .jobs_left h2 {
   font-size: 1.5rem;
   font-weight: 400;
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
 }
 .job-listing .our-job .job-ditaels .job-right {
   width: 50%;
@@ -1174,7 +1175,7 @@ form h4 {
   font-size: 1rem;
 }
 .job-listing .our-job .job-ditaels .job-right .form-select option {
-  font-family: "Amiri", serif;
+  font-family: "PT Serif", serif;
 }
 
 button {
@@ -1226,7 +1227,7 @@ button {
   padding: 5px 30px;
   font-size: 1.5rem;
   font-weight: bolder;
-  font-family: "Amiri", serif;
+  font-family: "Zilla Slab Highlight", cursive;
 }
 .my-blog .our-blogs .date-blog a h3 {
   line-height: 1.2;
@@ -1295,7 +1296,7 @@ button {
   transition: 0.6s;
 }
 .my-blog .recent .our-catagory p:hover {
-  color: #00D363;
+  color: #81b214;
   cursor: pointer;
 }
 .my-blog .posts {
@@ -1322,7 +1323,7 @@ button {
   transition: 0.6s;
 }
 .my-blog .posts .my-post figure figcaption h4:hover {
-  color: #00D363;
+  color: #81b214;
   cursor: pointer;
 }
 .my-blog .posts .my-post figure figcaption p {
@@ -1412,7 +1413,7 @@ details summary {
   font-size: 24px;
   background-color: #fff;
   color: #333333;
-  border-left: 5px solid #00D363;
+  border-left: 5px solid #81b214;
   text-transform: capitalize;
   width: 100%;
   position: relative;
@@ -1423,15 +1424,15 @@ details summary {
 }
 
 details summary:hover {
-  border-top: 1px solid #00D363;
-  border-right: 1px solid #00D363;
-  border-bottom: 1px solid #00D363;
-  border-left: 5px solid r #00D363;
+  border-top: 1px solid #81b214;
+  border-right: 1px solid #81b214;
+  border-bottom: 1px solid #81b214;
+  border-left: 5px solid r #81b214;
 }
 
 details summary:after {
   content: "+";
-  color: #00D363;
+  color: #81b214;
   position: absolute;
   line-height: 0;
   margin-top: 1rem;
@@ -1536,7 +1537,7 @@ details li {
 }
 .uploadcv form {
   box-shadow: -1px 3px 3px 3px #ccc;
-  border: 2px solid #00D363;
+  border: 2px solid #81b214;
   padding: 5px 10px;
   background-color: #fff;
 }
@@ -1565,6 +1566,7 @@ details li {
 
 .our-candidates {
   padding: 50px 0;
+  text-align: center;
 }
 .our-candidates .my-candidates {
   width: 23%;
@@ -1572,7 +1574,14 @@ details li {
   text-align: center;
   margin: 5px 5px;
   border-radius: 10px;
+  box-shadow: -10px 25px 50px rgba(0, 0, 0, 0.3);
   transition: 0.6s;
+}
+.our-candidates .my-candidates:hover {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+}
+.our-candidates .my-candidates:hover .candidates-titel {
+  color: #81b214;
 }
 @media only screen and (max-width: 767px) {
   .our-candidates .my-candidates {
@@ -1591,13 +1600,129 @@ details li {
   color: #000;
   transition: 0.6s;
 }
-.our-candidates .my-candidates .candidates-titel a h4:hover {
-  color: #00D363;
-}
 .our-candidates .my-candidates .candidates-titel p {
   font-weight: 600;
   font-size: 1rem;
   opacity: 0.8;
+}
+
+.TemleaderCANDIDATES {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  background: #fff;
+  background-image: radial-gradient(#206a5d 5%, #fff 15%, #81b214 60%);
+}
+
+.card .image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card .image img {
+  width: 100%;
+  text-align: center;
+  top: 80%;
+  left: 50%;
+  transform: translate(-37%, -2%);
+  transition: 0.5s;
+}
+
+.card:hover .image img {
+  opacity: 0.5;
+  transform: translateX(30%);
+  /*100%*/
+}
+
+.card .details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  /*100%*/
+  height: 100%;
+  background: #81b214;
+  transition: 0.5s;
+  transform-origin: left;
+  transform: perspective(2000px) rotateY(-90deg);
+}
+
+.card:hover .details {
+  transform: perspective(2000px) rotateY(0deg);
+}
+
+.card .details .center {
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card .details .center h1 {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  line-height: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.card .details .center h1 span {
+  font-size: 14px;
+  color: #262626;
+}
+
+.card .details .center ul {
+  margin: 5px auto 0;
+  padding: 0;
+  display: table;
+}
+
+.card .details .center ul li {
+  list-style: none;
+  margin: 0 5px;
+  float: left;
+}
+
+.card .details .center ul li a {
+  display: block;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  line-height: 22px;
+  text-align: center;
+  transform: 0.5s;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+}
+
+.fa-instagram {
+  color: #c13584;
+}
+
+.fa-google-plus {
+  color: #ff3636;
+}
+
+.fa-facebook-f {
+  color: #3b5998;
+}
+
+.fa-linkedin {
+  color: #0077b5;
+}
+
+.google {
+  color: #dd4b39;
 }
 
 .job-details {
@@ -1678,7 +1803,7 @@ details li {
   transition: 0.6s;
 }
 .FAQ .faq-titel button:hover {
-  color: #00D363;
+  color: #81b214;
 }
 
 .post-job {
@@ -1745,10 +1870,10 @@ details li {
   cursor: pointer;
 }
 .our-advantages .my-advantages h4:hover {
-  color: #00D363;
+  color: #81b214;
 }
 .our-advantages .my-advantages i {
-  color: #00D363;
+  color: #81b214;
 }
 
 .our-team {
@@ -1764,7 +1889,7 @@ details li {
 }
 .our-team .my-team h4 .do {
   font-size: 1rem;
-  color: #00D363;
+  color: #81b214;
   font-weight: bolder;
 }
 
@@ -1776,7 +1901,7 @@ details li {
   text-align: center;
 }
 .icreaseup .counter-container i {
-  color: #00D363;
+  color: #81b214;
   font-size: 3rem;
 }
 .icreaseup .counter-container .counter {

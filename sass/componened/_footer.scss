@@ -3,6 +3,7 @@
     background-color: $main-color;
     color: $white_color;
     border-top: 8px solid $green_color;
+
     .twzif{
         padding: $padding - 95 ;
         h2{
@@ -15,6 +16,8 @@
         }
         .lead,span{
           margin-top: 5px;
+          color: #000;
+
           transition: .5s;
           &:hover{
             color: $white_color;
@@ -50,7 +53,7 @@
 color: #ff8833;
         }
         .fa-facebook-f{
-          color: #3b5998 ;
+          color: #0078d7 ;
         }
         .fa-linkedin{
           color: #0077b5;
