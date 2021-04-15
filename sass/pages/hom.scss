@@ -4,25 +4,28 @@
 
 // Popular Search
 .popular-search{
-  padding: 10px 0;
-  background-color:$body-color;
-  .section-titel{
-      h2{text-align: left;
-          
-          font-weight: 400;
-          font-family: $font1;
-
-      };
-      .search-titel{
-          button{
-              padding: 5px 15px;
-              outline: none;
-              font-size: 1.2rem;
-              width: 100%;
-             
-          }
-      }
-}}
+  
+  margin-top: -30px;
+  .single-job{
+    transition: .6s ease-in;
+    background-color:$green_color;
+    padding: 30px 0;
+    
+    i{
+      font-size: 3.5rem;
+      font-weight: bolder;
+      color: $white_color;
+    };
+    p{
+      font-size: 1.5rem;
+      font-weight: bolder;
+      color: $white_color;
+      padding: 5px 0;
+    }
+    &:hover{background-color:$gray_color}
+  }
+  
+}
 // Popular Search
 // AboutUs
 #aboutUs{

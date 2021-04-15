@@ -1,6 +1,6 @@
 .btn{
     text-transform: capitalize;
-    background-color: transparent;
+    background-color: $hovercolor;
     color: $green_color; 
     border: 1px solid $green_color;
     border-radius: 5px;
@@ -27,7 +27,7 @@
     transition: .5s;
     &:hover{
        
-        background-color: transparent;
+        background-color:$hovercolor;
         color: $green_color; 
     }
 
