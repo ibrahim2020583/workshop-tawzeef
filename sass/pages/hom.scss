@@ -29,6 +29,7 @@
 // Popular Search
 // AboutUs
 #aboutUs{
+  background-color: $white_color;
   padding: 100px 0;
   .about-vedio{
       background:url(../../images/slider/faq.png)no-repeat center center;
@@ -117,7 +118,7 @@
 // our-blog
 .our-blog{
   padding: 50px 0;
-  background-color:$body-color;
+  background-color:$white-color;
   .section-titel{ 
    padding: 20px 0;
     text-align: center;
@@ -357,6 +358,7 @@ button{
 
 // Popolar Categories
 .popolar_categories {
+  
   padding: 100px 0;
   
   h2 {

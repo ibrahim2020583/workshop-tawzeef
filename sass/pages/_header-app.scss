@@ -48,13 +48,15 @@ header{
                };
               // find job
 .search-job {
+    ;
     padding: 20px 0;
     
    
    
      .form-select {
        
-       padding: 10px 30px
+       padding: 10px 30px;
+       z-index:1
         
      };
      .form-floating1{
